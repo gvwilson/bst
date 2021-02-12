@@ -1,0 +1,37 @@
+title: Building Software Together
+subtitle: a student's guide to team software projects
+url: https://gvwilson.github.io/bst
+repository: gvwilson/bst
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - '*.sublime-*'
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - vendor/bundle
+
+permalink: pretty
+
+blog:
+  truncated_preview: false
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+author:
+  name: Greg Wilson
+  url: third-bit.com
+  email: gvwilson@third-bit.com
+  github: https://github.com/gvwilson
+  twitter: https://twitter.com/gvwilson
+  linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist
