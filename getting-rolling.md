@@ -1,10 +1,12 @@
 ---
-layout: page
-title: "Orienting Yourself"
+title: Getting Rolling
 ---
 
-Now that the really important stuff is out of the way,
-let's take a closer look at undergraduate team programming project courses.
+Now that [the really important stuff](../important-stuff/) is out of the way,
+let's take a closer look at undergraduate team programming projects.
+
+## Kinds of Projects
+
 These are bracketed by two close cousins.
 On one side are FIXME standard homework assignments
 

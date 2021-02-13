@@ -5,6 +5,17 @@
     {% include nav.html %}
     <div class="container content">
       <main>
+        {% if page.title %}
+        <header>
+          <h1 class="page-title">{{ page.title }}</h1>
+        </header>
+        {% else %}
+        <header>
+          <h1 class="landing-title">{{ site.title }}</h1>
+          <p class="landing-subtitle">{{ site.subtitle }}</p>
+        </header>
+        {% endif %}
+        {% include toc.html html=content h_min=2 h_max=2 %}
         {{ content }}
       </main>
       {% include foot.html %}

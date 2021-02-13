@@ -1,6 +1,5 @@
 ---
-layout: page
-title: "Start Here"
+title: The Important Stuff
 ---
 
 The things that go wrong most often in software projects have nothing to do with software.
@@ -128,6 +127,122 @@ the amount of good work you produce,
 or how much of a martyr you appear to be.
 Then think about which of those other people are actually going to care about
 and pace yourself accordingly.
+
+## Time Management
+
+"But I have so many assignments to do!", you say.
+"And they're all due at once!
+I *have* to work extra hours to get them all done!"
+
+No.
+You can work *smarter* instead.
+I'm less intelligent than many of the people I've worked with over the years.
+I still manage to get a lot done
+because I learned early on that organization and focus
+are more important than raw IQ.
+
+In order to be productive you have to do two things:
+prioritize and focus.
+The first is important because people are naturally very good
+at spending hours on things that don't need to be done
+and then finding themselves with too little time for the things that actually count.
+This approach works better:
+
+1.  Make a list of the things you have to do.
+    I still use a hardcover lab notebook for this
+    so that I can doodle in it when I'm on the subway,
+    but a lot of people keep a personal wiki
+    or send themselves email messages that then go into a folder titled "To Do".
+    However you do it,
+    the important thing is to *write it all down*.
+    Your mind can only keep seven or so things in your short-term memory at once
+    (FIXME: citation);
+    if you try to manage a to-do list longer than that in your head,
+    you will forget things.
+
+2.  Weed out everything that you don't need to do right away.
+    If you want to mess around with a new blogging tool that's fine,
+    but that's play time not work time,
+    and we're talking about getting work done.
+
+3.  Prioritize what's left by sorting the list
+    so that the most important tasks are at the top.
+    I don't worry about getting the stuff below the first three or four lines into order,
+    since I'm going to re-check my list before I get to them anyway.
+
+4.  Make sure you have everything you need to see the first task through:
+    files from version control,
+    the assignment specification,
+    whatever libraries and documentation you need,
+    a fresh cup of tea,
+    a comfortable chair, etc.
+    Don't give yourself an excuse to interrupt your own work:
+    the world will provide enough of those.
+
+5.  Shut down your mail client and turn off instant messaging and your cell phone.
+    Don't panic, it's only for an hour---most people can't stay focused longer than that,
+    and you'll need to stretch your muscles and get rid of that tea you drank
+    by then anyway.
+
+6.  Set an alarm to go off in fifty minutes and *focus*.
+    Don't switch tasks in that time unless you absolutely have to.
+    Instead,
+    if you remember an email message that needs to be sent
+    or discover a couple of tests that really should be written,
+    add a note to your to-do list.
+    This is another reason I keep mine in a lab notebook:
+    the few seconds it takes to pick up a pen and jot something down gives my hands a rest from the keyboard,
+    and I'm less likely to be distracted by a notebook than by a text editor.
+
+7.  When your time is up, take a break.
+    Check mail (but don't reply to anything that isn't urgent),
+    go to the washroom,
+    stretch a little,
+    and then re-order your to-do list and start the next round.
+
+If any task on your list is more than an hour long,
+break it down into into smaller pieces and prioritize those separately.
+Keep in mind that the future is approaching at a fixed rate of one day every 24 hours:
+if something's going to take sixty hours to do
+you had better allow at least ten working days for it,
+which means you'd better tackle the first piece two working weeks before the deadline.
+And since breaking large tasks down into small ones takes time,
+don't be surprised if "plan XYZ" appears as a task in your list.
+
+The point of all this organization and preparation is
+to get yourself into the most productive mental state possible.
+[[Csikszentmihaly1991](../references/#Csikszentmihaly1991)] popularized the term "flow";
+athletes call it "being in the zone",
+while musicians talk about losing themselves in what they're playing.
+Whatever name you use,
+you will produce much more per unit of time in this state than normal.
+
+That's the good news.
+The bad news is that it takes roughly ten minutes to get back into a state of flow after an interruption
+no matter how short the interruption was.
+This means that if you are interrupted half a dozen times per hour
+you are *never* at your productive peak.
+It's very much like processes being paged in and out by an operating system:
+if it happens too often,
+the CPU spends all its time moving things around and none doing useful work.
+
+As a concrete example,
+a student of mine kept a stopwatch beside his computer for a couple of weeks during term.
+Every time he read mail,
+put Twitter in the foreground,
+or went to Manchester United's web site
+he hit the button to stop it.
+At the end of two weeks
+he discovered that he only spent 28% of his "working" time working.
+Put it another way,
+he could have finished his assignments in a third of the time they actually took.
+
+Making lists and setting one-hour alarms will probably seem a little earnest at first,
+but trust me:
+your friends will stop mocking you
+once they see that you're able to finish your assignments
+and still have time to play some badminton and catch a movie.
+They may even start to imitate you.
 
 ## Meetings
 

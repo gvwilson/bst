@@ -1,9 +1,10 @@
 ---
-layout: page
 ---
 <ol>
-  <li><a href="./start-here/">Start Here</a></li>
-  <li><a href="./orienting/">Orienting Yourself</a></li>
+  <li><a href="./important-stuff/">The Important Stuff</a></li>
+  <li><a href="./getting-rolling/">Getting Rolling</a></li>
+  <li><a href="./teams/">Teams</a></li>
+  <li><a href="./process/">Process</a></li>
   <li><a href="./licensing/">Licensing</a></li>
 </ol>
 
