@@ -3,6 +3,37 @@ subtitle: a student's guide to team software projects
 url: https://gvwilson.github.io/bst
 repository: gvwilson/bst
 
+chapters:
+  - slug: "important-stuff"
+    title: "The Important Stuff"
+    chapter: true
+  - slug: "getting-rolling"
+    title: "Getting Rolling"
+    chapter: true
+  - slug: "teams"
+    title: "Teams"
+    chapter: true
+  - slug: "process"
+    title: "Process"
+    chapter: true
+  - slug: "licensing"
+    title: "Licensing"
+    chapter: true
+  - slug: "references"
+    title: "References"
+    chapter: false
+  - slug: "glossary"
+    title: "Glossary"
+    chapter: false
+
+author:
+  name: Greg Wilson
+  url: third-bit.com
+  email: gvwilson@third-bit.com
+  github: https://github.com/gvwilson
+  twitter: https://twitter.com/gvwilson
+  linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
+
 markdown: kramdown
 highlighter: rouge
 
@@ -22,14 +53,6 @@ blog:
 sass:
   sass_dir: _sass
   style: :compressed
-
-author:
-  name: Greg Wilson
-  url: third-bit.com
-  email: gvwilson@third-bit.com
-  github: https://github.com/gvwilson
-  twitter: https://twitter.com/gvwilson
-  linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
 
 plugins:
   - jekyll-coffeescript
