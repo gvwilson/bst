@@ -29,11 +29,16 @@ serve:
 ## check: run all checks
 check:
 	@make bibliography
+	@make chapters
 	@make glossary
 
 ## bibliography: compare citations and definitions
 bibliography:
 	@bin/bibliography.py --bibliography bibliography.md --sources ${PAGES}
+
+## chapters: compare chapter cross-references to chapters
+chapters:
+	@bin/chapters.py --config _config.yml --sources ${PAGES}
 
 ## glossary: compare references and definitions
 glossary:

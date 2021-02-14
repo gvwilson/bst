@@ -17,30 +17,13 @@ DEFINITION = re.compile(r'^([A-Z][A-Za-z0-9]+)$', re.DOTALL + re.MULTILINE)
 
 def main():
     '''Main driver.'''
-    options = get_options()
+    options = utils.get_options(
+        ['--bibliography', False, 'Path to bibliography Markdown'],
+        ['--sources', True, 'List of input files']
+    )
     defined = get_definitions(options.bibliography)
-    cited = get_citations(options.sources)
+    cited = utils.get_all_matches(CITATION, options.sources)
     utils.report('bibliography', cited=cited, defined=defined)
-
-
-def get_options():
-    '''Get command-line options.'''
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--bibliography', help='Path to bibliography Markdown.')
-    parser.add_argument('--sources', nargs='+', help='List of input files')
-    return parser.parse_args()
-
-
-def get_citations(filenames):
-    '''Create set of citations in source files.'''
-    result = set()
-    for filename in filenames:
-        with open(filename, 'r') as reader:
-            text = reader.read()
-            for match in CITATION.finditer(text):
-                for key in match.group(1).split(','):
-                    result.add(key.strip())
-    return result
 
 
 def get_definitions(filename):

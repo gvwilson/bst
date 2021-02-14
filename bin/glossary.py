@@ -2,7 +2,6 @@
 
 '''Check consistency of glossary definitions and references.'''
 
-import argparse
 import re
 import sys
 
@@ -18,30 +17,14 @@ GLOSS_REF = re.compile(r'\{%\s+include\s+gloss\b.+?key="(.+?)".+?%\}', re.DOTALL
 
 def main():
     '''Main driver.'''
-    options = get_options()
+    options = utils.get_options(
+        ['--glossary', False, 'Path to glossary YAML file'],
+        ['--sources', True, 'List of input files']
+    )
     glossary = utils.read_yaml(options.glossary)
     defined = get_definitions(glossary)
-    referenced = get_references(options.sources) | get_internal(glossary)
+    referenced = utils.get_all_matches(GLOSS_REF, options.sources) | get_internal(glossary)
     utils.report('glossary', referenced=referenced, defined=defined)
-
-
-def get_options():
-    '''Get command-line options.'''
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--glossary', help='Path to glossary YAML file.')
-    parser.add_argument('--sources', nargs='+', help='List of input files')
-    return parser.parse_args()
-
-
-def get_references(filenames):
-    '''Create set of glossary references in source files.'''
-    result = set()
-    for filename in filenames:
-        with open(filename, 'r') as reader:
-            text = reader.read()
-            for match in GLOSS_REF.finditer(text):
-                result.add(match.group(1))
-    return result
 
 
 def get_internal(glossary):
