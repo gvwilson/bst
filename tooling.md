@@ -191,7 +191,7 @@ game.exe : game.bc graphics.bc utils.bc
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
 the `tx` compiler with several options.  Below that is a
-{% include gloss key="pattern_rule" %} telling Make how to create any `.bc` file
+{% include gloss key="pattern-rule" %} telling Make how to create any `.bc` file
 from a `.grace` file with the same root name; the cryptic expression `$<` is
 Make's way of saying "the first thing the target depends on".
 
@@ -297,7 +297,7 @@ teamwork.
 
 ## Debugger
 
-A {% include gloss key="symbolic_debugger" %} is a program that allows you to
+A {% include gloss key="symbolic-debugger" %} is a program that allows you to
 control and inspect the execution of another program. You can step through the
 target program a line at a time, display the values of variables or expressions,
 look at the call stack, or (my personal favorite) set *breakpoints* to say
@@ -358,7 +358,7 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, a {% include gloss key="issue_tracker" %} is a shared to-do
+At its simplest, a {% include gloss key="issue-tracker" %} is a shared to-do
 list. Ticketing systems are also called ticketing systems and bug trackers,
 because most software projects use one to keep track of the bugs that developers
 and users find. These days, issue trackers are almost invariably web-based. To
@@ -493,7 +493,7 @@ productive. Some aren't part of the standard undergraduate curriculum yet, even
 though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
-The first is a {% include gloss key="doc_generator" %} like Javadoc. This is a
+The first is a {% include gloss key="doc-generator" %} like Javadoc. This is a
 compiler of a sort, but instead of translating source code into something
 executable, it extracts information from specially-formatted comments and
 strings, and turns it into human-readable documentation.  The justification for

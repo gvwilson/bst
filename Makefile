@@ -3,14 +3,11 @@ BIB=_includes/bib.html
 SITE=./_site
 
 CONFIG=_config.yml
-INCLUDES=$(wildcard _includes/*.html)
+INCLUDES=$(wildcard _includes/*)
 LAYOUTS=$(wildcard _layouts/*.html)
-POSTS=$(wildcard _posts/*/*.md)
 PAGES=\
-	atom.xml\
-	$(wildcard *.html)\
-	$(wildcard */index.md)\
-	blog/index.html
+	$(wildcard *.md)\
+	$(wildcard */index.md)
 STYLES=$(wildcard _sass/*/*.scss) $(wildcard css/*.css) $(wildcard css/*.scss)
 
 .DEFAULT: commands
@@ -26,6 +23,12 @@ build:
 ## serve: build site and run server
 serve:
 	${JEKYLL} serve
+
+## ----
+
+## glossary: compare references and definitions
+glossary:
+	@bin/check-glossary.py --glossary _data/glossary.yml --sources ${PAGES}
 
 ## ----
 

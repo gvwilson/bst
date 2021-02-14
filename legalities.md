@@ -46,7 +46,7 @@ users may wind up operating under different licensing structures.
 To make license selection for code as easy as possible, GitHub allows us to
 select one of several common software licenses when creating a repository.  The
 Open Source Initiative maintains [a list][osi-license-list] of
-{% include gloss key="open_license" text="open licenses" %}, and
+{% include gloss key="open-license" text="open licenses" %}, and
 [choosealicense.com][choose-license] will help us find a license that suits our
 needs.  Some of the things we need to think about are:
 
@@ -77,12 +77,12 @@ that is also in the project's root directory.
 
 In order to choose the right license for our software, we need to understand the
 difference between two kinds of license.  The
-{% include gloss key="mit_license" %} and its close sibling the
-{% include gloss key="bsd_license" %} say that people can do whatever they want
+{% include gloss key="mit-license" %} and its close sibling the
+{% include gloss key="bsd-license" %} say that people can do whatever they want
 to with the software as long as they cite the original source, and that the
-authors accept no responsibility if things go wrong.  The {% include gloss
-key="gpl" %} gives people similar rights, but requires them to share their own
-work on the same terms:
+authors accept no responsibility if things go wrong.  The
+{% include gloss key="gpl" %} gives people similar rights, but requires them to
+share their own work on the same terms:
 
 > You may copy, distribute and modify the software as long as you track
 > changes/dates in source files.  Any modifications to or software including
@@ -103,7 +103,7 @@ it places the fewest restrictions on future action.
 
 > **First, Do No Harm**
 >
-> The {% include gloss key="hippocratic_license" %} is a newer license that is
+> The {% include gloss key="hippocratic-license" %} is a newer license that is
 > quickly becoming popular.  Where the GPL requires people to share their work,
 > the Hippocratic License requires them to do no harm.  More precisely, it
 > forbids people from using the software in ways that violate the [Universal
@@ -127,7 +127,7 @@ negate the scholarly tradition and requirement of citing sources; it just
 doesn't make it a legal requirement.
 
 The next step up from CC-0 is the Creative Commons--Attribution license, usually
-referred to as {% include gloss key="cc_by" %} This allows people to do whatever
+referred to as {% include gloss key="cc-by" %} This allows people to do whatever
 they want to with the work as long as they cite the original source.  This is
 the best license to use for manuscripts: we want people to share them widely but
 also want to get credit for our work.
