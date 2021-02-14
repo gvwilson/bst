@@ -175,7 +175,7 @@ be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is to get yourself into the
 most productive mental state possible.
-{% include cite key="Csikszentmihaly1991" %} popularized the term "flow";
+{% include cite key="Csikszentmihalyi1991" %} popularized the term "flow";
 athletes call it "being in the zone", while musicians talk about losing
 themselves in what they're playing.  Whatever name you use, you will produce
 much more per unit of time in this state than normal.

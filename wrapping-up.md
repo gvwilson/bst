@@ -17,19 +17,15 @@ people most likely to be affected). This usually isn't part of undergraduate
 project courses, but it should be; if your instructor is enlightened enough to
 include this in her grading scheme, here are some things she might look for:
 
-1.  An attractive home page, with a short vision statement
-    (Section [3.2](#s:basics-pitch){reference-type="ref"
-    reference="s:basics-pitch"}) and a few paragraphs or bullet lists to help
-    newcomers orient themselves.
+1.  An attractive home page with an elevator pitch and a few paragraphs or
+    bullet lists to help newcomers orient themselves.
 
-2.  An FAQ.
-
-3.  An architectural overview, including block diagrams of the major components
+1.  An architectural overview, including block diagrams of the major components
     and a walkthrough of the processing cycle.
 
-4.  An installation guide.
+1.  An installation guide.
 
-5.  An up-to-date set of tickets. If the work has been done, the ticket should
+1.  An up-to-date set of tickets. If the work has been done, the ticket should
     be closed; if it hasn't, the ticket should describe the state of the bug (or
     enhancement, or question) fully and accurately.
 
@@ -38,9 +34,9 @@ include this in her grading scheme, here are some things she might look for:
 It's OK to have bugs in your code when you finish your project. After all,
 almost all products have bugs in them when they ship. This isn't because
 developers are lazy or careless; instead, it's a matter of economics. More than
-half of first attempts to fix a problem contain bugs[^42]. That means that if
-you're near the end of the development cycle, "fixing" a minor bug can actually
-*increase* the chances of the program crashing or destroying users' data. It's
+half of first attempts to fix a problem contain bugs. That means that if you're
+near the end of the development cycle, "fixing" a minor bug can actually
+increase the chances of the program crashing or destroying users' data. It's
 safer to document it (and a workaround, if any exists).
 
 This is another way in which student projects differ from their industrial
@@ -56,8 +52,8 @@ commenting, and variable naming).
 The other thing student projects usually have to deliver is some kind of final
 report. Most students short-change this part of the course, in part because it
 comes at the end, but also because they think, "I want to write code, not a
-novel." But here's Karl Fogel, one of the architects of Subversion and author of
-*Producing Open Source Software*, on writing [@b:fogel-producing-open-source]:
+novel." But here's Karl Fogel, author of {% include cite key="Fogel2005" %}, on
+writing:
 
 > The ability to write clearly is perhaps the most important skill one can have
 > in an open source environment. In the long run it matters more than

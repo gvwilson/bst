@@ -26,9 +26,18 @@ serve:
 
 ## ----
 
+## check: run all checks
+check:
+	@make bibliography
+	@make glossary
+
+## bibliography: compare citations and definitions
+bibliography:
+	@bin/bibliography.py --bibliography bibliography.md --sources ${PAGES}
+
 ## glossary: compare references and definitions
 glossary:
-	@bin/check-glossary.py --glossary _data/glossary.yml --sources ${PAGES}
+	@bin/glossary.py --glossary _data/glossary.yml --sources ${PAGES}
 
 ## ----
 

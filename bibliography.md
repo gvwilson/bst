@@ -5,35 +5,40 @@
 Almeida2017
 :   Daniel A. Almeida, Gail C. Murphy, Greg Wilson, and Mike Hoye:
     "Do Software Developers Understand Open Source Licenses?"
-    *Proc. ICPC'17*, 2017, 10.1109/ICPC.2017.7.
+    *Proc. ICPC'17*, 2017, doi:10.1109/ICPC.2017.7.
 
-Csikszentmihaly1991
-:   Mihaly Csikszentmihaly:
+Csikszentmihalyi1991
+:   Mihaly Csikszentmihalyi:
     *Flow: The Psychology of Optimal Experience*.
-    Harper, 1991, 0060920432.
+    Harper, 1991, 978-0060920432.
 
 Fincher2001
 :   Sally Fincher, Marian Petre, and Martyn Clarke:
     *Computer Science Project Work: Principles and Pragmatics*.
-    Springer, 2001, 185233357X.
+    Springer, 2001, 978-1852333577.
+
+Fogel2005
+:   Karl Fogel:
+    *Producing Open Source Software*.
+    O'Reilly, 2005, 978-0596007591, <https://producingoss.com/>.
 
 Freeman1972
 :   Jo Freeman:
     "The Tyranny of Structurelessness."
     Originally published in *The Second Wave*, 2(1), 1972;
-    reprinted in *Women's Studies Quarterly*, 2013, 10.1353/wsq.2013.0072.
+    reprinted in *Women's Studies Quarterly*, 2013, doi:10.1353/wsq.2013.0072.
 
 Lindberg2008
 :   Van Lindberg: *Intellectual Property and Open Source: A Practical Guide to Protecting Code*.
-    O'Reilly Media, 2008, 978-0596517960.
+    O'Reilly, 2008, 978-0596517960.
 
 Minahan1986
-:   Anne Minahan: "Martha's Rules."  *Affilia*, 1(2), June 1986, 10.1177/088610998600100206.
+:   Anne Minahan: "Martha's Rules."  *Affilia*, 1(2), June 1986, doi:10.1177/088610998600100206.
 
 Petre2013
 :   Marian Petre:
     "UML in Practice."
-    *Proc. ICSE'13*, 2013, 10.1109/icse.2013.6606618.
+    *Proc. ICSE'13*, 2013, doi:10.1109/icse.2013.6606618.
 
 Petre2016
 :   Marian Petre and André van der Hoek:
@@ -43,7 +48,8 @@ Petre2016
 Robinson2005
 :   Evan Robinson:
     "Why Crunch Mode Doesn't Work: 6 Lessons."
-    *International Game Developers Association*, 2005, <http://www.igda.org/articles/erobinson_crunch.php>.
+    *International Game Developers Association*, 2005,
+    <http://www.igda.org/articles/erobinson_crunch.php>.
 
 Spinellis2007
 :   Diomidis Spinellis:
@@ -53,6 +59,6 @@ Spinellis2007
 Steinmacher2014
 :   Igor Steinmacher, Igor Scaliante Wiese, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles:
     "The Hard Life of Open Source Software Project Newcomers."
-    *Proc. CHASE'14*, 2014, 10.1145/2593702.2593704.
+    *Proc. CHASE'14*, 2014, doi:10.1145/2593702.2593704.
 
 {% include links.md %}

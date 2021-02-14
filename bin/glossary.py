@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+'''Check consistency of glossary definitions and references.'''
+
 import argparse
 import re
 import sys
@@ -20,8 +22,7 @@ def main():
     glossary = utils.read_yaml(options.glossary)
     defined = get_definitions(glossary)
     referenced = get_references(options.sources) | get_internal(glossary)
-    utils.report('Referenced but not defined', referenced - defined)
-    utils.report('Defined but not referenced', defined - referenced)
+    utils.report('glossary', referenced=referenced, defined=defined)
 
 
 def get_options():

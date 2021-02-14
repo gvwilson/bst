@@ -18,18 +18,18 @@ you some of the things in these notes.
 
 In between are courses with names like "Introduction to Software Engineering",
 "Senior Thesis Project", or "Computer Science Capstone".  For the purposes of
-this guide, these have three characteristics.  First, *learning how to work in a
-team is a goal of the course*.  This distinguishes these courses from (for
+this guide, these have three characteristics.  First, learning how to work in a
+team is a goal of the course.  This distinguishes these courses from (for
 example) upper-level courses in operating systems or computer graphics, in which
 you're working in a team but not being taught explicitly how to do so.
 
-Second, *your grade depends primarily on the software you build*.  You may also
+Second, your grade depends primarily on the software you build.  You may also
 be required to write reports and sit an exam, but these are based on the
 practical work---if you don't actually build some software, you can't pass the
 course.
 
-Finally, *you are supposed to work as if you were trying to meet the needs of a
-real customer*.  You might start with a blank sheet of paper or have to fix and
+Finally, you are supposed to work as if you were trying to meet the needs of a
+real customer.  You might start with a blank sheet of paper or have to fix and
 extend an existing application; either way, you and your team are responsible
 for some or all of requirements analysis, design, implementation, testing,
 documentation, packaging, deployment, handoff, and review.
@@ -199,7 +199,7 @@ Code (10%)
 
 Testing (10%)
 :   Testing is just as important as coding, so it's given the same weight.
-    Note, though, that only *automated* tests count: if I can't check the
+    Note, though, that only automated tests count: if I can't check the
     project out of version control and re-run the tests (possibly after editing
     a configuration file) then as far as I'm concerned, the code hasn't been
     tested.  And it's no good saying, "But I can't write unit tests for my GUI"
@@ -242,10 +242,10 @@ that it would actually work.
 ## Elevator pitch
 
 Once you know where the goalposts are, the next thing is to get everyone to
-agree on what you're supposed to accomplish.  The best way to do this is write a
-vision statement, also known as an {% include gloss key="elevator-pitch" %} like
-the one shown below to figure out what problem you're trying to solve, who it
-affects, and why your solution is a good one.
+agree on what you're supposed to accomplish.  The best way to do this is write
+an {% include gloss key="elevator-pitch" %} like the one shown below to figure
+out what problem you're trying to solve, who it affects, and why your solution
+is a good one.
 
 <table>
   <tr>
@@ -332,12 +332,12 @@ a short paragraph that everyone is happy with like the one below:
 You now have the first paragraph for your project's home page and the abstract
 for your final report.
 
-An alternative to writing a vision statement is to build the product's home
-page, i.e., to make up the website for your software as if it already existed.
-What catchphrase would you put across the top to catch people's eyes?  What
-features would you list on the back to make your software more appealing than
-its competitors?  What would its system requirements be?  Its license?  Its
-price?  Once your team agrees on these things, you're ready to start designing
-and coding.
+An alternative to writing an elevator pitch is to build the product's home page,
+i.e., to make up the website for your software as if it already existed.  What
+catchphrase would you put across the top to catch people's eyes?  What features
+would you list on the back to make your software more appealing than its
+competitors?  What would its system requirements be?  Its license?  Its price?
+Once your team agrees on these things, you're ready to start designing and
+coding.
 
 {% include links.md %}
