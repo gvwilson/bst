@@ -4,33 +4,31 @@ url: https://gvwilson.github.io/bst
 repository: gvwilson/bst
 
 chapters:
+  - slug: "introduction"
+    title: "Introduction"
   - slug: "important-stuff"
     title: "The Important Stuff"
-    chapter: true
   - slug: "getting-rolling"
     title: "Getting Rolling"
-    chapter: true
   - slug: "teams"
     title: "Teams"
-    chapter: true
   - slug: "process"
     title: "Process"
-    chapter: true
+  - slug: "design"
+    title: "Design"
   - slug: "legalities"
     title: "Legalities"
-    chapter: true
   - slug: "wrapping-up"
     title: "Wrapping Up"
-    chapter: true
-  - slug: "references"
-    title: "References"
-    chapter: false
+  - appendix: true
   - slug: "license"
     title: "Licensing"
-    chapter: false
+  - slug: "bibliography"
+    title: "Bibliography"
   - slug: "glossary"
     title: "Glossary"
-    chapter: false
+  - slug: "performance-evaluation"
+    title: "Performance Evaluation"
 
 author:
   name: Greg Wilson

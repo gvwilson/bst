@@ -2,17 +2,16 @@
 root: .
 ---
 <ol>
-{% for chapter in site.chapters %}
-  {% if chapter.chapter %}
-  <li><a href="{{ chapter.slug | prepend: './' | append: '/' }}">{{ chapter.title }}</a></li>
-  {% endif %}
-{% endfor %}
+{% for entry in site.chapters -%}
+  {%- if entry.appendix -%}{%- break -%}{%- endif -%}
+  <li><a href="{{ entry.slug | prepend: './' | append: '/' }}">{{ entry.title }}</a></li>
+{%- endfor %}
 </ol>
 
+{% assign appendix = false %}
 <ol type="A">
-{% for chapter in site.chapters %}
-  {% unless chapter.chapter %}
-  <li><a href="{{ chapter.slug | prepend: './' | append: '/' }}">{{ chapter.title }}</a></li>
-  {% endunless %}
-{% endfor %}
+{% for entry in site.chapters -%}
+  {%- if appendix -%}<li><a href="{{ entry.slug | prepend: './' | append: '/' }}">{{ entry.title }}</a></li>{%- endif -%}
+  {%- if entry.appendix -%}{%- assign appendix = true -%}{%- endif -%}
+{%- endfor %}
 </ol>

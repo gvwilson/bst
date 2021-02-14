@@ -1,8 +1,21 @@
+{%- assign in_chapters = true -%}
+{%- assign num_chapters = 0 -%}
+{%- assign keyword = 'Chapter' -%}
 {%- for temp in site.chapters -%}
-  {%- if temp.slug == include.key -%}
-    {%- assign entry = temp -%}
-    {%- assign number = forloop.index -%}
-    {%- break -%}
+  {%- if temp.appendix -%}
+    {%- assign in_chapters = false -%}
+  {%- else -%}
+    {%- if in_chapters %}{%- assign num_chapters = num_chapters | plus: 1 -%}{%- endif -%}
+    {%- if temp.slug == include.key -%}
+      {%- assign entry = temp -%}
+      {%- assign number = forloop.index -%}
+      {%- break -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/{{ include.key }}/">Chapter {{ number }}</a>
+{%- unless in_chapters -%}
+  {% assign keyword = 'Appendix' %}
+  {% assign number = number | minus: num_chapters | minus: 1 %}
+  {% assign number = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | slice: number %}
+{%- endunless -%}
+<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/{{ include.key }}/">{{ keyword }} {{ number }}</a>

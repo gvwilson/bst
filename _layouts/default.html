@@ -1,11 +1,11 @@
-{% assign slug = page.dir | replace: '/', '' %}
-{% assign this = nil %}
-{% for chapter in site.chapters %}
-  {% if chapter.slug == slug %}
-    {% assign this = chapter %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{%- assign slug = page.dir | replace: '/', '' -%}
+{%- assign this = nil -%}
+{%- for chapter in site.chapters -%}
+  {%- if chapter.slug == slug -%}
+    {%- assign this = chapter -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}

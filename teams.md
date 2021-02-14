@@ -270,9 +270,7 @@ everything. Knowing who wants what won't make these tensions go away,
 but it certainly helps focus the argument.
 
 Drawing up a contract also prevents later disagreements about who
-actually promised or agreed to what. As with meetings
-(Section [2.1](#s:important-meetings){reference-type="ref"
-reference="s:important-meetings"}), people often remember things
+actually promised or agreed to what. As with meetings, people often remember things
 differently; having a signed record is everyone's second-best
 defense[^11].
 
@@ -316,8 +314,7 @@ of asking, "Is the person outgoing," or "Does the person have a positive
 attitude," assessments should ask, "Does the person listen attentively
 during meetings," or, "Does the person attempt to solve problems before
 asking for help."
-Table [\[t:eval-form\]](#t:eval-form){reference-type="ref"
-reference="t:eval-form"} shows a sample evaluation form, taken from
+Table FIXME shows a sample evaluation form, taken from
 [@b:seat-mcanear-team] to get you started. To use it, rank yourself and
 each of your teammates, then calculate and compare scores.
 
@@ -387,8 +384,7 @@ Scale: Never (1), Rarely (2), Sometimes (3), Frequently (4), Always (5)
 
 This may all seem rather fuzzy for a course that's supposed to be about
 building software. But as the performance review guidelines in
-Appendix [10](#s:evaluation){reference-type="ref"
-reference="s:evaluation"} shows, how well you code is only a one part of
+FIXME shows, how well you code is only a one part of
 how useful you are to a software development company.
 
 Dealing With Conflict {#s:teams-conflict}
