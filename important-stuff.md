@@ -292,6 +292,12 @@ People can be held accountable at subsequent meetings.
     and update those that are being carried forward.  This helps a lot when the
     time comes to draw up the agenda for the next meeting.
 
+> *Are you a blowfish or a clam?*
+>
+> [This guide][noaa-disruptive] to dealing with disruptive behaviors has useful
+> labels and even more useful advice for handling people who may send meetings
+> off course.
+
 ## Making decisions
 
 The purpose of a well-run meeting is to make decisions, so sooner or later, the

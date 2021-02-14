@@ -7,6 +7,7 @@
 [git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
 [github]: https://github.com/
 [hippocratic-license]: https://firstdonoharm.dev/
+[noaa-disruptive]: https://coast.noaa.gov/ddb/
 [osi-license-list]: https://opensource.org/licenses
 [selenium]: https://www.selenium.dev/
 [thirdbit-datacamp]: http://third-bit.com/2019/04/22/datacamp-clarifications/
