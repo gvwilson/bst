@@ -19,6 +19,9 @@ chapters:
   - slug: "legalities"
     title: "Legalities"
     chapter: true
+  - slug: "wrapping-up"
+    title: "Wrapping Up"
+    chapter: true
   - slug: "references"
     title: "References"
     chapter: false

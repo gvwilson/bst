@@ -1,4 +1,5 @@
 [captain-awkward]: https://captainawkward.com/
+[carpentrycon-talk]: https://www.youtube.com/watch?v=7xR50ty5DZ0
 [charles-rules]: https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument
 [choose-license]: https://choosealicense.com/
 [creative-commons]: https://creativecommons.org/
