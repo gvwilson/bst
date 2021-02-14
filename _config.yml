@@ -16,8 +16,8 @@ chapters:
   - slug: "process"
     title: "Process"
     chapter: true
-  - slug: "licensing"
-    title: "Licensing"
+  - slug: "legalities"
+    title: "Legalities"
     chapter: true
   - slug: "references"
     title: "References"
