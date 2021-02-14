@@ -1,5 +1,4 @@
 ---
-title: Process
 ---
 
 A development process is a set of guidelines that a team follows when building a

@@ -1,5 +1,4 @@
 ---
-title: Teams
 ---
 
 Study after study has shown that students learn better in small teams than they

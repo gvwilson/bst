@@ -1,5 +1,4 @@
 ---
-title: The Important Stuff
 ---
 
 The things that go wrong most often in software projects have nothing to do with

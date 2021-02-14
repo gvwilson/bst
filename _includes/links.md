@@ -12,3 +12,4 @@
 [thirdbit-datacamp]: http://third-bit.com/2019/04/22/datacamp-clarifications/
 [tldr-gpl]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
 [udhr]: https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+[vs-code]: https://code.visualstudio.com/

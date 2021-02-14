@@ -1,6 +1,7 @@
 ---
 root: .
 ---
+
 <ol>
 {% for entry in site.chapters -%}
   {%- if entry.appendix -%}{%- break -%}{%- endif -%}

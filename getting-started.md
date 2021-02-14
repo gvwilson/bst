@@ -1,5 +1,4 @@
 ---
-title: Getting Rolling
 ---
 
 Now that the really important stuff is out of the way, let's take a closer look
