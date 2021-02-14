@@ -22,6 +22,8 @@ chapters:
     title: "Legalities"
   - slug: "wrapping-up"
     title: "Wrapping Up"
+  - slug: "conclusion"
+    title: "Conclusion"
   - appendix: true
   - slug: "license"
     title: "Licensing"

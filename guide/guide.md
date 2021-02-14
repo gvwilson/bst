@@ -1,56 +1,6 @@
 Final Words {#s:final}
 ===========
 
-So, let's see how you're doing. Give yourself one mark for each "yes", 0
-for a "no", and -1 for "I don't know" or "I don't understand the
-question".
-
-1.  Does your project have a vision statement, and does everyone know
-    what it is?
-
-2.  Do you have a up-to-date spec[^44], and does everyone know what and
-    where it is?
-
-3.  Is every project resource saved in version control?
-
-4.  Can you rebuild your project with a single command?
-
-5.  Do you write tests before writing code?
-
-6.  Do you always run your tests before checking changes into version
-    control?
-
-7.  Do you have a bug database?
-
-8.  Do you use assertions and other defensive programming techniques?
-
-9.  Do you use a symbolic debugger to track problems down?
-
-10. Do you embed your documentation in your code?
-
-11. Is there a searchable archive of discussions about the project?
-
-12. Do you use a style checker to maintain code quality?
-
-13. Do you have an up-to-date schedule?
-
-14. Do you do development in a distraction-free environment (yes, that
-    means "with instant messaging and email turned off")?
-
-15. Do you work steadily, without all-nighters or last-minute panic
-    sessions?
-
-How did you do?
-
--   Negative: please re-read this document, make some changes, and then
-    come back and take this quiz again.
-
--   0-5: your project will probably fail to deliver anything useful.
-
--   6-10: most mature development teams are in this range, and can
-    bootstrap other improvements they need on their own.
-
--   11-15: if you're looking for a job, please let me know.
 
 Why I Teach {#s:final-why-teach}
 -----------
