@@ -3,6 +3,9 @@
 [charles-rules]: https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument
 [choose-license]: https://choosealicense.com/
 [creative-commons]: https://creativecommons.org/
+[git]: https://git-scm.com/
+[git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
+[github]: https://github.com/
 [hippocratic-license]: https://firstdonoharm.dev/
 [osi-license-list]: https://opensource.org/licenses
 [selenium]: https://www.selenium.dev/

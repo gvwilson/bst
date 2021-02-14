@@ -18,6 +18,8 @@ chapters:
     title: "Process"
   - slug: "design"
     title: "Design"
+  - slug: "thinking-learning"
+    title: "Thinking and Learning"
   - slug: "legalities"
     title: "Legalities"
   - slug: "wrapping-up"

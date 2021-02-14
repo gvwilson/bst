@@ -21,7 +21,8 @@ Fincher2001
 Freeman1972
 :   Jo Freeman:
     "The Tyranny of Structurelessness."
-    *The Second Wave*, 2(1), 1972.
+    Originally published in *The Second Wave*, 2(1), 1972;
+    reprinted in *Women's Studies Quarterly*, 2013, 10.1353/wsq.2013.0072.
 
 Lindberg2008
 :   Van Lindberg: *Intellectual Property and Open Source: A Practical Guide to Protecting Code*.
@@ -29,6 +30,16 @@ Lindberg2008
 
 Minahan1986
 :   Anne Minahan: "Martha's Rules."  *Affilia*, 1(2), June 1986, 10.1177/088610998600100206.
+
+Petre2013
+:   Marian Petre:
+    "UML in Practice."
+    *Proc. ICSE'13*, 2013, 10.1109/icse.2013.6606618.
+
+Petre2016
+:   Marian Petre and André van der Hoek:
+    *Software Design Decoded: 66 Ways Experts Think*.
+    MIT Press, 2016, 978-0262035187.
 
 Robinson2005
 :   Evan Robinson:
