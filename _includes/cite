@@ -1,0 +1,4 @@
+{%- assign keys = include.key | split: "," -%}
+[{%- for key in keys -%}
+<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/references/#{{ key | downcase }}">{{ key }}</a>
+{%- endfor -%}]

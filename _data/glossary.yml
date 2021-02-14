@@ -1,0 +1,14 @@
+- key: hitchhiker
+  term: "hitchiker"
+  def: >
+    Someone who is part of a project but does not actually do any work on it.
+
+- key: marthas-rules
+  term: "Martha's Rules"
+  def: >
+    A simple set of rules for making decisions in small groups.
+
+- key: sense-vote
+  term: "sense vote"
+  def: >
+    A preliminary vote used to determine whether further discussion is needed in a meeting.

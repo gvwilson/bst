@@ -185,10 +185,10 @@ but isn't really possible in a classroom setting.
 Since your project has to fit in one or two terms,
 you'll probably be asked to go around the loop once or twice,
 which in turn determines how much you'll be expected to deliver in each iteration.
-This is called [time boxing](../glossary/#time_boxing):
+This is called {% include gloss key="time-boxing" %}:
 you specify how long a cycle will last,
 then see how much work you can fit into that interval.
-The alternative is [feature boxing](../glossary/#feature_boxing):
+The alternative is {% include gloss key="feature-boxing" %}:
 you decide what you want to do
 and then build a schedule that gives you enough time to do it.
 Most people believe that time boxing works better,
@@ -207,15 +207,12 @@ if you're going to spend several months building a complex piece of software,
 *and you know what the final result is supposed to look like*,
 it makes sense to spend some time figuring out what you're going to do
 and how long it ought to take.
-This is called [scheduling](../glossary/#scheduling);
-since most students have never had to do it,
+Since most students have never had to do this kind of scheduling
 many find it the most valuable part of their first project course.
 In order to explain how to go about it,
-I need to describe two important roles in real software projects:
-the [product manager](../glossary/#product_manager)
-and the [project manager](../glossary/#project_manager).
+I need to describe two important roles in real software projects.
 
-The product manager is the person who owns the spec.
+The {% include gloss key="product-manager" %} is the person who owns the spec.
 While developers are building Version N,
 she is talking to customers to find out what should go into Version N+1.
 She doesn't ask them what features they want;
@@ -244,7 +241,7 @@ Version N shipped last Thursday;
 the team has had a weekend to catch its collective breath
 and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week to recover,
-go back and re-read [the first chapter](../important-stuff/).)
+go back and re-read {% include chap key="important-stuff" %}.)
 At this point the product manager divides up the list of desired features
 and assigns them to the developers.
 Each developer then has some time---typically a few days to a couple of weeks---to
@@ -259,7 +256,7 @@ On deployment?
 How will the feature be tested?
 And so on.
 
-This process is called [analysis and estimation](../glossary/#a_and_e) (A&E).
+This process is called {% include gloss key="ae" %} (A&E).
 The result is a short document,
 typically 1--5 pages long.
 There's no set form for this,
@@ -358,7 +355,7 @@ Denial.
 
 Start working evenings and weekends.
 :   This is also very popular, but ultimately self-defeating.
-    As [the first chapter](../important-stuff/) explained,
+    As {% include chap key="important-stuff" %} explained,
     the quality of your work goes down when you're tired,
     so any ground you gain by working 'til three a.m.
     you lose to extra debugging and rewriting.
@@ -397,7 +394,7 @@ and can start taking action
 well in advance of delivery.
 
 In the real world these calculations are
-the responsibility of the project manager.
+the responsibility of the {% include gloss key="project-manager" %}.
 Her job is to make sure everyone is doing what they're supposed to,
 to handle interruptions (there are *always* interruptions),
 and to track the team's progress.

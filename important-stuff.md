@@ -24,7 +24,7 @@ and how much damage the bugs I created in those bleary-eyed stupors did to my te
 My mistake was to confuse "working" with "being productive".
 You can't produce software (or anything else) without doing some work,
 but you can easily do lots of work without producing anything of value.
-Scientific study of the issue goes back to at least the 1890s---see [[Robinson2005](../references/#Robinson2005)]
+Scientific study of the issue goes back to at least the 1890s---see {% include cite key="Robinson2005" %}
 for a short, readable summary.
 The most important results for developers are:
 
@@ -211,7 +211,7 @@ don't be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is
 to get yourself into the most productive mental state possible.
-[[Csikszentmihaly1991](../references/#Csikszentmihaly1991)] popularized the term "flow";
+{% include cite key="Csikszentmihaly1991" %} popularized the term "flow";
 athletes call it "being in the zone",
 while musicians talk about losing themselves in what they're playing.
 Whatever name you use,
@@ -361,7 +361,7 @@ so sooner or later,
 the members of a project must decide who has a say in what.
 The first step is to acknowledge that every team has a power structure:
 the question is whether it's formal or informal---in other words,
-whether it's accountable or unaccountable [@Free1972].
+whether it's accountable or unaccountable {% include cite key="Freeman1972" %}.
 The latter can work for groups of up to half a dozen people
 in which everyone knows everyone else.
 Beyond that,
@@ -369,10 +369,10 @@ groups need to spell out
 who has the authority to make which decisions
 and how to achieve consensus.
 In short,
-they need explicit [governance](../glossary/#governance).
+they need explicit {% include gloss key="governance" %}.
 
-[Martha's Rules](../glossary/#marthas_rules) are a practical way to do this
-in groups of up to a few dozen members [[Minahan1986](../references/#Minahan1986)]:
+{% include gloss key="marthas-rules" %} are a practical way to do this
+in groups of up to a few dozen members {% include cite key="Minahan1986" %}:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal.
     Proposals must be filed at least 24 hours before a meeting
@@ -390,7 +390,7 @@ in groups of up to a few dozen members [[Minahan1986](../references/#Minahan1986
     The sponsor is also responsible for presenting the item to the group.
 
 4.  After the sponsor presents the proposal,
-    a [sense vote](../glossary/#sense_vote) is cast for the proposal prior to any discussion:
+    a {% include gloss key="sense-vote" %} is cast for the proposal prior to any discussion:
     -   Who likes the proposal?
     -   Who can live with the proposal?
     -   Who is uncomfortable with the proposal?
@@ -449,7 +449,7 @@ or put into files of their own:
     These instructions can also be included as a section in `README`;
     wherever they go,
     remember that the easier it is for people to get set up and contribute,
-    the more likely they are to do so [[Steinmacher2014](../references/#Steinmacher2014)].
+    the more likely they are to do so {% include cite key="Steinmacher2014" %}.
 
 -   `GOVERNANCE` explains how the project is run.
     It is still uncommon for this to be in a file of its own---it is more often included
@@ -571,7 +571,8 @@ and ask the supervisor to arrange a meeting to resolve the issue.
 
 > **Hitchhikers**
 >
-> [Hitchhikers](../glossary/#hitchhiker) who show up but never actually do anything
+> {% include gloss key="hitchhiker" text="Hitchhikers" %}
+> who show up but never actually do anything
 > are particularly difficult to manage,
 > in part because they are usually very good at appearing reasonable.
 > They will nod as we present our case,

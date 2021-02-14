@@ -22,6 +22,9 @@ chapters:
   - slug: "references"
     title: "References"
     chapter: false
+  - slug: "license"
+    title: "Licensing"
+    chapter: false
   - slug: "glossary"
     title: "Glossary"
     chapter: false

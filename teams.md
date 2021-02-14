@@ -55,7 +55,8 @@ one or the other person is likely to take a dominant role.
 If you put six people in a team,
 on the other hand,
 you may not be able to divide up the work in a way that will keep everyone engaged and busy.
-Teams that size also increase the odds that at least one member will be a [hitchhiker](../glossary/#hitchhiker).
+Teams that size also increase the odds that at least one member will be
+a {% include gloss key="hitchhiker" text="hitchhiker" %}.
 
 Research also shows that *teams formed by instructors work better than
 self-selected teams*. Students typically complain about this, sometimes
@@ -102,11 +103,10 @@ While instructors should try to include as diverse a spread of abilities
 in each team as possible, they should avoid isolating at-risk students.
 Members of minority groups and women are more likely to drop out of
 computer science, particularly in first and second year. I'll talk about
-this more in Section [4.6](#s:teams-respect){reference-type="ref"
-reference="s:teams-respect"}, but one of the main reasons is feeling
+this more in FIXME, but one of the main reasons is feeling
 isolated or out of place. Research has shown shown that putting at-risk
 students together in the first couple of years can mitigate this problem
-[@b:margolis-fisher-unlocking-clubhouse]. It is less necessary in upper
+<cite>Margolis2002</cite>. It is less necessary in upper
 years, though, since by then students have a stronger commitment to
 whatever program they're in.
 
@@ -177,9 +177,7 @@ are viewed as being more prestigious than others. If the team decomposes
 work functionally, the self-appointed "alpha geeks" will usually wind up
 with the plum jobs, like architecture and coding, leaving less appealing
 work to people who aren't as pushy or self-confident. This tends to
-reinforce existing inequities
-(Section [4.6](#s:teams-respect){reference-type="ref"
-reference="s:teams-respect"}); it also tends to lower the team's overall
+reinforce existing inequities; it also tends to lower the team's overall
 grade, since there's often little relationship between how outspoken
 people are and how well they work.
 
@@ -187,9 +185,7 @@ people are and how well they work.
 decomposition that is much more effective. Instead of owning an entire
 module for the lifetime of the project, each developer does the design,
 coding, testing, and documentation for one small feature after another.
-Working this way is central to agile development
-(Section [5.2](#s:process-agile-sturdy){reference-type="ref"
-reference="s:process-agile-sturdy"}), and is a good way to cope with the
+Working this way is central to agile development and is a good way to cope with the
 never-ending timeslicing of student life.
 
 Finally, there is *rotating decomposition*: everyone does one task for a

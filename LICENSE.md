@@ -1,5 +1,4 @@
 ---
-title: "License"
 permalink: /license/
 ---
 All of this site is made available under the Creative Commons

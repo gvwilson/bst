@@ -2,7 +2,7 @@
 title: Getting Rolling
 ---
 
-Now that [the really important stuff](../important-stuff/) is out of the way,
+Now that the really important stuff is out of the way,
 let's take a closer look at undergraduate team programming projects.
 
 ## Kinds of Projects
@@ -68,7 +68,7 @@ Because they're fun.
 :   At least, if they're done right.
 
 There are as many ways to run a project course as there are
-instructors teaching them [[Fincher2001](../references/#Fincher2001)].
+instructors teaching them {% include cite key="Fincher2001" %}.
 The most important variable is whether your team has a real customer or not.
 Finding and interviewing people who actually want software built
 and then meeting their needs
@@ -146,7 +146,7 @@ A final exam.
 Just like real development projects,
 course projects can and should produce a lot more than just code.
 For example,
-[[Spinellis2007](../references/#Spinellis2007)]
+{% include cite key="Spinellis2007" %}
 looked at how much content of different kinds went into the FreeBSD project in 2006.
 This table doesn't divide "source code" into "application code" and "tests",
 but it's still an eye-opener.
@@ -159,8 +159,6 @@ but it's still an eye-opener.
 | Version history | CVS | 1076762 | 46.0% |
 
 Here are some of the things that you might be required to produce:
-
-\begin{itemize}
 
 Requirements analysis
 :   What the problem is,
@@ -295,12 +293,12 @@ I've thought several times about using peer grading to reduce my load
 and give students some experience of what life is like on the other side of the red pen,
 but I've never been able to convince myself that it would actually work.
 
-## Elevator Pitch {#s:basics-pitch}
+## Elevator Pitch
 
 Once you know where the goalposts are,
 the next thing is to get everyone to agree on what you're supposed to accomplish.
 The best way to do this is write a vision statement,
-also known as an [elevator pitch](../glossary/#elevator_pitch) like the one shown below
+also known as an {% include gloss key="elevator-pitch" %} like the one shown below
 to figure out what problem you're trying to solve,
 who it affects,
 and why your solution is a good one.

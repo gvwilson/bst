@@ -23,7 +23,7 @@ the only question is whether authors and users know what it is and choose to enf
 Choosing a license for a project can be complex,
 not least because the law hasn't kept up with everyday practice.
 FIXME lightweight intro
-while [[Lindberg2008](../references/#Lindberg2008)] is a deeper dive for those who want details.
+while {% include cite key="Lindberg2008" %} is a deeper dive for those who want details.
 Depending on country, institution, and job role,
 most creative works are automatically eligible for intellectual property protection.
 However,
@@ -53,7 +53,8 @@ so different users may wind up operating under different licensing structures.
 
 To make license selection for code as easy as possible,
 GitHub allows us to select one of several common software licenses when creating a repository.
-The Open Source Initiative maintains [a list][osi-license-list] of [open licenses](../glossary/#open_license),
+The Open Source Initiative maintains [a list][osi-license-list] of
+{% include gloss key="open_license" text="open licenses" %},
 and [choosealicense.com][choose-license] will help us find a license that suits our needs.
 Some of the things we need to think about are:
 
@@ -69,21 +70,21 @@ Unfortunately,
 GitHub's list does not include common licenses for data or written works like papers and reports.
 Those can be added in manually,
 but it's often hard to understand the interactions between multiple licenses
-on different kinds of material [[Almeida2017](../references/#Almeida2017)].
+on different kinds of material {% include cite key="Almeida2017" %}.
 
 Just as the project's Code of Conduct is usually placed in a root-level file called `CONDUCT.md`,
 its license is usually put in a file called `LICENSE.md`
 that is also in the project's root directory.
 
-### Software {#teams-license-software}
+### Software
 
 In order to choose the right license for our software,
 we need to understand the difference between two kinds of license.
-The [MIT License](../glossary/#mit_license)
-(and its close sibling the BSD License)
+The {% include gloss key="mit_license" %}
+and its close sibling the {% include gloss key="bsd_license" %}
 say that people can do whatever they want to with the software as long as they cite the original source,
 and that the authors accept no responsibility if things go wrong.
-The [GNU Public License](../glossary/#gpl) (GPL)
+The {% include gloss key="gpl" %}
 gives people similar rights,
 but requires them to share their own work on the same terms:
 
@@ -135,7 +136,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 > **First, Do No Harm**
 >
-> The [Hippocratic License][hippocratic-license]
+> The {% include gloss key="hippocratic_license" %}
 > is a newer license
 > that is quickly becoming popular.
 > Where the GPL requires people to share their work,
@@ -146,7 +147,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 > We have learned the hard way that software and science can be mis-used;
 > adopting the Hippocratic License is a small step toward preventing this.
 
-### Data and reports {#teams-license-other}
+### Data and reports
 
 The MIT license, the GPL, and the Hippocratic License are intended for use with software.
 When it comes to data and reports,
@@ -154,7 +155,7 @@ the most widely used family of licenses are those produced
 by [Creative Commons][creative-commons].
 These have been written and checked by lawyers and are well understood by the community.
 
-The most liberal option is referred to as [CC-0](../glossary/#cc_license),
+The most liberal option is referred to as {% include gloss key="cc0" %}
 where the "0" stands for "zero restrictions".
 This puts work in the public domain,
 i.e.,
@@ -165,7 +166,7 @@ It does not negate the scholarly tradition and requirement of citing sources;
 it just doesn't make it a legal requirement.
 
 The next step up from CC-0 is the Creative Commons--Attribution license,
-usually referred to as [CC-BY](../glossary/#cc_license).
+usually referred to as {% include gloss key="cc_by" %}
 This allows people to do whatever they want to with the work
 as long as they cite the original source.
 This is the best license to use for manuscripts:

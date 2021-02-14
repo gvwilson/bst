@@ -1,0 +1,8 @@
+{%- for temp in site.chapters -%}
+  {%- if temp.slug == include.key -%}
+    {%- assign entry = temp -%}
+    {%- assign number = forloop.index -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/{{ include.key }}/">Chapter {{ number }}</a>

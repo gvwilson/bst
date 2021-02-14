@@ -1,4 +1,5 @@
 ---
+root: .
 ---
 <ol>
 {% for chapter in site.chapters %}
