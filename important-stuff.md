@@ -6,7 +6,7 @@ The things that go wrong most often in software projects have nothing to do with
 Instead,
 the worst mistakes people make are related to the human side of things.
 
-## Crunch Mode
+## Crunch mode
 
 I used to brag about the hours I was working.
 Not in so many words, of course---I had *some* social skills.
@@ -128,7 +128,7 @@ or how much of a martyr you appear to be.
 Then think about which of those other people are actually going to care about
 and pace yourself accordingly.
 
-## Time Management
+## Time management
 
 "But I have so many assignments to do!", you say.
 "And they're all due at once!
@@ -354,7 +354,7 @@ People can be held accountable at subsequent meetings.
     and update those that are being carried forward.
     This helps a lot when the time comes to draw up the agenda for the next meeting.
 
-## Making Decisions
+## Making decisions
 
 The purpose of a well-run meeting is to make decisions,
 so sooner or later,

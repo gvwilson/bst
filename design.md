@@ -14,7 +14,7 @@ print. If you can talk a handful of good software designers into letting
 themselves be videotaped as they work through problems on a whiteboard,
 please let me know---I'm sure I'd learn a lot by watching them.
 
-## Describing Designs
+## Describing designs
 
 I can, however, tell you a little about how to describe designs. If you
 watch experienced developers drawing on the whiteboard as they're
@@ -100,7 +100,7 @@ reference="s:tooling-versioning"}). However, since it's all that we
 have, in most books, likely to be on the final exam, and might come up
 in an interview, it's still worth mastering the basics.
 
-## Getting Started
+## Getting started
 
 What if you're starting with a blank sheet of paper (or an empty
 whiteboard)? How do you describe something that doesn't exist yet? The
@@ -154,7 +154,7 @@ debate." Either can sink a project; together, they show why it's so hard
 to teach design, since what I'm basically saying is, "Argue enough, but
 not too much." Helpful, isn't it?
 
-## Design for Testability
+## Design for testability
 
 When most developers hear the word "design", they think about either the
 application's structure or its user interface. If you don't think about
@@ -345,7 +345,7 @@ you're building something very large, or have a team that's so big that
 it has to be broken down into functional groups. That said, they're all
 still good ideas at every level of development.
 
-## Keeping Track
+## Keeping track
 
 If your project is run like most, you're going to submit your work
 several times over the course of the term. That means it's important for

@@ -22,7 +22,7 @@ then exactly how you get there is a detail.
 It's kind of like dieting: Atkins, South Beach, macrobiotic, seasonal, or fruitarian
 is secondary to being sincere about eating better and exercising more.
 
-## Daily Routine
+## Daily routine
 
 Before describing the two development processes you're most likely to encounter in courses,
 I'd like to talk for a moment about what your day-to-day routine should look like.
@@ -104,7 +104,7 @@ Three sessions like that a week from each person on the project
 plus a single team meeting
 and you'll be in great shape.
 
-## Agile vs. Sturdy
+## Agile vs. sturdy
 
 Broadly speaking,
 modern software development processes can be divided into two camps.
@@ -198,7 +198,7 @@ and allows them to give customers more frequent demos
 
 FIXME: explain that waterfall doesn't exist.
 
-## Planning and Scheduling
+## Planning and scheduling
 
 If you're going to spend three days driving across the country,
 it makes sense to spend half an hour figuring out a good route.
@@ -340,7 +340,7 @@ if you have never used a persistence layer before?
 Remember:
 the more estimating you do the better you'll get.
 
-## Cutting Corners
+## Cutting corners
 
 A schedule's primary purpose is not to tell you
 what you're supposed to be doing on any given day,
@@ -440,6 +440,6 @@ it isn't done.
 
 FIXME discussion
 
-## Test-Driven Development
+## Test-driven development
 
 FIXME discussion

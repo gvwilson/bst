@@ -9,7 +9,7 @@ delivery of a particular version is just another step in the product
 lifecycle. Here, then, are some of the things you might be asked to do
 at the end of your project.
 
-## The Project
+## The project
 
 As I've already said several times, software development teams in
 industry care almost as much about handing their projects off cleanly as
@@ -55,7 +55,7 @@ and a subjective evaluation of the code's quality (which usually means
 its conformance to basic rules of indentation, commenting, and variable
 naming).
 
-## The Final Report
+## The final report
 
 The other thing student projects usually have to deliver is some kind of
 final report. Most students short-change this part of the course, in
@@ -190,7 +190,7 @@ cycle, since documents have to be compiled into PDF or another viewable
 format before you can see the effects of your changes (although WYGIWYG
 tools like LyX are making great strides).
 
-## The Post Mortem
+## The post mortem
 
 The most valuable part of your project isn't the software you write, or
 the grade you're given. It's the project's *post mortem*. Literally,
@@ -270,7 +270,7 @@ recommendations that came out of a post mortem I did with students in
     to make sure that a lot of untested code doesn't pile up during the
     term.
 
-## Ten Simple Rules for Handing Over and Moving On
+## Ten simple rules for handing over and moving on
 
 This advice is for founders who are handing on their projects;
 see [this talk][carpentrycon-talk] for more detail.

@@ -5,7 +5,7 @@ title: Getting Rolling
 Now that the really important stuff is out of the way,
 let's take a closer look at undergraduate team programming projects.
 
-## Kinds of Projects
+## Kinds of projects
 
 These are bracketed by two close cousins.
 On one side are FIXME standard homework assignments
@@ -293,7 +293,7 @@ I've thought several times about using peer grading to reduce my load
 and give students some experience of what life is like on the other side of the red pen,
 but I've never been able to convince myself that it would actually work.
 
-## Elevator Pitch
+## Elevator pitch
 
 Once you know where the goalposts are,
 the next thing is to get everyone to agree on what you're supposed to accomplish.

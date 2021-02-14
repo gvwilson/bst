@@ -23,7 +23,7 @@ It doesn't take much to make a team work smoothly, though.
 All you have to do is follow some common-sense advice
 and be willing to stand up to people who aren't playing by the rules.
 
-## Picking Teams
+## Picking teams
 
 I once heard an anthropologist ask a room, "How big is a sports team?"
 When people said they are all different sizes,
@@ -138,8 +138,7 @@ you're supposed to be doing design, building software, testing, and so
 on. If the two are scheduled back-to-back, the meeting will drag on into
 working time or vice versa.
 
-Who Does What? {#s:teams-roles}
---------------
+## Who does what
 
 All right, you've formed a team: now what? How do you decide who does
 what? And just as importantly, how do you make sure that everyone
@@ -314,81 +313,50 @@ of asking, "Is the person outgoing," or "Does the person have a positive
 attitude," assessments should ask, "Does the person listen attentively
 during meetings," or, "Does the person attempt to solve problems before
 asking for help."
-Table FIXME shows a sample evaluation form, taken from
-[@b:seat-mcanear-team] to get you started. To use it, rank yourself and
+Table FIXME shows a sample evaluation form to get you started. To use it, rank yourself and
 each of your teammates, then calculate and compare scores.
 
--   **Communication**
-
+1.  Communication
     -   Listens attentively to others without interrupting
-
     -   Clarifies with others have said to ensure understanding
-
     -   Articulates ideas clearly and concisely
-
     -   Gives good reasons for ideas
-
     -   Wins support from others
-
--   **Decision Making**
-
+1.  Decision making
     -   Analyzes problems from different points of view
-
     -   Applies logic in solving problems
-
-    -   Offers solutions based on facts rather than "gut feel" or
-        intuition
-
+    -   Offers solutions based on facts rather than gut feel or intuition
     -   Solicits new ideas from others
-
     -   Generates new ideas
-
     -   Accepts change
-
--   **Collaboration**
-
+1.  Collaboration
     -   Acknowledges issues that the team needs to confront and resolve
-
     -   Encourages ideas and opinions even when they differ from his/her
         own
-
     -   Works toward solutions and compromises that are acceptable to
         all involved
-
     -   Shares credit for success with others
-
     -   Encourages participation among all participants
-
     -   Accepts criticism openly and non-defensively
-
     -   Cooperates with others
-
--   **Self-Management**
-
+1.  Self-management
     -   Monitors progress to ensure that goals are met
-
     -   Puts top priority on getting results
-
     -   Defines task priorities for work sessions
-
     -   Encourages others to express their views even when they are
         contrary
-
     -   Stays focused on the task during meetings
-
     -   Uses meeting time efficiently
-
     -   Suggests ways to proceed during work sessions
 
 Scale: Never (1), Rarely (2), Sometimes (3), Frequently (4), Always (5)
 
 This may all seem rather fuzzy for a course that's supposed to be about
 building software. But as the performance review guidelines in
-FIXME shows, how well you code is only a one part of
+{% include chap key="performance-evaluation" %} shows, how well you code is only a one part of
 how useful you are to a software development company.
 
-Dealing With Conflict {#s:teams-conflict}
----------------------
+## Dealing with conflict
 
 Grades just came back for the second assignment. Your team got 51%,
 which is far lower than you're used to. The sick feeling in the pit of
@@ -432,32 +400,37 @@ up their socks.
 Here are the steps you should take when you feel that a teammate isn't
 pulling his or her weight:
 
-1.  *Make sure you're not guilty of the same sin.* You won't get very
-    far complaining about someone else interrupting in meetings if you
-    do it just as frequently.
+Make sure you're not guilty of the same sin.
+:   You won't get very far complaining about someone else interrupting in meetings
+    if you do it just as frequently.
 
-2.  *Check expectations.* Are you sure the offender knows what standards
+Check expectations.
+:   Are you sure the offender knows what standards
     he is supposed to be meeting? This is where a team contract comes in
     useful.
 
-3.  *Document the offense.* Write down what the offender has actually
+Document the offense.
+:   Write down what the offender has actually
     done, and why it's not good enough. Doing this will help you clarify
     matters in your own mind. It's also absolutely necessary if you have
     to escalate.
 
-4.  *Check with other team members.* Are you alone in feeling that the
+Check with other team members.
+:   Are you alone in feeling that the
     offender is letting the team down? If so, that doesn't necessarily
     mean you're wrong, but it'll be a lot easier to fix things if you
     have the support of the rest of the team[^15].
 
-5.  *Talk with the offender.* This should be a team effort: put it on
+Talk with the offender.
+:   This should be a team effort: put it on
     the agenda at a team meeting, present your complaint, and make sure
     that the offender understands it. In most cases, this is enough:
     human beings are herd animals, and if someone realizes that they're
     going to be called on their hitchhiking or bad manners, they will
     usually change their ways.
 
-6.  *Escalate as soon as there's a second offense.* Hitchhikers and
+Escalate as soon as there's a second offense.
+:   Hitchhikers and
     others who really don't have good intentions are counting on you
     giving them one "last chance" after another until the term is
     finished and they can go suck the life force out of their next
@@ -495,8 +468,7 @@ also defuse a lot of tension, since explaining your position back to you
 clearly forces the other person to see the world through your eyes, if
 only for a few moments.
 
-People to Watch Out For {#s:teams-uhoh}
------------------------
+## People to watch out for
 
 Tolstoy wrote that all happy families resemble one another, but each
 unhappy family is unhappy in its own way. Similarly, all good team
@@ -574,8 +546,7 @@ different ways. Here are a few:
     damage. If he doesn't, he should be treated like any other
     hitchhiker.
 
-Irreconcilable Differences {#s:teams-failure}
---------------------------
+## Irreconcilable differences
 
 Sometimes, it isn't just one person on the team who's a problem.
 Sometimes, the whole team is dysfunctional. In the mid-1990s, for
@@ -598,105 +569,3 @@ a new one takes time that could be invested in earning a higher grade.
 In practice, therefore, teams will almost always choose to stick
 together if they see that hitchhikers and rudies are actually being
 dealt with.
-
-Respect {#s:teams-respect}
--------
-
-And now for a topic most undergraduates would rather not think about.
-There's an element of truth in the popular stereotype of programmers
-having poor social skills. It might be self-selection: if you don't like
-people much, or find it hard to navigate the vicious unwritten rules of
-high school dances, computers will be your friends. Alternatively, it
-may be something that young programmers learn from their grumpy,
-poorly-dressed mentors. Whatever it is, it's bad, and you should fight
-it. In particular, *if you and your teammates don't respect one another,
-your project will fail*. You won't be able to run a meeting, or divide
-up work fairly; you especially won't be able to cope with the pressure
-when things go wrong.
-
-People can be disrespectful on many levels. The most obvious is simple
-rudeness, which in student teams usually takes the form of interrupting
-people. I've been in meetings in which no one could get more than a
-sentence and a half out before someone would cut them off. The signal
-people send when they do that is that they think their teammates are
-less intelligent than they are. In fact, the reverse is usually true: if
-someone isn't smart enough to realize that letting his teammates finish
-their thoughts is productive as well as polite, he's probably just not
-smart, period.
-
-Disrespect can take more serious forms. For example,
-Figure [4.1](#f:women-science){reference-type="ref"
-reference="f:women-science"} shows that the number of women earning
-bachelor's degrees in science and engineering in the US has been
-climbing steadily since the 1960s.
-Figure [4.2](#f:women-cs){reference-type="ref" reference="f:women-cs"},
-on the other hand, shows that the number of women earning bachelor's
-degrees in Computer Science has been dropping, even as male numbers have
-risen.
-
-![Science and Engineering Degrees 1966-2004 (from
-[@b:women-science-stats]).](sci-eng-degrees.png){#f:women-science}
-
-![Computer Science Degrees 1985-2004 (from
-[@b:women-science-stats]).](cs-degrees.png){#f:women-cs}
-
-Why is that? Why are women choosing not to do computer science degrees,
-even while they're entering other sciences (and professions like law and
-medicine) in ever-increasing numbers?
-
-Well, here's another fact: not only do fewer women go into computer
-science than men, the dropout rate among female students is higher than
-it is among males. Studies like [@b:margolis-fisher-unlocking-clubhouse]
-have shown that this has nothing to do with intelligence, grades, or
-ability to do the work. Instead, women are more likely to be made to
-feel that they don't belong, or that computing "isn't for them". Even a
-small amount of unequal pressure can have a large result: if there's
-just a 10% chance per year of a female student dropping out because the
-guys around her are listening to "Slap My Bitch Around" in the lab, or
-because her male partners have decided to "take care of" the coding in
-the graphics course project, and left the testing and documentation for
-her, then *one third* of women will be gone after four years.
-
-"Hey, survival of the fittest, dude---if women can't handle the
-pressure, they should study something else." I've heard that argument
-many times, and my answer is always the same: if a 200-pound Phys Ed
-student came up to you, whacked you on the head, and took your wallet
-and iPod, you wouldn't shrug and say, "Survival of the fittest." The
-fact that what you're doing doesn't involve physical assault doesn't
-make it any less unfair.
-
-Here's a story to illustrate what I mean. The first time I taught a
-programming course at the University of Toronto, I had my students write
-a couple of five-line biographies for themselves as a way to get used to
-checking things into CVS. In the first, they were to describe who they
-were; in the second, they were to describe who they hoped to be in ten
-years' time. A quarter of the male students made a point of mentioning
-their "beautiful" wife in the second bio; a few even specified that she
-was an actress or a model.
-
-When I pointed this out to the class, many of them laughed. I don't
-think they'd have laughed as hard if I'd said, "A quarter of the white
-students think they're going to have Chinese houseboys doing their
-laundry ten years from now." And if they thought that most programmers
-saw them that way, I bet that fewer of them would choose to become
-programmers themselves. Pervasive disrespect is like water dripping on a
-stone: no single drop seems to matter much, but its erosive effects are
-tremendously powerful.
-
-It's important to realize that *the forces that make computing
-uncongenial for women also make it uncongenial for a lot of men*. If
-you're a guy with a well-balanced life who thinks social skills matter,
-you're going to be subject to many of the same differential pressures as
-your female colleagues. I think this is one of the reasons there's so
-much bad software in the world: too many of the people who could make
-*good* user interfaces, and elicit real requirements from customers, and
-design programs that would actually meet those needs, are choosing to do
-other things with their lives.
-
-This isn't going to be easy to fix, but team programming projects give
-you a chance to start. Don't monopolize the discussion, no matter how
-many bright ideas you think you have; hear your teammates out, keep
-*their* schedules in mind when you're thinking about leaving your share
-of the work 'til the last moment, don't say anything in email that you
-wouldn't say to someone's face[^17], and remember that "please" and
-"thank you" are always stylish.

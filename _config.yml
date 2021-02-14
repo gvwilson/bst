@@ -12,6 +12,8 @@ chapters:
     title: "Getting Rolling"
   - slug: "teams"
     title: "Teams"
+  - slug: "tooling"
+    title: "Tooling"
   - slug: "process"
     title: "Process"
   - slug: "design"

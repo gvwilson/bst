@@ -1,5 +1,5 @@
-Tooling {#s:tooling}
-=======
+---
+---
 
 A carpenter shows up to put an extension on your house, and all he's
 brought with him is a hammer and a Swiss army knife. How confident are

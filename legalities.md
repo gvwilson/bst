@@ -165,7 +165,7 @@ and are usually referred two using the two-letter abbreviations listed below:
     the NC clause means that people cannot charge for something that uses our work without our explicit permission,
     which we can give under whatever terms we want.
 
-## Ten Simple Rules for Being Fired
+## Ten simple rules for being fired
 
 These rules are based on [my experience with DataCamp][thirdbit-datacamp]
 and on the experiences of friends and colleagues there and at other companies.
