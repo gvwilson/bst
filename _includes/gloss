@@ -1,2 +1,2 @@
 {%- for temp in site.data.glossary -%}{%- if temp.key == include.key -%}{%- assign entry = temp -%}{%- break -%}{%- endif -%}{%- endfor -%}
-<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/glossary/#{{ include.key }}">{% if include.text %}{{ include.text }}{% else %}{{ entry.term }}{% endif %}</a>
+<a class="glossref" href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/glossary/#{{ include.key }}">{% if include.text %}{{ include.text }}{% else %}{{ entry.term }}{% endif %}</a>

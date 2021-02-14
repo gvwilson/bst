@@ -18,4 +18,4 @@
   {% assign number = number | minus: num_chapters | minus: 1 %}
   {% assign number = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | slice: number %}
 {%- endunless -%}
-<a href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/{{ include.key }}/">{{ keyword }} {{ number }}</a>
+<a class="crossref" href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/{{ include.key }}/">{{ keyword }} {{ number }}</a>
