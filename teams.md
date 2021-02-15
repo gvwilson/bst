@@ -44,8 +44,7 @@ and background to tackle a large piece of work; more importantly, one or the
 other person is likely to take a dominant role.  If you put six people in a
 team, on the other hand, you may not be able to divide up the work in a way that
 will keep everyone engaged and busy.  Teams that size also increase the odds
-that at least one member will be a
-{% include gloss key="hitchhiker" text="hitchhiker" %}.
+that at least one member will be a <g key="hitchhiker">hitchhiker</g>.
 
 Research also shows that teams formed by instructors work better than
 self-selected teams. Students typically complain about this, sometimes
@@ -102,9 +101,9 @@ take students' schedules into account when forming teams. If the class is small,
 the simplest way is to get each student to fill in a weekly timesheet showing
 when they're available, and then group people who have large blocks of
 overlap. If the class is larger, a web-based calendaring tool may be
-easier[^9]. Instructors can even try to use whatever software the university
-uses to figure out course timetables, although that usually doesn't scale down
-to intra-class scheduling.
+easier. Instructors can even try to use whatever software the university uses to
+figure out course timetables, although that usually doesn't scale down to
+intra-class scheduling.
 
 Another factor to take into account is that some people are naturally early
 birds, while others are night owls. Putting the two on the same team pretty much
@@ -166,9 +165,9 @@ development and is a good way to cope with the never-ending timeslicing of
 student life.
 
 Finally, there is *rotating decomposition*: everyone does one task for a few
-weeks, then a different task for the new few, and so on[^10]. This is initially
-less productive in absolute terms than either of the preceding strategies, since
-the team has to pay for ramp-up several times over. In the long term, though, it
+weeks, then a different task for the new few, and so on. This is initially less
+productive in absolute terms than either of the preceding strategies, since the
+team has to pay for ramp-up several times over. In the long term, though, it
 outperforms the alternatives: it is more robust (having a team member drop out
 is less harmful), and if everyone on the team is familiar with every aspect of
 the software, they can all contribute to design and debugging sessions.
@@ -334,10 +333,10 @@ Document the offense.
     enough. Doing this will help you clarify matters in your own mind. It's also
     absolutely necessary if you have to escalate.
 
-Check with other team members.
-:   Are you alone in feeling that the offender is letting the team down? If so,
-    that doesn't necessarily mean you're wrong, but it'll be a lot easier to fix
-    things if you have the support of the rest of the team[^15].
+Check with other team members.  : Are you alone in feeling that the offender is
+letting the team down? If so, that doesn't necessarily mean you're wrong, but
+it'll be a lot easier to fix things if you have the support of the rest of the
+team.
 
 Talk with the offender.
 :   This should be a team effort: put it on the agenda at a team meeting,
@@ -358,9 +357,9 @@ In the context of a student project, "escalation" means "taking the issue to the
 instructor". (If you're reluctant to do this because you don't want to be a
 snitch, go back and read what I just wrote about people stealing your laptop.)
 Of course, your instructor has probably had dozens of students complain to her
-over the years about partners and teammates not doing their share[^16]. In order
-to get her to take you seriously and help you fix your problem, you should send
-her an email, signed by the whole team (or as many as you can get on side)
+over the years about partners and teammates not doing their share. In order to
+get her to take you seriously and help you fix your problem, you should send her
+an email, signed by the whole team (or as many as you can get on side)
 describing the problem and the steps you have already taken to resolve it. Make
 sure the offender gets a copy as well, and ask your instructor to arrange a
 meeting to resolve the issue.
@@ -458,14 +457,14 @@ visualization startup. Individually, we were all smart, decent people. Put us
 together, though, and somehow our personalities and IQs canceled out, leaving us
 all dumb and nasty.
 
-According to [@b:oakley-teams], instructors can allow for this by announcing at
-the start of the course that teams will be dissolved and re-formed halfway
-through the project, *unless* every member on the team submits a separate signed
-request to stay together. There's a bit of psychology here: if people are
-required to ask for their team to be dissolved, they will often think, "It's
-more trouble than it's worth, I'll just put up with it." If dissolution is the
-default, though, then students won't be inhibited by any stigma attached to
-being the one who caused trouble.
+According to <cite>Oakley2004</cite>, instructors can allow for this by
+announcing at the start of the course that teams will be dissolved and re-formed
+halfway through the project, *unless* every member on the team submits a
+separate signed request to stay together. There's a bit of psychology here: if
+people are required to ask for their team to be dissolved, they will often
+think, "It's more trouble than it's worth, I'll just put up with it." If
+dissolution is the default, though, then students won't be inhibited by any
+stigma attached to being the one who caused trouble.
 
 Students also usually understand that dissolving their team and forming a new
 one takes time that could be invested in earning a higher grade.  In practice,

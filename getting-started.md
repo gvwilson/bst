@@ -52,12 +52,11 @@ Because they're fun.
 :   At least, if they're done right.
 
 There are as many ways to run a project course as there are instructors teaching
-them {% include cite key="Fincher2001" %}.  The most important variable is
-whether your team has a real customer or not.  Finding and interviewing people
-who actually want software built and then meeting their needs is tremendously
-rewarding.  However, it's also a lot of work and puts an extra burden on the
-instructor as well.  For this reason, most team projects tend to be made up by
-instructors.
+them <cite>Fincher2001</cite>.  The most important variable is whether your team
+has a real customer or not.  Finding and interviewing people who actually want
+software built and then meeting their needs is tremendously rewarding.  However,
+it's also a lot of work and puts an extra burden on the instructor as well.  For
+this reason, most team projects tend to be made up by instructors.
 
 A third option is to use an open source project as a starting point.  Whether
 it's an audio editor, a tool for displaying family trees, or control software
@@ -112,10 +111,10 @@ A final exam.
     determine who actually did the work and who was just along for the ride.
 
 Just like real development projects, course projects can and should produce a
-lot more than just code.  For example, {% include cite key="Spinellis2007" %}
-looked at how much content of different kinds went into the FreeBSD project in
-2006.  This table doesn't divide "source code" into "application code" and
-"tests", but it's still an eye-opener.
+lot more than just code.  For example, <cite>Spinellis2007</cite> looked at how
+much content of different kinds went into the FreeBSD project in 2006.  This
+table doesn't divide "source code" into "application code" and "tests", but it's
+still an eye-opener.
 
 | Asset | Source | Size (KB) | Percentage |
 | ----- | ------ | --------- | ---------- |
@@ -243,79 +242,37 @@ that it would actually work.
 
 Once you know where the goalposts are, the next thing is to get everyone to
 agree on what you're supposed to accomplish.  The best way to do this is write
-an {% include gloss key="elevator-pitch" %} like the one shown below to figure
+an <g key="elevator-pitch">elevator pitch</g> like the one shown below to figure
 out what problem you're trying to solve, who it affects, and why your solution
 is a good one.
 
-<table>
-  <tr>
-    <td><strong>The problem of</strong></td>
-    <td><em>
-      developing software in a predictable and reliable manner
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>affects</strong></td>
-    <td><em>
-      the management of software projects.
-      Developers are not able to predict reliably how long it takes them to complete tasks
-      which makes it impossible to effectively plan a project.
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>As a result,</strong></td>
-    <td><em>
-      users and managers are never sure whether the produced software will meet its requirements,
-      how reliable the software will be,
-      or whether the software will be delivered on time.
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>A successful solution would</strong></td>
-    <td><em>
-      help developers become more aware of what they do,
-      how they spend their time,
-      and the kinds of defects they find in their work.
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>For</strong></td>
-    <td><em>
-      software development teams
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>who</strong></td>
-    <td><em>
-      need to better understand how and when defects are introduced into their products,
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>our product</strong></td>
-    <td><em>
-      gathers and reports performance metrics
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>in order to</strong></td>
-    <td><em>
-      help developers track and analyze personal software development metrics.
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>Unlike</strong></td>
-    <td><em>
-      not gathering data or trying to gather it manually,
-    </em></td>
-  </tr>
-  <tr>
-    <td><strong>our approach</strong></td>
-    <td><em>
-      helps users gather data unobtrusively
-      and provides objective feedback that allows them to improve both individual and team performance.
-    </em></td>
-  </tr>
-</table>
+> **The problem of**
+> developing software in a predictable and reliable manner
+> **affects**
+> the management of software projects.
+> Developers are not able to predict reliably how long it takes them to complete tasks
+> which makes it impossible to effectively plan a project.
+> **As a result,**
+> users and managers are never sure whether the produced software will meet its requirements,
+> how reliable the software will be,
+> or whether the software will be delivered on time.
+> **A successful solution would**
+> help developers become more aware of what they do,
+> how they spend their time,
+> and the kinds of defects they find in their work.
+> **For**
+> software development teams
+> **who**
+> need to better understand how and when defects are introduced into their products,
+> **our product**
+> gathers and reports performance metrics
+> **in order to**
+> help developers track and analyze personal software development metrics.
+> **Unlike**
+> not gathering data or trying to gather it manually,
+> **our approach**
+> helps users gather data unobtrusively
+> and provides objective feedback that allows them to improve both individual and team performance.
 
 Have everyone on the team fill in the template independently and then compare
 the results.  If your team is like most I've worked with, you'll be surprised by

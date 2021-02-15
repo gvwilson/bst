@@ -33,3 +33,5 @@ Like these three personas, readers should:
 
 -   Know how to use [Git][git] to save and share files. (It's OK not to know
     [the more obscure commands][git-man-page-generator].)
+
+{% include links.md %}

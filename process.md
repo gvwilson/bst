@@ -142,14 +142,13 @@ agile processes, but isn't really possible in a classroom setting.
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called {% include gloss
-key="time-boxing" %}: you specify how long a cycle will last, then see how much
-work you can fit into that interval.  The alternative is {% include gloss
-key="feature-boxing" %}: you decide what you want to do and then build a
-schedule that gives you enough time to do it.  Most people believe that time
-boxing works better, since it encourages developers to take smaller steps and
-allows them to give customers more frequent demos (which serve as course
-corrections).
+expected to deliver in each iteration.  This is called <g key="time-boxing">time
+boxing</g>: you specify how long a cycle will last, then see how much work you
+can fit into that interval.  The alternative is <g key="feature-boxing">feature
+boxing</g>: you decide what you want to do and then build a schedule that gives
+you enough time to do it.  Most people believe that time boxing works better,
+since it encourages developers to take smaller steps and allows them to give
+customers more frequent demos (which serve as course corrections).
 
 FIXME: explain that waterfall doesn't exist.
 
@@ -164,11 +163,12 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
-The {% include gloss key="product-manager" %} is the person who owns the spec.
-While developers are building Version N, she is talking to customers to find out
-what should go into Version N+1.  She doesn't ask them what features they want;
-if she does, she'll get a mish-mash of conversations overheard in frequent flyer
-lounges and buzzwords plucked from recent Twitter threads.  Instead, she asks:
+The <g key="product-manager">product manager</g> is the person who owns the
+spec.  While developers are building Version N, she is talking to customers to
+find out what should go into Version N+1.  She doesn't ask them what features
+they want; if she does, she'll get a mish-mash of conversations overheard in
+frequent flyer lounges and buzzwords plucked from recent Twitter threads.
+Instead, she asks:
 
 1.  What can't you do right now that you want to?
 
@@ -194,14 +194,14 @@ implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
 the build?  On deployment?  How will the feature be tested?  And so on.
 
-This process is called {% include gloss key="ae" %} (A&E).  The result is a
-short document, typically 1--5 pages long.  There's no set form for this, but
-they usually include whatever background information a well-informed developer
-is unlikely to already know, a discussion of the alternatives, lessons learned
-from any prototyping that was done, and an estimate of how much time would be
-needed to build each alternative.  This time includes estimates from QA (for
-testing), the technical writer (for documenting), the dev ops team responsible
-for managing deployment, and so on.
+This process is called <g key="ae">analysis & estimation</g> (A&E).  The result
+is a short document, typically 1--5 pages long.  There's no set form for this,
+but they usually include whatever background information a well-informed
+developer is unlikely to already know, a discussion of the alternatives, lessons
+learned from any prototyping that was done, and an estimate of how much time
+would be needed to build each alternative.  This time includes estimates from QA
+(for testing), the technical writer (for documenting), the dev ops team
+responsible for managing deployment, and so on.
 
 So now it's Monday morning again.  Three weeks have gone by and all the A&E's
 are done.  When the time estimates are totaled, they come to 700 developer-days.
@@ -289,12 +289,12 @@ ten-week window.  That's OK: it's a shame you won't get to them, but at least
 you know it now and can start taking action (like lowering your customer's
 expectations) well in advance of delivery.
 
-In the real world these calculations are the responsibility of the {% include
-gloss key="project-manager" %}.  Her job is to make sure everyone is doing what
-they're supposed to, to handle interruptions (there are *always* interruptions),
-and to track the team's progress.  After a few weeks, the project manager should
-compare how much has actually been done with how much was supposed to be done
-and adjust plans accordingly.
+In the real world these calculations are the responsibility of the <g
+key="project-manager">project manager</g>.  Her job is to make sure everyone is
+doing what they're supposed to, to handle interruptions (there are *always*
+interruptions), and to track the team's progress.  After a few weeks, the
+project manager should compare how much has actually been done with how much was
+supposed to be done and adjust plans accordingly.
 
 Real customers will thank you for doing this provided you do it early.  "I'm
 sorry, we're not going to have the frobnosticator for May 1" is OK on October 1,

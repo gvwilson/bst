@@ -20,8 +20,8 @@ stupors did to my teammates' productivity.
 My mistake was to confuse "working" with "being productive".  You can't produce
 software (or anything else) without doing some work, but you can easily do lots
 of work without producing anything of value.  Scientific study of the issue goes
-back to at least the 1890s---see {% include cite key="Robinson2005" %} for a
-short, readable summary.  The most important results for developers are:
+back to at least the 1890s---see <cite>Robinson2005</cite> for a short, readable
+summary.  The most important results for developers are:
 
 1.  Working more than eight hours a day for an extended period of time lowers
     your total productivity, not just your hourly productivity---i.e., you get
@@ -174,11 +174,10 @@ deadline.  And since breaking large tasks down into small ones takes time, don't
 be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is to get yourself into the
-most productive mental state possible.
-{% include cite key="Csikszentmihalyi1991" %} popularized the term "flow";
-athletes call it "being in the zone", while musicians talk about losing
-themselves in what they're playing.  Whatever name you use, you will produce
-much more per unit of time in this state than normal.
+most productive mental state possible.  <cite>Csikszentmihalyi1991</cite>
+popularized the term "flow"; athletes call it "being in the zone", while
+musicians talk about losing themselves in what they're playing.  Whatever name
+you use, you will produce much more per unit of time in this state than normal.
 
 That's the good news.  The bad news is that it takes roughly ten minutes to get
 back into a state of flow after an interruption no matter how short the
@@ -304,14 +303,13 @@ The purpose of a well-run meeting is to make decisions, so sooner or later, the
 members of a project must decide who has a say in what.  The first step is to
 acknowledge that every team has a power structure: the question is whether it's
 formal or informal---in other words, whether it's accountable or unaccountable
-{% include cite key="Freeman1972" %}.  The latter can work for groups of up to
-half a dozen people in which everyone knows everyone else.  Beyond that, groups
-need to spell out who has the authority to make which decisions and how to
-achieve consensus.  In short, they need explicit
-{% include gloss key="governance" %}.
+<cite>Freeman1972</cite>.  The latter can work for groups of up to half a dozen
+people in which everyone knows everyone else.  Beyond that, groups need to spell
+out who has the authority to make which decisions and how to achieve consensus.
+In short, they need explicit <g key="governance">governance</g>.
 
-{% include gloss key="marthas-rules" %} are a practical way to do this
-in groups of up to a few dozen members {% include cite key="Minahan1986" %}:
+<g key="marthas-rules">Martha's Rules</g> are a practical way to do this in
+groups of up to a few dozen members <cite>Minahan1986</cite>:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal.  Proposals
     must be filed at least 24 hours before a meeting in order to be considered
@@ -330,7 +328,7 @@ in groups of up to a few dozen members {% include cite key="Minahan1986" %}:
     delegate is present.  The sponsor is also responsible for presenting the
     item to the group.
 
-4.  After the sponsor presents the proposal a {% include gloss key="sense-vote"%}
+4.  After the sponsor presents the proposal a <g key="sense-vote">sense vote</g>
     is cast for the proposal prior to any discussion:
     -   Who likes the proposal?
     -   Who can live with the proposal?
@@ -373,14 +371,14 @@ make decisions, you should therefore take the time to document this for
 newcomers.  This information may be included as sections in the existing
 `README` file or put into files of their own:
 
-- `CONTRIBUTING` explains how to contribute, i.e., what naming conventions to
+-   `CONTRIBUTING` explains how to contribute, i.e., what naming conventions to
     use for functions, what tags to put on issues, or how to install and
     configure the software needed to start work on the project.  These
     instructions can also be included as a section in `README`; wherever they
     go, remember that the easier it is for people to get set up and contribute,
-    the more likely they are to do so {% include cite key="Steinmacher2014" %}.
+    the more likely they are to do so <cite>Steinmacher2014</cite>.
 
-- `GOVERNANCE` explains how the project is run.  It is still uncommon for this
+-   `GOVERNANCE` explains how the project is run.  It is still uncommon for this
     to be in a file of its own---it is more often included in `README` or
     `CONTRIBUTING`---but open communities have learned the hard way that *not*
     being explicit about who has a voice in decisions and how contributors can
@@ -481,15 +479,14 @@ ask the supervisor to arrange a meeting to resolve the issue.
 
 > **Hitchhikers**
 >
-> {% include gloss key="hitchhiker" text="Hitchhikers" %} who show up but never
-> actually do anything are particularly difficult to manage, in part because
-> they are usually very good at appearing reasonable.  They will nod as we
-> present our case, then say, "Well, yes, but…" and list a bunch of minor
-> exceptions or cases where others on the team have also fallen short of
-> expectations.  Having collaborator guidelines and tracking progress are
-> essential for handling them.  If we can't back up our complaint, our
-> supervisor will likely be left with the impression that the whole team is
-> dysfunctional.
+> <g key="hitchhiker">Hitchhikers</g> who show up but never actually do anything
+> are particularly difficult to manage, in part because they are usually very
+> good at appearing reasonable.  They will nod as we present our case, then say,
+> "Well, yes, but…" and list a bunch of minor exceptions or cases where others
+> on the team have also fallen short of expectations.  Having collaborator
+> guidelines and tracking progress are essential for handling them.  If we can't
+> back up our complaint, our supervisor will likely be left with the impression
+> that the whole team is dysfunctional.
 
 What can we do if conflict becomes more personal and heated, especially if it
 relates to violations of our Code of Conduct?  A few simple guidelines will go a

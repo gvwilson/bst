@@ -22,14 +22,14 @@ crucial to the project's long-term sustainability.
 Every creative work has some sort of license; the only question is whether
 authors and users know what it is and choose to enforce it.  Choosing a license
 for a project can be complex, not least because the law hasn't kept up with
-everyday practice.  FIXME lightweight intro while
-{% include cite key="Lindberg2008" %} is a deeper dive for those who want
-details.  Depending on country, institution, and job role, most creative works
-are automatically eligible for intellectual property protection.  However,
-members of the team may have different levels of copyright protection.  For
-example, students and faculty may have a copyright on the research work they
-produce, but university staff members may not, since their employment agreement
-may state that what they create on the job belongs to their employer.
+everyday practice.  FIXME lightweight intro while <cite>Lindberg2008</cite> is a
+deeper dive for those who want details.  Depending on country, institution, and
+job role, most creative works are automatically eligible for intellectual
+property protection.  However, members of the team may have different levels of
+copyright protection.  For example, students and faculty may have a copyright on
+the research work they produce, but university staff members may not, since
+their employment agreement may state that what they create on the job belongs to
+their employer.
 
 To avoid legal messiness, every project should include an explicit license.
 This license should be chosen early, since changing a license can be
@@ -46,7 +46,7 @@ users may wind up operating under different licensing structures.
 To make license selection for code as easy as possible, GitHub allows us to
 select one of several common software licenses when creating a repository.  The
 Open Source Initiative maintains [a list][osi-license-list] of
-{% include gloss key="open-license" text="open licenses" %}, and
+<g key="open-license">open licenses</g>, and
 [choosealicense.com][choose-license] will help us find a license that suits our
 needs.  Some of the things we need to think about are:
 
@@ -67,7 +67,7 @@ needs.  Some of the things we need to think about are:
 Unfortunately, GitHub's list does not include common licenses for data or
 written works like papers and reports.  Those can be added in manually, but it's
 often hard to understand the interactions between multiple licenses on different
-kinds of material {% include cite key="Almeida2017" %}.
+kinds of material <cite>Almeida2017</cite>.
 
 Just as the project's Code of Conduct is usually placed in a root-level file
 called `CONDUCT.md`, its license is usually put in a file called `LICENSE.md`
@@ -76,13 +76,12 @@ that is also in the project's root directory.
 ### Software
 
 In order to choose the right license for our software, we need to understand the
-difference between two kinds of license.  The
-{% include gloss key="mit-license" %} and its close sibling the
-{% include gloss key="bsd-license" %} say that people can do whatever they want
-to with the software as long as they cite the original source, and that the
-authors accept no responsibility if things go wrong.  The
-{% include gloss key="gpl" %} gives people similar rights, but requires them to
-share their own work on the same terms:
+difference between two kinds of license.  The <g key="mit-license">MIT
+License</g> and its close sibling the <g key="bsd-license">BSD License</g> say
+that people can do whatever they want to with the software as long as they cite
+the original source, and that the authors accept no responsibility if things go
+wrong.  The <g key="gpl">GNU Public License</g> (GPL) gives people similar
+rights, but requires them to share their own work on the same terms:
 
 > You may copy, distribute and modify the software as long as you track
 > changes/dates in source files.  Any modifications to or software including
@@ -103,13 +102,13 @@ it places the fewest restrictions on future action.
 
 > **First, Do No Harm**
 >
-> The {% include gloss key="hippocratic-license" %} is a newer license that is
-> quickly becoming popular.  Where the GPL requires people to share their work,
-> the Hippocratic License requires them to do no harm.  More precisely, it
-> forbids people from using the software in ways that violate the [Universal
-> Declaration of Human Rights][udhr].  We have learned the hard way that
-> software and science can be mis-used; adopting the Hippocratic License is a
-> small step toward preventing this.
+> The <g key="hippocratic-license">Hippocratic License</g> is a newer license
+> that is quickly becoming popular.  Where the GPL requires people to share
+> their work, the Hippocratic License requires them to do no harm.  More
+> precisely, it forbids people from using the software in ways that violate the
+> [Universal Declaration of Human Rights][udhr].  We have learned the hard way
+> that software and science can be mis-used; adopting the Hippocratic License is
+> a small step toward preventing this.
 
 ### Data and reports
 
@@ -118,18 +117,18 @@ software.  When it comes to data and reports, the most widely used family of
 licenses are those produced by [Creative Commons][creative-commons].  These have
 been written and checked by lawyers and are well understood by the community.
 
-The most liberal option is referred to as {% include gloss key="cc0" %} where
-the "0" stands for "zero restrictions".  This puts work in the public domain,
-i.e., allows anyone who wants to use it to do so however they want with no
+The most liberal option is referred to as <g key="cc0">CC0</g> where the "0"
+stands for "zero restrictions".  This puts work in the public domain, i.e.,
+allows anyone who wants to use it to do so however they want with no
 restrictions.  CC-0 is usually the best choice for data, since it simplifies
 aggregate analysis involving datasets from different sources.  It does not
 negate the scholarly tradition and requirement of citing sources; it just
 doesn't make it a legal requirement.
 
 The next step up from CC-0 is the Creative Commons--Attribution license, usually
-referred to as {% include gloss key="cc-by" %} This allows people to do whatever
-they want to with the work as long as they cite the original source.  This is
-the best license to use for manuscripts: we want people to share them widely but
+referred to as <g key="cc-by">CC-BY</g>. This allows people to do whatever they
+want to with the work as long as they cite the original source.  This is the
+best license to use for manuscripts: we want people to share them widely but
 also want to get credit for our work.
 
 Other Creative Commons licenses incorporate various restrictions, and are

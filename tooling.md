@@ -191,7 +191,7 @@ game.exe : game.bc graphics.bc utils.bc
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
 the `tx` compiler with several options.  Below that is a
-{% include gloss key="pattern-rule" %} telling Make how to create any `.bc` file
+<g key="pattern-rule">pattern rule</g> telling Make how to create any `.bc` file
 from a `.grace` file with the same root name; the cryptic expression `$<` is
 Make's way of saying "the first thing the target depends on".
 
@@ -297,7 +297,7 @@ teamwork.
 
 ## Debugger
 
-A {% include gloss key="symbolic-debugger" %} is a program that allows you to
+A <g key="symbolic-debugger">symbolic debugger</g> is a program that allows you to
 control and inspect the execution of another program. You can step through the
 target program a line at a time, display the values of variables or expressions,
 look at the call stack, or (my personal favorite) set *breakpoints* to say
@@ -358,7 +358,7 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, a {% include gloss key="issue-tracker" %} is a shared to-do
+At its simplest, an <g key="issue-tracker">issue tracker</g> is a shared to-do
 list. Ticketing systems are also called ticketing systems and bug trackers,
 because most software projects use one to keep track of the bugs that developers
 and users find. These days, issue trackers are almost invariably web-based. To
@@ -493,16 +493,16 @@ productive. Some aren't part of the standard undergraduate curriculum yet, even
 though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
-The first is a {% include gloss key="doc-generator" %} like Javadoc. This is a
-compiler of a sort, but instead of translating source code into something
-executable, it extracts information from specially-formatted comments and
-strings, and turns it into human-readable documentation.  The justification for
-this is that when code and documentation are stored separately, programmers
-won't keep the latter up to date. Since "rusty" documentation can be worse than
-no documentation at all, it makes a lot of sense to keep the source of the
-documentation right beside the code. Many introductory courses require students
-to document their packages, classes, and methods this way; it's a good habit,
-and one you should cultivate.
+The first is a <g key="doc-generator">documentation generator</g> like
+[JSDoc][jsdoc]. This is a compiler of a sort, but instead of translating source
+code into something executable, it extracts information from specially-formatted
+comments and strings, and turns it into human-readable documentation.  The
+justification for this is that when code and documentation are stored
+separately, programmers won't keep the latter up to date. Since "rusty"
+documentation can be worse than no documentation at all, it makes a lot of sense
+to keep the source of the documentation right beside the code. Many introductory
+courses require students to document their packages, classes, and methods this
+way; it's a good habit, and one you should cultivate.
 
 Along with testing frameworks, *style checkers* have become a lot more popular
 since the turn of the century. Early style checkers looked at code to make sure
@@ -542,7 +542,7 @@ projects really require (except possibly the GUI editors), so I'd like to close
 this section by asking you to invest some time in something else:
 scripting. Good programmers don't just use tools, they build them. I have dozens
 of small programs in my `tools` directory that do things like update my working
-copies of all the projects I'm involved in[^38] or check whether the links to
+copies of all the projects I'm involved in or check whether the links to
 Amazon.com in my course notes are still valid. Anything worth doing repeatedly
 is worth automating; if you and your teammates find yourselves typing in the
 same commands over and over again, *write a program to do it for you*. And
@@ -632,3 +632,5 @@ Pictures.
     uniquely theirs. I hang a few postcards on the wall wherever I work, along
     with a photograph of my wife and daughter taken a few months after she was
     born (my daughter, that is), just to remind me what's really important.
+
+{% include links.md %}

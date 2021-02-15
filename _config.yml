@@ -1,5 +1,5 @@
-title: Building Software Together
-subtitle: a student's guide to team software projects
+title: The Compassionate Programmer
+subtitle: a student's guide to building software in teams
 url: https://gvwilson.github.io/bst
 repository: gvwilson/bst
 
@@ -45,7 +45,10 @@ author:
   linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
 
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+    syntax_highlighter_opts:
+      disable: true
 
 exclude:
   - '*.sublime-*'
@@ -54,6 +57,7 @@ exclude:
   - Gemfile.lock
   - Makefile
   - vendor/bundle
+  - book.*
 
 permalink: pretty
 

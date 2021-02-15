@@ -1,6 +1,8 @@
 ---
 ---
 
+<div class="bibliography" markdown="1">
+
 {:auto_ids}
 Almeida2017
 :   Daniel A. Almeida, Gail C. Murphy, Greg Wilson, and Mike Hoye:
@@ -32,8 +34,19 @@ Lindberg2008
 :   Van Lindberg: *Intellectual Property and Open Source: A Practical Guide to Protecting Code*.
     O'Reilly, 2008, 978-0596517960.
 
+Margolis2002
+:   Jane Margolis and Allan Fisher
+    *Unlocking the Clubhouse: Women in Computing*.
+    MIT Press, 2002, 978-0262632690.
+
 Minahan1986
-:   Anne Minahan: "Martha's Rules."  *Affilia*, 1(2), June 1986, doi:10.1177/088610998600100206.
+:   Anne Minahan: "Martha's Rules."
+    *Affilia*, 1(2), June 1986, doi:10.1177/088610998600100206.
+
+Oakley2004
+:   Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
+    "Turning Student Groups into Effective Teams."
+    *Journal of Student Centered Learning*, 2(1), 2004.
 
 Petre2013
 :   Marian Petre:
@@ -60,5 +73,7 @@ Steinmacher2014
 :   Igor Steinmacher, Igor Scaliante Wiese, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles:
     "The Hard Life of Open Source Software Project Newcomers."
     *Proc. CHASE'14*, 2014, doi:10.1145/2593702.2593704.
+
+</div>
 
 {% include links.md %}

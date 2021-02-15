@@ -52,8 +52,7 @@ commenting, and variable naming).
 The other thing student projects usually have to deliver is some kind of final
 report. Most students short-change this part of the course, in part because it
 comes at the end, but also because they think, "I want to write code, not a
-novel." But here's Karl Fogel, author of {% include cite key="Fogel2005" %}, on
-writing:
+novel." But here's Karl Fogel, author of <cite>Fogel2005</cite>, on writing:
 
 > The ability to write clearly is perhaps the most important skill one can have
 > in an open source environment. In the long run it matters more than
@@ -296,3 +295,5 @@ talk][carpentrycon-talk] for more detail.
 10. Do something fun before you go.
 :   There will never be a better time to try that wild idea that's been in the back
     of your mind for ages.
+
+{% include links.md %}

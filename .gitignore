@@ -1,8 +1,4 @@
-*.aux
-*.log
-*.out
 *.pyc
-*.toc
 *~
 .DS_Store
 .bundle
@@ -12,3 +8,4 @@
 __pycache__
 _cache
 _site
+book.*

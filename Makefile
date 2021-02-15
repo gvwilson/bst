@@ -5,10 +5,8 @@ SITE=./_site
 CONFIG=_config.yml
 INCLUDES=$(wildcard _includes/*)
 LAYOUTS=$(wildcard _layouts/*.html)
-PAGES=\
-	$(wildcard *.md)\
-	$(wildcard */index.md)
-STYLES=$(wildcard _sass/*/*.scss) $(wildcard css/*.css) $(wildcard css/*.scss)
+MARKDOWN=$(wildcard *.md) $(wildcard */index.md)
+STATIC=$(wildcard _sass/*/*.scss) $(wildcard css/*.css) $(wildcard css/*.scss) $(wildcard js/*.js)
 
 .DEFAULT: commands
 
@@ -24,6 +22,18 @@ build:
 serve:
 	${JEKYLL} serve
 
+${SITE}/index.html: _config.yml ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC}
+	${JEKYLL} build
+
+## book.tex: create LaTeX file.
+book.tex: ${SITE}/index.html bin/html2tex.py
+	bin/html2tex.py --config _config.yml --site _site --head tex/head.tex --foot tex/foot.tex > book.tex
+
+## book.pdf: create PDF file.
+book.pdf: book.tex
+	@pdflatex book
+	@pdflatex book
+
 ## ----
 
 ## check: run all checks
@@ -34,21 +44,22 @@ check:
 
 ## bibliography: compare citations and definitions
 bibliography:
-	@bin/bibliography.py --bibliography bibliography.md --sources ${PAGES}
+	@bin/bibliography.py --bibliography bibliography.md --sources ${MARKDOWN}
 
 ## chapters: compare chapter cross-references to chapters
 chapters:
-	@bin/chapters.py --config _config.yml --sources ${PAGES}
+	@bin/chapters.py --config _config.yml --sources ${MARKDOWN}
 
 ## glossary: compare references and definitions
 glossary:
-	@bin/glossary.py --glossary _data/glossary.yml --sources ${PAGES}
+	@bin/glossary.py --glossary _data/glossary.yml --sources ${MARKDOWN}
 
 ## ----
 
 ## clean: clean up stray files
 clean:
 	@find . -name '*~' -exec rm {} \;
+	@rm -f *.aux *.log *.out *.tex *.toc
 
 ## sterile: clean up and erase generated site
 sterile:

@@ -313,7 +313,7 @@ Patches are things that don't have their own installers. If, for example, you
 need to change one HTML form, or one DLL, you will often just mail that out to
 customers, along with instructions about where to put it, rather than creating a
 new installer. You should still give it a number, though, and make an entry in
-your release log[^40].
+your release log.
 
 The build number is incremented every time you create a new version of the
 product for QA to test. Build numbers are never reset, i.e. you don't go from
@@ -368,7 +368,7 @@ def extrapolate(basis, case):
     result = run_trial(trials[0])
     for t in range(1, len(trials)):
         result = max(result, run_trial(trials[i]))
-    debug(f"...exiting extrapolate with {result}"}
+    debug(f"...exiting extrapolate with {result}")
 ```
 
 At first glance, this is just more verbose. The benefit, though, is that your

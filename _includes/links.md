@@ -7,9 +7,11 @@
 [git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
 [github]: https://github.com/
 [hippocratic-license]: https://firstdonoharm.dev/
+[jsdoc]: https://jsdoc.app/
 [noaa-disruptive]: https://coast.noaa.gov/ddb/
 [osi-license-list]: https://opensource.org/licenses
 [selenium]: https://www.selenium.dev/
+[t3-personas]: https://teachtogether.tech/en/index.html#s:process-personas
 [thirdbit-datacamp]: http://third-bit.com/2019/04/22/datacamp-clarifications/
 [tldr-gpl]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
 [udhr]: https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
