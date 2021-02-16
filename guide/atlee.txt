@@ -1,0 +1,25 @@
+1) Here is a link to the Week 1 video on Teams
+https://vault.cs.uwaterloo.ca/s/gj7anpgA49n36s2
+
+2) On week 2 teams need to complete a team contract
+Here is a contract template. Under the contract's respective headings, include team-negotiated answers to the following questions:
+
+    Team Goals: What does each member of the team want to get out of working on this project? Is everyone here to accomplish the same thing? What are your goals as a team collectively? 
+    Team Communications: How will you communicate? What are your expectations regarding the timeliness of responses to emails / slack messages? 
+    Team Roles: Who will be the team leader starting on Monday? (See the Project Web page for more information about the Team Leader role that rotates among team members) What other team roles do you think are necessary for success of your project? (See the "Teamwork" lecture video/slides for possible team roles) Who will be assigned which team role? Will team roles rotate (e.g., as the leadership role rotates) or be fixed. Consider each team member’s strengths and weaknesses, their desires to capitalize on their strengths, and their desires to learn and improve on their weaknesses. 
+    Meeting Preparation: What do you expect team members to do prior to each weekly team meeting? 
+    Teamwork Assignments: How are you going to structure the work each week? Do you expect to do most of the work during or outside of the weekly team meeting? What process will you use to assign responsibilities to teammembers? How will you accommodate teammates' time commitments outside of this class? (Consider regular commitments, workload in other courses, ad hoc commitments)
+    Team Coordination: What are your expectations around the attitude of team members in the weekly meeting, and how you should respond to each other’s ideas? How will you manage turn-taking? How will you ensure that all teammembers contribute to the conversations? How will you ensure that decision making is thorough yet expedient? 
+    Team Deliverables: Who will be responsible for ensuring that team deliverables are submitted on time? Do you expect all members of the team to have a chance to vet the submission before it goes out? When should the writeup be ready for everyone to review?
+    Surprises: How will you deal with surprises? What should individual do when he/she has a hard time delivering on something they promised either because it was harder than expected or because of an unexpected life event? How will the team respond?
+    Conflicts: How will you handle conflict? If any member on the team feels that something is not going right on the team, how would they signal it? How will the team respond?
+
+3) At the end of week 4 and week 9 (right before the final push of the course project), teams need to complete a team health check
+https://www.surveymonkey.com/r/JZH39XQ
+We share with each team their team’s average course on each question and the class’s average score on each question
+
+4) On week 5, I have a lecture on conflict management (the course is on software requirements), and I added a supplemental video on how the same strategies can apply to team conflicts. Here are links to both of those videos:
+https://vault.cs.uwaterloo.ca/s/4mnA2jZNJA4ssH6
+https://vault.cs.uwaterloo.ca/s/zndF4Taocd6mjaL
+
+5) Every other week, the team leader for those two weeks writes a peer evaluation of all team members. If there are indications of trouble, we talk with the letter writer about how to talk with their team members constructively.
