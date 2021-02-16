@@ -92,6 +92,9 @@ def convert(node, accum, doEscape):
         convert_children(node, accum, doEscape)
         accum.append('\\end{quotation}\n')
 
+    elif node.name == 'br':
+        accum.append(r'\linebreak{}')
+
     # cite => cite
     elif node.name == 'cite':
         accum.append(r'\cite{')

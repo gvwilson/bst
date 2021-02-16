@@ -30,6 +30,21 @@ Freeman1972
     Originally published in *The Second Wave*, 2(1), 1972;
     reprinted in *Women's Studies Quarterly*, 2013, doi:10.1353/wsq.2013.0072.
 
+Glass2002
+:   Robert L. Glass:
+    *Facts and Fallacies of Software Engineering.*
+    Addison-Wesley Professional, 2002, 978-0321117427.
+
+Hunt1999
+:   Andrew Hunt and David Thomas:
+    *The Pragmatic Programmer: From Journeyman to Master.*
+    Addison-Wesley Professional, 1999, 978-0201616224.
+
+Kernighan1981
+:   Brian W. Kernighan and P. J. Plauger:
+    *Software Tools in Pascal.*
+    Addison-Wesley Professional, 1981, 978-0201103427.
+
 Lindberg2008
 :   Van Lindberg: *Intellectual Property and Open Source: A Practical Guide to Protecting Code*.
     O'Reilly, 2008, 978-0596517960.
@@ -73,6 +88,11 @@ Steinmacher2014
 :   Igor Steinmacher, Igor Scaliante Wiese, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles:
     "The Hard Life of Open Source Software Project Newcomers."
     *Proc. CHASE'14*, 2014, doi:10.1145/2593702.2593704.
+
+Thomas2019
+:   David Thomas and Andrew Hunt:
+    *The Pragmatic Programmer: Your Journey to Mastery.*
+    Addison-Wesley Professional, 2019, 978-0135957059.
 
 </div>
 

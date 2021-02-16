@@ -3,6 +3,7 @@
 [charles-rules]: https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument
 [choose-license]: https://choosealicense.com/
 [creative-commons]: https://creativecommons.org/
+[contact]: mailto:gvwilson@third-bit.com
 [git]: https://git-scm.com/
 [git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
 [github]: https://github.com/
@@ -10,6 +11,7 @@
 [jsdoc]: https://jsdoc.app/
 [noaa-disruptive]: https://coast.noaa.gov/ddb/
 [osi-license-list]: https://opensource.org/licenses
+[petre-marian]: https://www.open.ac.uk/people/mp8
 [selenium]: https://www.selenium.dev/
 [t3-personas]: https://teachtogether.tech/en/index.html#s:process-personas
 [thirdbit-datacamp]: http://third-bit.com/2019/04/22/datacamp-clarifications/
