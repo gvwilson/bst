@@ -26,11 +26,9 @@ development</g>.  And given how online platforms have fueled radicalization and
 disinformation, shouldn't every book on how to be a better programmer at least
 mention them?
 
-> {: .noindent}
 > "Once the rockets are up, who cares where they come down?<br/>
 > That's not my department" say Wernher von Braun
 >
-> {: .noindent}
 > --- Tom Lehrer
 
 This book can't cover everything that those three did, but if you are an

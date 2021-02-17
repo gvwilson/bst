@@ -14,6 +14,11 @@ Almeida2017
     "Do Software Developers Understand Open Source Licenses?"
     *Proc. ICPC'17*, 2017, doi:10.1109/ICPC.2017.7.
 
+Berlin2000
+:   Isaiah Berlin:
+    *The Proper Study of Mankind: An Anthology of Essays*.
+    Farrar Straus and Giroux, 2000, 978-0374527174.
+
 Borst2015
 :   Jelmer P. Borst, Niels A. Taatgen, and Hedderik van Rijn:
     "What Makes Interruptions Disruptive?"

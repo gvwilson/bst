@@ -38,7 +38,6 @@ smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote Robinson's article:
 
-> {: .noindent}
 > When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
 > criticized by members of the National Association of Manufacturers.  But his
 > experiments, which he'd been conducting for at least 12 years, showed him
@@ -47,7 +46,6 @@ science somehow didn't apply to them.  To quote Robinson's article:
 > reduced production cost…  the core of his argument was that reduced shift
 > length meant more output.
 >
-> {: .noindent}
 > …many studies, conducted by businesses, universities, industry associations
 > and the military, …support the basic notion that, for most people, eight
 > hours a day, five days per week, is the best sustainable long-term balance
@@ -57,7 +55,6 @@ science somehow didn't apply to them.  To quote Robinson's article:
 > America.  In 1962, the Chamber of Commerce even published a pamphlet extolling
 > the productivity gains of reduced hours.
 >
-> {: .noindent}
 > But, somehow, Silicon Valley didn't get the memo…
 
 I was part of a data visualization startup in the mid-1990s.  Three months
@@ -80,7 +77,6 @@ It only takes me a couple of minutes to create a bug that will take hours to
 track down later---or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
-> {: .noindent}
 > Productivity varies over the course of the workday, with the greatest
 > productivity occurring in the first four to six hours.  After enough hours,
 > productivity approaches zero; eventually it becomes negative.
@@ -211,44 +207,41 @@ They may even start to imitate you.
 
 ## Meetings
 
-Pull requests and GitHub issues are good tools for asynchronous work, but team
-meetings are often a more efficient way to make decisions, and help build a
-sense of community.  Knowing how to run a meeting well is as important as
-knowing how to use version control; the rules doing so are simple but rarely
-followed:
+The previous section explained how to be productive individually---what about
+being productive in a team? <chap key="teams"></chap> will explore this subject,
+but the single most important thing is knowing how to run a meeting efficiently.
+The rules doing so are simple but rarely followed:
 
 Decide if there actually needs to be a meeting.
 :   If the only purpose is to share information, have everyone send a brief
-    email instead.  Remember, people can read faster than they can speak: if
-    someone has facts for the rest of the team to absorb, the most polite way to
+    email instead.  Most people can read faster than they can speak: if someone
+    has facts for the rest of the team to absorb, the most polite way to
     communicate them is to type them in.
 
 Write an agenda.
 :   If nobody cares enough about the meeting to prepare a point-form list of
-    what's to be discussed, the meeting itself probably doesn't need to happen.
-    Note that "the agenda is all the open issues in our GitHub repo" doesn't
-    count.
+    what's to be discussed, the meeting probably doesn't need to happen.  Note
+    that "the agenda is all the open issues in our GitHub repo" doesn't count.
 
 Include timings in the agenda.
-:   Timings help prevent early items stealing time from later ones.  The first
-    estimates with any new group are inevitably optimistic, so we should revise
-    them upward for subsequent meetings.  However, we shouldn't have a second or
-    third meeting just because the first one ran over-time: instead, we should
-    try to figure out *why* we're running over and fix the underlying problem.
+:   Doing this helps prevent early items stealing time from later ones.  The
+    first estimates with any new group are inevitably optimistic, so expect to
+    revise them upward for subsequent meetings.  But don't have second or third
+    meeting just because the first one ran over-time: instead, try to figure out
+    *why* it ran over and fix the underlying problem.
 
 Prioritize.
 :   Tackle issues that will have high impact but take little time first, and
-    things that will take more time but have less impact later.  That way, if
-    the first things run over time, the meeting will still have accomplished
-    something.
+    things that will take more time but have less impact later.  That way the
+    meeting will still have accomplished something if the first items run over
+    time.
 
 Make one person responsible for keeping things moving.
 :   One person should be made moderator and be responsible for keeping items to
     time, chiding people who are having side conversations or checking email,
     and asking people who are talking too much to get to the point.  The
     moderator should *not* do all the talking: in fact, whoever is in charge
-    will talk less in a well-run meeting than most other participants.  This
-    should be a rotating duty among members.
+    will talk less in a well-run meeting than most other participants.
 
 Require politeness.
 :   No one gets to be rude, no one gets to ramble, and if someone goes off
@@ -279,28 +272,28 @@ End early.
 :   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
     people a break before whatever they're doing next.
 
-As soon as the meeting is over, circulate the minutes by emailing them to
-everyone or adding a text file to the project's repository:
+As soon as the meeting is over, email the minutes to everyone or add a text file
+to the project's wiki, version control repository, or wherever else things are
+being stored:
 
 People who weren't at the meeting can follow what's going on.
 :   We all have to juggle tasks from several projects or courses, which means
     that sometimes we can't make it to meetings.  Checking a written record is a
-    more accurate and efficient way to catch up than asking a colleague, "So,
-    what did I miss?"
+    more accurate and efficient way to catch up than asking a colleague, "What
+    did I miss?"
 
 Everyone can check what was actually said or promised.
-:   More than once, one of us has looked over the minutes of a meeting and
-    thought, "Did I say that?" or, "I didn't promise to have it ready then!"
-    Accidentally or not, people will often remember things differently; writing
-    them down gives everyone a chance to correct mistakes, misinterpretations,
-    or misrepresentations.
+:   More than once, I have looked over a set of minutes and thought, "Did I say
+    that?" or, "I didn't promise to have it ready then!"  Accidentally or not,
+    people often remember things differently; writing them down gives everyone a
+    chance to correct mistakes, misinterpretations, or misrepresentations.
 
 People can be held accountable at subsequent meetings.
-:   There's no point making lists of questions and action items if we don't
-    follow up on them later.  If we are using an issue-tracking system, we
-    should create a ticket for each new question or task right after the meeting
-    and update those that are being carried forward.  This helps a lot when the
-    time comes to draw up the agenda for the next meeting.
+:   There's no point making lists of questions and action items if you don't
+    follow up on them later.  If you are using an issue-tracking system (<chap
+    key="tooling"></chap>), create a ticket for each new question or task right
+    after the meeting and update those that are being carried forward.  This
+    helps a lot when the time comes to draw up the agenda for the next meeting.
 
 > *Are you a blowfish or a clam?*
 >
@@ -310,8 +303,8 @@ People can be held accountable at subsequent meetings.
 
 ## Making decisions
 
-The purpose of a well-run meeting is to make decisions, so sooner or later, the
-members of a project must decide who has a say in what.  The first step is to
+The purpose of a meeting is to make decisions, so sooner or later, the members
+of a project must decide who has a say in what.  The first step is to
 acknowledge that every team has a power structure: the question is whether it's
 formal or informal---in other words, whether it's accountable or unaccountable
 <cite>Freeman1972</cite>.  The latter can work for groups of up to half a dozen
@@ -320,7 +313,8 @@ out who has the authority to make which decisions and how to achieve consensus.
 In short, they need explicit <g key="governance">governance</g>.
 
 <g key="marthas-rules">Martha's Rules</g> are a practical way to do this in
-groups of up to a few dozen members <cite>Minahan1986</cite>:
+groups with up to a few dozen members <cite>Minahan1986</cite>, and work very
+well for smaller teams too:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal.  Proposals
     must be filed at least 24 hours before a meeting in order to be considered
@@ -362,41 +356,26 @@ groups of up to a few dozen members <cite>Minahan1986</cite>:
 Every group that uses Martha's Rules must make two procedural decisions:
 
 How are proposals put forward?
-:   In a software development project, the easiest way is to file an issue in
-    the project's GitHub repository tagged *Proposal*, or to create a pull
-    request containing a single file with the text of the proposal.  Team
-    members can then comment on the proposal, and the sponsor can revise it
-    before bringing it to a vote.
+:   The easiest way do do this in a software project is to file an issue in the
+    project's issue tracker tagged *Proposal*.  Team members can then comment on
+    the proposal, and the sponsor can revise it before bringing it to a vote.
 
 Who gets to vote?
-:   The usual answer is "whoever is working on the project," but as it attracts
-    more volunteer contributors, a more explicit rule is needed.  One common
-    method is for existing members to nominate new ones, who are then voted on
-    using the process described above.
-
-## Governance
+:   In a course project the answer is "whoever is part of the team," but if the
+    project grows and attracts volunteer contributors, a more explicit rule is
+    needed.  One common method is for existing members to nominate new ones,
+    and for the team to hold a straight yes-or-no vote on each.
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
-make decisions, you should therefore take the time to document this for
-newcomers.  This information may be included as sections in the existing
-`README` file or put into files of their own:
-
--   `CONTRIBUTING` explains how to contribute, i.e., what naming conventions to
-    use for functions, what tags to put on issues, or how to install and
-    configure the software needed to start work on the project.  These
-    instructions can also be included as a section in `README`; wherever they
-    go, remember that the easier it is for people to get set up and contribute,
-    the more likely they are to do so <cite>Steinmacher2014</cite>.
-
--   `GOVERNANCE` explains how the project is run.  It is still uncommon for this
-    to be in a file of its own---it is more often included in `README` or
-    `CONTRIBUTING`---but open communities have learned the hard way that *not*
-    being explicit about who has a voice in decisions and how contributors can
-    tell what decisions have been made causes trouble sooner or later.
-
-Having these files helps new contributors orient themselves, and also signals
-that the project is well run.
+make decisions, you should document this for newcomers (and to prevent disputes
+among people already in the team).  This information may be included as a
+section in the project's `README` file (<chap key="version-control"></chap>) or
+put into a separate file called `CONTRIBUTING`.  This material should describe
+the naming conventions to use for functions, what tags to put on issues, or how
+to install and configure the software needed to start work on the project.
+Wherever it goes, remember that the easier it is for people to get set up, the
+more likely they are to contribute <cite>Steinmacher2014</cite>.
 
 ## Conflict
 
@@ -404,34 +383,33 @@ You just missed an important deadline, and people are unhappy.  The sick feeling
 in the pit of your stomach has turned to anger: you did *your* part, but Sylvie
 didn't finish her stuff until the very last minute, which meant that no one else
 had time to spot the two big mistakes she'd made.  As for Cho, he didn't deliver
-at all---again.  If something doesn't change, contributors are going to start
-looking for a new project.
+at all---again.  If something doesn't change, you're not going to pass this
+course.
 
-Conflicts like this come up all the time.  Broadly speaking, there are four ways
-we can deal with them:
+Conflicts like this come up all the time.  We can deal with them in four ways:
 
 1.  Cross our fingers and hope that things will get better on their own, even
     though they didn't the last three times.
 
-2.  Do extra work to make up for others' shortcomings.  This saves us the mental
-    anguish of confronting others in the short run, but the time for that
-    "extra" has to come from somewhere.  Sooner or later, our personal lives or
-    other parts of the project will suffer.
+2.  Do extra work to make up for others' shortcomings.  This strategy avoids the
+    stress of confronting others in the short run, but the time for that "extra"
+    has to come from somewhere.  Sooner or later, our personal lives or other
+    responsibilities will suffer.
 
-3.  Lose our temper.  People often wind up displacing anger into other parts of
-    their life: they may yell at someone for taking an extra thirty seconds to
-    make a change when what they really need to do is tell their boss that they
-    won't work through another holiday weekend to make up for management's
-    decision to short-staff the project.
+3.  Lose our temper.  People often displace anger into other parts of their
+    lives: they may yell at someone for taking an extra few seconds to make
+    coffee when what they really need to do is tell their teammates that they
+    aren't going to miss another dinner with their family in order to clean up a
+    mess that someone else made.
 
 4.  Take constructive steps to fix the underlying problem.
 
-Most of us find the first three options easiest, even though they don't actually
-fix the problem.  The fourth option is harder because we don't like
-confrontation.  If we manage it properly, though, it is a lot less bruising,
-which means that we don't have to be as afraid of initiating it.  Also, if
-people believe that we will take steps when they bully, lie, procrastinate, or
-do a half-assed job, they will usually avoid making it necessary.
+Most of us find the first three options easiest, even though they don't fix the
+problem.  The fourth option is harder because we don't like confrontation.
+Managed properly, though, it can be much less bruising, which means that we
+don't have to be as afraid of it.  And if people believe that we will take steps
+when they lie, bully, procrastinate, or do a half-assed job, they will often
+avoid making it necessary.
 
 Make sure we are not guilty of the same sin.
 :   We won't get very far complaining about someone else interrupting in
@@ -439,16 +417,16 @@ Make sure we are not guilty of the same sin.
 
 Check expectations.
 :   Are we sure the offender knows what standards they are supposed to be
-    meeting?  This is where things like job descriptions or up-front discussion
-    of who's responsible for what come in handy.
+    meeting?  This is where things like the team contracts described in <chap
+    key="teams"></chap> come in handy.
 
 Check the situation.
-:   Is someone dealing with an ailing parent or immigration woes?  Have they
-    been put to work on three other projects that we don't know about?  Use open
+:   Is someone dealing with an ailing parent or immigration woes?  Do they have
+    deadlines for three other projects that we don't know about?  Use open
     questions like, "Can you help me understand this?" when checking in.  This
     gives them the freedom to explain something you may not have expected, and
     avoids the pressure of being asked directly about something they don't want
-    to explain.
+    to discuss.
 
 Document the offense.
 :   Write down what the offender has actually done and why it's not good enough.
@@ -465,28 +443,29 @@ Check with other team members.
     of stirring up trouble.
 
 Talk with the offender.
-:   This should be a team effort: put it on the agenda for a team meeting,
-    present the complaint, and make sure that the offender understands it.  This
-    is often enough: if someone realizes that they're going to be called on
-    their hitchhiking or bad manners, they will usually change their ways.
+:   This should be a team effort: put it on the agenda for a meeting, present
+    the complaint, and make sure that the offender understands it.  This is
+    sometimes enough to solve the problem: if someone realizes that they're
+    going to be called out for doing sloppy work, they will usually change their
+    ways.
 
 Escalate as soon as there's a second offense.
 :   People who don't have good intentions count on us giving them one last
     chance after another until the project is finished and they can go suck the
-    life out of their next victim.  *Don't fall into this trap.* If someone
+    life out of their next victim.  *Don't fall into this trap.*  If someone
     stole a laptop, we would report it right away.  If someone steals time, we
     are being foolish if we give them a chance to do it again and again.
 
-In academic research projects, "escalation" means "taking the issue to the
-project's principal investigator".  Of course, the PI has probably had dozens of
-students complain to her over the years about teammates not doing their share,
-and it isn't uncommon to have both halves of a pair tell the supervisor that
-they're doing all the work.  (This is yet another reason to use version control:
-it makes it easy to check who's actually written what.)  In order to get her to
-take us seriously and help us fix our problem, we should send her an email
-signed by several people that describes the problem and the steps we have
-already taken to resolve it.  Make sure the offender gets a copy as well, and
-ask the supervisor to arrange a meeting to resolve the issue.
+In a course project, "escalation" means "taking the issue to the instructor".
+Of course, they have probably had dozens of students complain to them over the
+years about teammates not doing their share, and it isn't uncommon to have both
+halves of a pair say that they're doing all the work.  (This is yet another
+reason to use version control: it makes it easy to check who's actually written
+what.)  In order to get them to take us seriously and help us fix our problem,
+we should send them an email signed by several people that describes the problem
+and the steps we have already taken to resolve it.  Make sure the offender gets
+a copy as well, and ask the instructor to arrange a meeting to resolve the
+issue.
 
 > **Hitchhikers**
 >
@@ -494,14 +473,12 @@ ask the supervisor to arrange a meeting to resolve the issue.
 > are particularly difficult to manage, in part because they are usually very
 > good at appearing reasonable.  They will nod as we present our case, then say,
 > "Well, yes, but…" and list a bunch of minor exceptions or cases where others
-> on the team have also fallen short of expectations.  Having collaborator
-> guidelines and tracking progress are essential for handling them.  If we can't
-> back up our complaint, our supervisor will likely be left with the impression
-> that the whole team is dysfunctional.
+> on the team have also fallen short of expectations.  Tracking progress and
+> contributions is essential for handling them.  If we can't back up our
+> complaint, our instructor will likely be left with the impression that the
+> whole team is dysfunctional.
 
-What can we do if conflict becomes more personal and heated, especially if it
-relates to violations of our Code of Conduct?  A few simple guidelines will go a
-long way:
+What can we do if conflict becomes more personal and heated?
 
 1.  Be short, simple, and firm.
 
@@ -523,17 +500,14 @@ long way:
 [Captain Awkward][captain-awkward] has useful advice for discussions like these,
 and [Charles' Rules of Argument][charles-rules] are very useful online.
 
-Finally, it's important to recognize that good principles sometimes conflict.
-For example, consider this scenario:
-
-> A manager consistently uses male pronouns to refer to software and people of
-> unknown gender.  When you tell them it makes you uncomfortable to treat
-> maleness as the norm, they say that male is the default gender in their first
-> language and you should be more considerate of people from other cultures.
-
-On the one hand, we want to respect other people's cultures; on the other hand,
-we want to be inclusive of women.  In this case, the manager's discomfort about
-changing pronouns matters less than the career harm caused by them being
-exclusionary, but many cases are not this clear cut.
+Finally, it's important to recognize that good principles sometimes conflict
+<cite>Berlin2000</cite>.  For example, suppose that a student has a medically
+diagnosed attention disorder that requires them to talk to themselves quite
+loudly while programming in order to stay focused, but other members of their
+team find this very distracting.  Asking the student in question to program
+somewhere else would be punishing them for something they can't control, while
+asking everyone else to put on headphones would make their interaction more
+difficult and their work less fun.  There might not be a solution that satisfies
+everyone; in such cases, the best guide is to do the kindest thing possible.
 
 {% include links.md %}
