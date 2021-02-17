@@ -15,7 +15,7 @@
       <main>
         {% if this %}
         <header>
-          <h1 class="page-title">{{ this.title }}</h1>
+          <h1 class="page-title" key="{{ slug }}">{{ this.title }}</h1>
         </header>
         {% else %}
         <header>

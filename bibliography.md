@@ -4,10 +4,20 @@
 <div class="bibliography" markdown="1">
 
 {:auto_ids}
+Abad2018
+:   Zahra Shakeri Hossein Abad, Oliver Karras, Kurt Schneider, Ken Barker, and Mike Bauer:
+    "Task Interruption in Software Development Projects."
+    *Proc. EASE'18*, 2018, doi:10.1145/3210459.3210471.
+
 Almeida2017
 :   Daniel A. Almeida, Gail C. Murphy, Greg Wilson, and Mike Hoye:
     "Do Software Developers Understand Open Source Licenses?"
     *Proc. ICPC'17*, 2017, doi:10.1109/ICPC.2017.7.
+
+Borst2015
+:   Jelmer P. Borst, Niels A. Taatgen, and Hedderik van Rijn:
+    "What Makes Interruptions Disruptive?"
+    *Proc. CHI'15*, 2015, doi:10.1145/2702123.2702156.
 
 Csikszentmihalyi1991
 :   Mihaly Csikszentmihalyi:
@@ -62,6 +72,11 @@ Oakley2004
 :   Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
     "Turning Student Groups into Effective Teams."
     *Journal of Student Centered Learning*, 2(1), 2004.
+
+Parnin2010
+:   Chris Parnin and Spencer Rugaber:
+    "Resumption Strategies for Interrupted Programming Tasks.",
+    *Software Quality Journal*, 19(1), 2010, doi:10.1007/s11219-010-9104-9.
 
 Petre2013
 :   Marian Petre:

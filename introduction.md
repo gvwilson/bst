@@ -42,7 +42,7 @@ is not purely selfless: treating other people as if they are as important as
 yourself also makes your life easier, not least because you-in-the-future is one
 of the people you're helping.
 
-## Who is this book for?
+## Audience
 
 Every lesson should be written with specific learners in mind.  These three
 [personas][t3-personas] are ours:
@@ -75,7 +75,7 @@ Like these three personas, readers should:
 -   Know how to use [Git][git] to save and share files. (It's OK not to know
     [the more obscure commands][git-man-page-generator].)
 
-## What will we cover?
+## Topics
 
 Life is short and your project is even shorter, so this book focuses on the
 handful of tools and techniques that will help you the most in the short and
@@ -101,7 +101,7 @@ medium term:
 
 -   What to do when things go wrong.
 
-## How can people contribute?
+## Contributing
 
 If you would like to improve what we have or add new material,
 please see the Code of Conduct in <app key="conduct"></app>
@@ -109,7 +109,7 @@ and the contributor guidelines in <app key="contributing"></app>.
 If you have questions or would like to use this material in a course,
 please [send us email][contact].
 
-## Who helped us and inspired us?
+## Acknowledgments
 
 This book is dedicated to [Marian Petre][petre-marian], who taught me how to
 think about how programmers think and work.

@@ -175,8 +175,11 @@ def convert(node, accum, doEscape):
 
     # h1 => chapter title
     elif node.name == 'h1':
+        key = node['key']
         accum.append(r'\chapter{')
         convert_children(node, accum, doEscape)
+        accum.append(r'}\label{')
+        accum.append(key)
         accum.append('}\n')
 
     # h2 => section title

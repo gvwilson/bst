@@ -12,6 +12,8 @@ chapters:
     title: "Getting Started"
   - slug: "teams"
     title: "Teams"
+  - slug: "version-control"
+    title: "Version Control"
   - slug: "tooling"
     title: "Tooling"
   - slug: "process"
