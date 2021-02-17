@@ -185,10 +185,10 @@ up the build", and "upgrade to the latest version of Node.js".
 So, it's Monday morning.  Version N shipped last Thursday; the team has had a
 weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
-to recover, go back and re-read {% include chap key="important-stuff" %}.)  At
-this point the product manager divides up the list of desired features and
-assigns them to the developers.  Each developer then has some time---typically a
-few days to a couple of weeks---to do a little research, write some throwaway
+to recover, go back and re-read <chap key="important-stuff"></chap>.)  At this
+point the product manager divides up the list of desired features and assigns
+them to the developers.  Each developer then has some time---typically a few
+days to a couple of weeks---to do a little research, write some throwaway
 prototype code, and most importantly *think*.  How could this feature be
 implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
@@ -262,10 +262,10 @@ Denial.
 :   This is very popular but doesn't actually solve the problem.
 
 Start working evenings and weekends.
-:   This is also very popular, but ultimately self-defeating.  As
-    {% include chap key="important-stuff" %} explained, the quality of your work
-    goes down when you're tired, so any ground you gain by working 'til three
-    a.m.  you lose to extra debugging and rewriting.
+:   This is also very popular, but is quickly self-defeating.  As <chap
+    key="important-stuff"></chap> explained, the quality of your work goes down
+    when you're tired, so any ground you gain by working 'til three a.m.  you
+    lose to extra debugging and rewriting.
 
 Ask for more time.
 :   Groups working in industry often do this (often in combination with the

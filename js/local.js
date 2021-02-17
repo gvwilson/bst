@@ -18,6 +18,25 @@ const fixBibCites = (toRoot) => {
 }
 
 /**
+ * Fill in cross-references.
+ * @param {string} toRoot Path to root of volume.
+ * @param {Object} numbering Numbering data.
+ */
+const fixCrossRefs = (toRoot, numbering) => {
+  const tags = ['app', 'chap']
+  tags.forEach(tag => {
+    Array.from(document.querySelectorAll(tag))
+      .forEach(node => {
+        const slug = node.getAttribute('key')
+        const link = document.createElement('a')
+        link.setAttribute('href', `${toRoot}/${slug}/`)
+        link.innerHTML = numbering[slug].label
+        node.parentNode.replaceChild(link, node)
+      })
+  })
+}
+
+/**
  * Find and fix glossary references.
  * @param {string} toRoot Path to root of this volume.
  * @param {string} volume Name of this volume.
@@ -40,5 +59,6 @@ const fixGlossaryRefs = (toRoot) => {
 const fixPage = () => {
   const toRoot = '..'
   fixBibCites(toRoot)
+  fixCrossRefs(toRoot, NUMBERING)
   fixGlossaryRefs(toRoot)
 }

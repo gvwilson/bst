@@ -86,14 +86,25 @@ def convert(node, accum, doEscape):
         temp = ''.join(convert_children(node, [], doEscape))
         accum.append(rf'\hreffoot{{{temp}}}{{{link}}}')
 
+    # app => appendix cross-reference
+    elif node.name == 'app':
+        key = node['key']
+        accum.append(rf'\appref{{{key}}}')
+
     # blockquote => quotation
     elif node.name == 'blockquote':
         accum.append('\\begin{quotation}\n')
         convert_children(node, accum, doEscape)
         accum.append('\\end{quotation}\n')
 
+    # br => line break
     elif node.name == 'br':
-        accum.append(r'\linebreak{}')
+        accum.append(r' \\')
+
+    # chap => chapter cross-reference
+    elif node.name == 'chap':
+        key = node['key']
+        accum.append(rf'\chapref{{{key}}}')
 
     # cite => cite
     elif node.name == 'cite':
@@ -195,6 +206,9 @@ def convert(node, accum, doEscape):
     # p => paragraph
     elif node.name == 'p':
         accum.append('\n')
+        if has_class(node, 'noindent'):
+            accum.append(r'\noindent')
+            accum.append('\n')
         convert_children(node, accum, doEscape)
         accum.append('\n')
 

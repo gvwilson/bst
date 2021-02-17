@@ -278,8 +278,8 @@ TAs and other outsiders. "Observables" means that instead of asking, "Is the
 person outgoing," or "Does the person have a positive attitude," assessments
 should ask, "Does the person listen attentively during meetings," or, "Does the
 person attempt to solve problems before asking for help." The performance review
-guidelines in {% include chap key="performance-evaluation" %} show how well you
-code is only a one part of how useful you are to a software development company.
+guidelines in <app key="performance-evaluation"></app> show how well you code is
+only a one part of how useful you are to a software development company.
 
 ## Dealing with conflict
 

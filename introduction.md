@@ -26,9 +26,11 @@ development</g>.  And given how online platforms have fueled radicalization and
 disinformation, shouldn't every book on how to be a better programmer at least
 mention them?
 
+> {: .noindent}
 > "Once the rockets are up, who cares where they come down?<br/>
 > That's not my department" say Wernher von Braun
 >
+> {: .noindent}
 > --- Tom Lehrer
 
 This book can't cover everything that those three did, but if you are an
@@ -101,10 +103,11 @@ medium term:
 
 ## How can people contribute?
 
-If you would like to improve what we have or add new material, please see the
-Code of Conduct in {% include chap key="conduct" %} and the contributor
-guidelines in {% include chap key="contributing" %}.  If you have questions or
-would like to use this material in a course, please [send us email][contact].
+If you would like to improve what we have or add new material,
+please see the Code of Conduct in <app key="conduct"></app>
+and the contributor guidelines in <app key="contributing"></app>.
+If you have questions or would like to use this material in a course,
+please [send us email][contact].
 
 ## Who helped us and inspired us?
 

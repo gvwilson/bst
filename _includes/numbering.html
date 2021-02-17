@@ -1,0 +1,20 @@
+{%- assign in_chapters = true -%}
+{%- assign num_chapters = 0 -%}
+<script>
+  const NUMBERING = {
+    {%- for entry in site.chapters -%}
+      {%- if entry.appendix -%}
+        {%- assign in_chapters = false -%}
+      {%- else -%}
+        {%- if in_chapters %}
+          {%- assign num_chapters = num_chapters | plus: 1 -%}
+          "{{ entry.slug }}": { title: "{{ entry.title }}", label: "Chapter {{ num_chapters }}" },
+        {%- else -%}
+          {%- assign temp = forloop.index0 | minus: num_chapters -%}
+          "{{ entry.slug }}": { title: "{{ entry.title }}", label: "Appendix {{ 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | slice: temp }}" }
+          {%- unless forloop.last -%},{%- endunless -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  }
+</script>
