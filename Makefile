@@ -39,16 +39,16 @@ book.pdf: book.tex
 ## check: run all checks
 check:
 	@make bibliography
-	@make chapters
+	@make crossref
 	@make glossary
 
 ## bibliography: compare citations and definitions
 bibliography:
 	@bin/bibliography.py --bibliography bibliography.md --sources ${MARKDOWN}
 
-## chapters: compare chapter cross-references to chapters
-chapters:
-	@bin/chapters.py --config _config.yml --sources ${MARKDOWN}
+## crossref: compare chapter cross-references to chapters and appendices
+crossref:
+	@bin/crossref.py --config _config.yml --sources ${MARKDOWN}
 
 ## glossary: compare references and definitions
 glossary:

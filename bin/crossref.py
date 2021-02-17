@@ -9,19 +9,15 @@ import sys
 import utils
 
 
-# Chapter references use Jekyll inclusions.
-CHAP_REF = re.compile(r'\{%\s+include\s+chap\b.+?key="(.+?)".+?%\}', re.DOTALL)
+# Chapter and appendix references use <chap key="..."></chap> and <app key="..."></app>.
+CHAP_REF = re.compile(r'<(chap|app)\s+key="(.+?)">', re.DOTALL)
 
 
-def main():
+def crossref(options):
     '''Main driver.'''
-    options = utils.get_options(
-        ['--config', False, 'Path to YAML configuration file'],
-        ['--sources', True, 'List of input files']
-    )
     config = utils.read_yaml(options.config)
     defined = get_slugs(config)
-    referenced = utils.get_all_matches(CHAP_REF, options.sources)
+    referenced = utils.get_all_matches(CHAP_REF, options.sources, group=2)
     utils.report('cross-references', checkOnlyRight=False, referenced=referenced, defined=defined)
 
 
@@ -31,4 +27,8 @@ def get_slugs(config):
 
 
 if __name__ == '__main__':
-    main()
+    options = utils.get_options(
+        ['--config', False, 'Path to YAML configuration file'],
+        ['--sources', True, 'List of input files']
+    )
+    crossref(options)

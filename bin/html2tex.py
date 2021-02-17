@@ -28,19 +28,13 @@ RECURSE_ONLY = {
 }
 
 
-def main():
+def html2tex(options):
     '''Main driver.'''
-    options = utils.get_options(
-        ['--config', False, 'Path to YAML configuration file'],
-        ['--foot', False, 'Path to LaTeX footer file'],
-        ['--head', False, 'Path to LaTeX header file'],
-        ['--site', False, 'Path to root directory of HTML site']
-    )
     config = utils.read_yaml(options.config)
     filenames = get_filenames(options.site, config)
     accum = []
     for f in filenames:
-        html2tex(f, accum)
+        convert_file(f, accum)
     result = ''.join(accum)
     display(options, result)
 
@@ -52,7 +46,7 @@ def get_filenames(site, config):
             if 'slug' in entry]
 
 
-def html2tex(filename, accum):
+def convert_file(filename, accum):
     '''Translate a file from HTML to LaTeX.'''
     with open(filename, 'r') as reader:
         text = reader.read()
@@ -315,4 +309,10 @@ def escape(text, doEscape):
 
 
 if __name__ == '__main__':
-    main()
+    options = utils.get_options(
+        ['--config', False, 'Path to YAML configuration file'],
+        ['--foot', False, 'Path to LaTeX footer file'],
+        ['--head', False, 'Path to LaTeX header file'],
+        ['--site', False, 'Path to root directory of HTML site']
+    )
+    html2tex(options)

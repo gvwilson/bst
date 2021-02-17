@@ -289,9 +289,9 @@ ten-week window.  That's OK: it's a shame you won't get to them, but at least
 you know it now and can start taking action (like lowering your customer's
 expectations) well in advance of delivery.
 
-In the real world these calculations are the responsibility of the <g
-key="project-manager">project manager</g>.  Her job is to make sure everyone is
-doing what they're supposed to, to handle interruptions (there are *always*
+In the real world these calculations are the responsibility of the
+<g key="project-manager">project manager</g>.  Her job is to make sure everyone
+is doing what they're supposed to, to handle interruptions (there are *always*
 interruptions), and to track the team's progress.  After a few weeks, the
 project manager should compare how much has actually been done with how much was
 supposed to be done and adjust plans accordingly.

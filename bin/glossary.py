@@ -11,16 +11,12 @@ import utils
 # Cross-references look like internal links.
 CROSS_REF = re.compile(r'\[.+?\]\((#.+?)\)', re.DOTALL)
 
-# Glossary references use Jekyll inclusions.
-GLOSS_REF = re.compile(r'\{%\s+include\s+gloss\b.+?key="(.+?)".+?%\}', re.DOTALL)
+# Glossary references use <g key="...">...</g>.
+GLOSS_REF = re.compile(r'<g\s+key="(.+?)">', re.DOTALL)
 
 
-def main():
+def glossary(options):
     '''Main driver.'''
-    options = utils.get_options(
-        ['--glossary', False, 'Path to glossary YAML file'],
-        ['--sources', True, 'List of input files']
-    )
     glossary = utils.read_yaml(options.glossary)
     defined = get_definitions(glossary)
     referenced = utils.get_all_matches(GLOSS_REF, options.sources) | get_internal(glossary)
@@ -42,4 +38,8 @@ def get_definitions(glossary):
 
 
 if __name__ == '__main__':
-    main()
+    options = utils.get_options(
+        ['--glossary', False, 'Path to glossary YAML file'],
+        ['--sources', True, 'List of input files']
+    )
+    glossary(options)

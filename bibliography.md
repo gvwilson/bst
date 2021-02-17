@@ -24,6 +24,11 @@ Csikszentmihalyi1991
     *Flow: The Psychology of Optimal Experience*.
     Harper, 1991, 978-0060920432.
 
+Feathers2004
+:   Michael C. Feathers:
+    *Working Effectively with Legacy Code*.
+    Prentice-Hall, 2004, 978-0131177055.
+
 Fincher2001
 :   Sally Fincher, Marian Petre, and Martyn Clarke:
     *Computer Science Project Work: Principles and Pragmatics*.
@@ -108,6 +113,11 @@ Thomas2019
 :   David Thomas and Andrew Hunt:
     *The Pragmatic Programmer: Your Journey to Mastery.*
     Addison-Wesley Professional, 2019, 978-0135957059.
+
+Tregubov2017
+:   Alexey Tregubov, Barry Boehm, Natalia Rodchenko, and Jo Ann Lane:
+    "Impact of Task Switching and Work Interruptions on Software Development Processes."
+    *Proc. ICSSP'17*, 2017, doi:10.1145/3084100.3084116.
 
 </div>
 

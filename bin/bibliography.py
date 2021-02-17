@@ -9,18 +9,14 @@ import sys
 import utils
 
 
-# Citation use Jekyll inclusions.
-CITATION = re.compile(r'\{%\s+include\s+cite\b.+?key="(.+?)".+?%\}', re.DOTALL)
+# Citation use <cite>key,key</cite>.
+CITATION = re.compile(r'<cite>(.+?)</cite>', re.DOTALL)
 
 # Definitions are left-justified starting with an upper-case letter.
 DEFINITION = re.compile(r'^([A-Z][A-Za-z0-9]+)$', re.DOTALL + re.MULTILINE)
 
-def main():
+def bibliography(options):
     '''Main driver.'''
-    options = utils.get_options(
-        ['--bibliography', False, 'Path to bibliography Markdown'],
-        ['--sources', True, 'List of input files']
-    )
     defined = get_definitions(options.bibliography)
     cited = utils.get_all_matches(CITATION, options.sources)
     utils.report('bibliography', cited=cited, defined=defined)
@@ -37,4 +33,8 @@ def get_definitions(filename):
 
 
 if __name__ == '__main__':
-    main()
+    options = utils.get_options(
+        ['--bibliography', False, 'Path to bibliography Markdown'],
+        ['--sources', True, 'List of input files']
+    )
+    bibliography(options)

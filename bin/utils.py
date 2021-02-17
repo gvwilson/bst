@@ -1,15 +1,17 @@
 import argparse
 import yaml
 
+'''Utilities used across all tools.'''
 
-def get_all_matches(pattern, filenames):
+
+def get_all_matches(pattern, filenames, group=1):
     '''Create set of matches in source files.'''
     result = set()
     for filename in filenames:
         with open(filename, 'r') as reader:
             text = reader.read()
             for match in pattern.finditer(text):
-                for key in match.group(1).split(','):
+                for key in match.group(group).split(','):
                     result.add(key.strip())
     return result
 

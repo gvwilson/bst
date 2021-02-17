@@ -18,7 +18,7 @@ Looking at it and at its twentieth anniversary edition <cite>Thomas2019</cite>
 now, I am struck by how useful its advice continues to be, but I'm also struck
 by what *isn't* there. How do you run a meeting in a way that ensures everyone
 is heard? After working in and around programming for forty years, I believe
-knowing that is more useful than knowing what <g key="design_by_contract">design
+knowing that is more useful than knowing what <g key="design-by-contract">design
 by contract</g> is. Why and how are tech companies so hostile to women, people
 of color, and members of the LGBT community? The evidence that they are is much
 stronger than the evidence supporting the use of <g key="tdd">test-driven

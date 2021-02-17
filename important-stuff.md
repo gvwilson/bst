@@ -27,7 +27,7 @@ short, readable summary.  The most important results for developers are:
 1.  Working more than eight hours a day for an extended period of time lowers
     your total productivity, not just your hourly productivity---i.e., you get
     less done *in total* (not just per hour) when you're in <g
-    key="crunch_mode">crunch mode</g> than you do when you work regular hours.
+    key="crunch-mode">crunch mode</g> than you do when you work regular hours.
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
     catastrophic error just as much as being legally drunk.
@@ -113,10 +113,11 @@ be---and pace yourself accordingly.
 
 "But I have so many assignments to do!", you say.  "And they're all due at once!
 I *have* to work extra hours to get them all done!" Sadly, that is often true:
-most schools do a lousy job of coordinating due dates across differences
-courses, so it's very common to have two midterms and two major assignments land
-in the same week. (People in industry joke that having two bosses means living in
-hell; most students can only dream of having just two…)
+while people in industry joke that having two bosses means living in hell, most
+students can only dream of having just two, since most schools do a lousy job of
+coordinating due dates across differences courses. And as
+<cite>Tregubov2017</cite> found, there is strong correlation between the number
+of projects and the number of interruptions that developers reported.
 
 The best strategy for managing this situation is to prioritize and focus.
 Prioritizing is important because most of us are very good at spending hours on

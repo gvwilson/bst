@@ -18,6 +18,16 @@
   def: >
     FIXME
 
+- key: crunch-mode
+  term: "crunch mode"
+  def: >
+    FIXME
+
+- key: design-by-contract
+  term: "design by contract"
+  def: >
+    FIXME
+
 - key: doc-generator
   term: "documentation generator"
   def: >
@@ -95,6 +105,11 @@
 
 - key: symbolic-debugger
   term: "symbolic debugger"
+  def: >
+    FIXME
+
+- key: tdd
+  term: "test-driven development (TDD)"
   def: >
     FIXME
 
