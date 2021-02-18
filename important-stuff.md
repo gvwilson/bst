@@ -467,6 +467,14 @@ and the steps we have already taken to resolve it.  Make sure the offender gets
 a copy as well, and ask the instructor to arrange a meeting to resolve the
 issue.
 
+One technique your instructor may ask you to use in a meeting of this kind is <g
+key="active_listening">active listening</g>. When one person makes a point, the
+person on the other side of the issue explains it back to them, as in, "So what
+I think Igor is saying is…" This confirms that the second person has actually
+paid attention to what the first person said. It can also defuse a lot of
+tension, since explaining your position back to you clearly forces the other
+person to see the world through your eyes, if only for a few moments.
+
 > **Hitchhikers**
 >
 > <g key="hitchhiker">Hitchhikers</g> who show up but never actually do anything
