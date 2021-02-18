@@ -1,11 +1,11 @@
 ---
 ---
 
-Study after study has shown that students learn better in small teams than they
-do on their own (FIXME Oakley ref).  As long as their teams are run well,
-students achieve higher grades, retain information longer, are less likely to
-drop out of school, and graduate with better communication skills and a better
-understanding of what will be expected of them in their subsequent careers.
+Students learn better in small teams than they do on their own
+<cite>Oakley2004</cite>.  As long as their teams work well, they achieve higher
+grades, retain information longer, are less likely to drop out of school, and
+graduate with better communication skills and a better understanding of what
+will be expected of them in their subsequent careers.
 
 But that "as long as" is important.  A badly-run team is worse than no team at
 all, since people will waste hours or days arguing with one another, duplicating
@@ -14,62 +14,59 @@ instead.  These conflicts are more wearying than any number of buffer overruns
 or accidentally erased files, which is why most computer science courses stick
 to individual assignments.
 
-It doesn't take much to make a team work smoothly, though.  All you have to do
-is follow some common-sense advice and be willing to stand up to people who
-aren't playing by the rules.
+It doesn't take much to make a team work smoothly, though. The rules in <chap
+key="important-stuff"><chap> for running meetings, making decisions, and
+resolving conflicts are a good start; this chapter will look at what else
+you can do.
 
 ## Picking teams
 
-I once heard an anthropologist ask a room, "How big is a sports team?"  When
-people said they are all different sizes, she explained that in fact they all
-have about half a dozen members.  Anything larger than that splits into smaller
-groups: the forwards and backs in rugby, the infield and outfield in baseball,
-and so on.
-
+I once heard an anthropologist ask, "How big is a sports team?"  When people
+said it depends on the sport, she explained that in fact they all have about
+half a dozen members.  Anything larger than that splits into smaller groups: the
+forwards and backs in rugby, the infield and outfield in baseball, and so on.
 She went on to explain that hunting parties in non-agricultural societies are
 usually that size as well, as are basic military units around the world (a
-platoon is two squads of six people).  She thought there was a biological reason
-for this: since we can only keep seven or so things in our short-term memory at
-once (FIXME cite Hock) that's as big as a team can practically be.
+platoon is two squads of six people).  Since we can only keep a handful of
+things in our short-term memory at once (<chap key="thinking-learning"></chap>)
+that's as big as a team can practically be.
 
 The same observation applies to software development.  Three or four people can
 work tightly on a single piece of code, but when there are more they define some
-interfaces and develop in parallel..  Collaborative tools like bug trackers
+interfaces and develop in parallel.  Collaborative tools like issue trackers
 allow groups to coordinate more effectively, but the groups themselves stay the
 same size.
 
-Research shows that *teams of three to five are most effective*, at least for
-student projects (FIXME citation).  A team of two may not have enough breadth
-and background to tackle a large piece of work; more importantly, one or the
-other person is likely to take a dominant role.  If you put six people in a
-team, on the other hand, you may not be able to divide up the work in a way that
-will keep everyone engaged and busy.  Teams that size also increase the odds
-that at least one member will be a <g key="hitchhiker">hitchhiker</g>.
+Teams of three to five are most effective, at least for student projects.  A
+team of two may not have enough breadth and background to tackle a large piece
+of work; more importantly, one or the other person is likely to take a dominant
+role.  If you put six people in a team, on the other hand, you may not be able
+to divide up the work in a way that will keep everyone engaged and busy.  Teams
+that size also increase the odds that at least one member will be a hitchhiker.
 
 Research also shows that teams formed by instructors work better than
 self-selected teams. Students typically complain about this, sometimes
 vehemently: they want to work with their friends, they don't want to be slowed
-down by teammates who are slower or less dedicated than they are, they have a
-part-time job and can only get together regularly with their housemates, and so
-on.
+down by teammates who are slower or less dedicated than they are, their
+part-time job or family care responsibilities limit when they can take part in
+meetings, and so on.
 
 Good instructors will ignore all of these objections except the last one. If
 students are allowed to form their own groups, they tend to clump together by
 ability. It's easy to see how this hurts teams of weak students: they are less
 likely to be able to fill in the gaps in one another's knowledge. However, it
-also hurts teams of stronger students.  As any teacher can tell you, the best
-way to learn something is to explain it to someone else. Bringing a weaker
-teammate up to speed will usually do more for your grade than spending those
-same hours hacking or reading.
+also hurts teams of stronger students.  The best way to learn something is to
+explain it to someone else; bringing a weaker teammate up to speed will usually
+do more for your grade than spending those same hours hacking or reading.
 
 In addition, teams of strong students are more likely to use a divide and
-conquer strategy, effectively reducing the project to a set of independent
-sub-projects, each of which is then tackled by only one person. This may feel
-more efficient, but in practice, most of the benefits of working in a team are
-lost: there's less back-and-forth discussion of design issues, and little
-improvement in communication skills. Those may not be important to you, but if
-there is a final exam in your course with questions about the project work, your
-mark on it will depend on how much you know about your teammates' work.
+conquer strategy, effectively reducing the project to a set of parallel
+sub-projects handled by one person each. This may feel more efficient, but most
+of the benefits of working in a team are lost: there's less back-and-forth
+discussion of design issues, and little improvement in communication skills.
+Those may not be important to you, but if there is a final exam in your course
+with questions about the project work, your mark on it may depend on how much
+you know about your teammates' work (<chap key="wrapping-up"></chap>).
 
 There's another strong argument against self-selected teams: the pre-existing or
 ongoing relationships between their members make life a lot easier for
@@ -78,9 +75,9 @@ someone they're not pulling their weight; it's a lot harder when that person is
 also on your volleyball team.
 
 The most powerful argument for instructors selecting teams, though, is, "That's
-how it works in the real world." If you join a company or an academic research
-group, you won't get to pick your colleagues; you'll be put on a project, and
-expected to work---and work well---with whoever else is on it. Your performance
+how it works in the real world." You probably won't get to pick your colleagues
+if you join a company or an academic research group. Instead, you'll be put on a
+project and expected to work well with whoever else is on it. Your performance
 will depend as much on your ability to get along with others as it will on your
 raw technical ability, so you might as well start practicing those skills now.
 
@@ -94,16 +91,16 @@ mitigate this problem <cite>Margolis2002</cite>. It is less necessary in upper
 years, though, since by then students have a stronger commitment to whatever
 program they're in.
 
-The biggest headache when instructors select teams is scheduling. My university
-serves a large metropolitan area; it has three campuses, and some students
-commute an hour and a half each way to get to classes.  Instructors can usually
-take students' schedules into account when forming teams. If the class is small,
-the simplest way is to get each student to fill in a weekly timesheet showing
-when they're available, and then group people who have large blocks of
-overlap. If the class is larger, a web-based calendaring tool may be
-easier. Instructors can even try to use whatever software the university uses to
-figure out course timetables, although that usually doesn't scale down to
-intra-class scheduling.
+The biggest headache when instructors select teams is scheduling.  COVID-19 has
+made distributed work more normal, but the last university I taught at had three
+campuses spread across a large metropolitan area, and some students commuted an
+hour and a half each way to get to classes.  Instructors should therefore take
+students' schedules into account when forming teams. If the class is small, the
+simplest way is to get each student to fill in a weekly timesheet showing when
+they're available, and then group people who have large blocks of overlap. If
+the class is larger, a web-based calendaring tool may be easier. Instructors can
+even try to use whatever software the university uses to figure out course
+timetables, although that usually doesn't scale down to in-class scheduling.
 
 Another factor to take into account is that some people are naturally early
 birds, while others are night owls. Putting the two on the same team pretty much
@@ -111,13 +108,13 @@ guarantees that someone will miss meetings, or sleep through them, no matter
 when they're held. Simply asking people, "Do you prefer to work in the morning,
 or the evening?" can be surprisingly effective.
 
-However you form teams, *each team must have at least one block of two hours to
-work together each week*, outside of class. Teams should also try to find a
-second block that's half an hour long for a weekly meeting. Try to keep the two
-blocks separate, so that it's clear to everyone when you're supposed to be
-talking about the project, and when you're supposed to be doing design, building
-software, testing, and so on. If the two are scheduled back-to-back, the meeting
-will drag on into working time or vice versa.
+However you form teams, each team should have at least one block of two hours to
+work together each week outside of class. Teams should also try to find a second
+block that's half an hour long for a weekly meeting. Try to keep the two blocks
+separate so that it's clear to everyone when they're supposed to be talking
+about the project and when they're supposed to be doing design, writing code,
+testing, and so on. If the two are scheduled back-to-back, the meeting will drag
+on into working time or vice versa.
 
 ## Who does what
 
@@ -125,117 +122,125 @@ All right, you've formed a team: now what? How do you decide who does what? And
 just as importantly, how do you make sure that everyone actually does what
 they're supposed to?
 
-There are many ways to divide project work between team members. In a *modular
-decomposition*, each person is responsible for all aspects of one part of the
-program. For example, one person might design and build the GUI, while another
-writes the database interface, and a third implements the business rules. This
-is generally a bad strategy for three reasons:
+There are many ways to divide project work between team members. In a
+<g key="modular-decomposition">modular decomposition</g>, each person is
+responsible for one part of the program. For example, one person might design
+and build the GUI, while another writes the database interface, and a third
+implements the business rules. This is generally a bad strategy for three
+reasons:
 
-1.  Unless the team is very disciplined, it leads to *big bang integration*, in
-    which all the components meet each other for the first time right at the end
-    of the project. Big bang almost always fails.
+1.  It leads to <g key="big-bang">big bang integration</g>, in which all the
+    components meet each other for the first time right at the end of the
+    project. Big bang almost always fails.
 
-2.  Each team member only really understands one aspect of the project as a
-    whole. This can hurt a lot if there's a final exam (which is just a pointed
-    way of saying "team members will learn less").
+2.  Each team member only really understands one aspect of the project. This can
+    hurt a lot if there's a final exam that checks for overall understanding.
 
 3.  If someone drops out or fails to complete their module, the project as a
     whole will fail.
 
-*Functional decomposition*, in which each person is responsible for one type of
-task, is usually more successful. With this strategy, one person does the
-testing, another handles the documentation, a third does the bulk of the coding,
-and the fourth takes care of build and deployment.  This guarantees that
-everyone understands most of the project by the end of the term. The obvious
-drawback is that each person only gets to hone one set of skills.
+<g key="functional-decomposition">Functional decomposition</g>, in which each
+person is responsible for one type of task, is usually more successful. With
+this strategy, one person does the testing, another handles the documentation, a
+third does the bulk of the coding, and the fourth takes care of build and
+deployment.  This guarantees that everyone understands most of the project by
+the end of the term. The obvious drawback is that each person only gets to hone
+one set of skills.
 
 Another, less obvious, drawback stems from the fact that some activities are
 viewed as being more prestigious than others. If the team decomposes work
-functionally, the self-appointed "alpha geeks" will usually wind up with the
-plum jobs, like architecture and coding, leaving less appealing work to people
-who aren't as pushy or self-confident. This tends to reinforce existing
-inequities; it also tends to lower the team's overall grade, since there's often
-little relationship between how outspoken people are and how well they work.
+functionally, the self-appointed <g key="alpha-geek">alpha geeks</g> will
+usually snag the plum jobs like architecture and coding, leaving less appealing
+work to people who aren't as pushy or self-confident. This tends to reinforce
+existing inequities; it also tends to lower the team's overall grade, since
+there's often little relationship between how outspoken people are and how well
+they work.
 
-*Uniform decomposition* is a scaled-down version of modular decomposition that
-is much more effective. Instead of owning an entire module for the lifetime of
-the project, each developer does the design, coding, testing, and documentation
-for one small feature after another.  Working this way is central to agile
-development and is a good way to cope with the never-ending timeslicing of
-student life.
+> **The Dunning-Kruger Effect**
+>
+> <cite>Kruger1999</cite> found that people who know a subject well can usually
+> estimate their knowledge accurately, but people who don't will often
+> over-estimate their competence because they don't know what they don't know.
+> Because of this, you should never trust self-reported expertise, as there's no
+> easy way to tell if someone really knows what they're talking about or if what
+> they're actually reporting is their self-esteem.
 
-Finally, there is *rotating decomposition*: everyone does one task for a few
-weeks, then a different task for the new few, and so on. This is initially less
-productive in absolute terms than either of the preceding strategies, since the
-team has to pay for ramp-up several times over. In the long term, though, it
-outperforms the alternatives: it is more robust (having a team member drop out
-is less harmful), and if everyone on the team is familiar with every aspect of
-the software, they can all contribute to design and debugging sessions.
+<g key="feature-decomposition">Feature decomposition</g> is a variation on
+modular decomposition that works well in practice. Instead of owning an entire
+subsystem for the life of the project, each team member handles the design,
+coding, testing, and documentation for one small feature after another.  Working
+this way is central to agile development (<chap key="process"></chap)) and is a
+good way to cope with the never-ending timeslicing of student life.
 
-Any of these strategies is better than *chaotic decomposition*. If people have
-different ideas about who's supposed to do what, some things won't be done at
-all, while others will be done several times over. (You can tell if your
+Finally, there is <g key="rotating-decomposition">rotating decomposition</g>:
+everyone does one task for a few weeks, then a different task for the new few,
+and so on. This is initially less productive in absolute terms than either of
+the preceding strategies, since the team has to pay for ramp-up several times
+over. In the long term, though, it outperforms the alternatives: it is more
+robust (having a team member drop out is less harmful), and if everyone on the
+team is familiar with every aspect of the software, they can all contribute to
+design and debugging sessions.
+
+Any of these strategies is better than <g key="chaotic-decomposition">chaotic
+decomposition</a>, which unfortunately is the most common approach. If people
+have different ideas about who's supposed to do what, some things won't be done
+at all while others will be done several times over. (You can tell if your
 decomposition is chaotic by counting how many times people says, "I thought
-*you* were doing that!" or "But I've already done that!" The more often these
-phrases are heard, the more trouble you're in.) All other decompositions tend
-toward chaos under pressure, so it's important to establish rules early, and
-stick to them when the going is easy, so that the instinct to do the right thing
-will be there when you need it.
+*you* were doing that!" or "But I've already done that!"  The more often you
+hear this, the more trouble you're in.) All other decompositions tend toward
+chaos under pressure, so it's important to establish rules early and stick to
+them when the going is easy so that the instinct to do the right thing will be
+there when you need it.
 
-Your instructor may mandate a particular work decomposition. If she does, your
-first team meeting should be devoted to deciding who will do what. Do *not*
-allocate work on the basis of who's loudest or most willing to interrupt:
-remember, there's only a weak correlation between how confident someone is, and
-how competent they are [@b:kruger-dunning-competence].
+## Team contracts
 
-No matter what decomposition you use, your team should write, sign, and hand in
-a contract outlining what everyone has agreed to do to make the project a
-success. In my experience, this is a lot more effective if students make it up
-themselves as their first assignment; that way, they actually have to think
-about what they're promising their teammates.  Here's an example:
+No matter what decomposition you use, your team should write, sign, and submit a
+<g key="team-contract">team contract</g> outlining what everyone has agreed to
+do to make the project a success. In my experience, this is most effective if
+each team creates their own as part of their first assignment so that they
+actually have to think about what they're promising their teammates.  Here's an
+example:
 
-> We, the members of Team 12, agree the following:
+> We, the members of Team 12, agree that:
 >
-> 1.  Work on each assignment will be divided according to role. Two people will
+> 1.  Work on each assignment will divided according to role. Two people will
 >     code, one will test, and one will be responsible for documentation. One of
->     the coders will run the weekly meeting; the other will take minutes, and
->     post them to the project wiki and mailing list on the same day as the
->     meeting. These roles will rotate for each assignment. No one will code two
->     assignments in a row.
+>     the coders will run the weekly meeting; the other will take minutes and
+>     post them to the project wiki on the same day as the meeting. These roles
+>     will rotate for each assignment; no one will code two assignments in a
+>     row.
 >
-> 2.  The tester will be responsible for actually submitting the
->     assignment. Someone will only be listed as contributing to that assignment
->     if at least two other members of the team think she completed, or made
->     significant progress on, at least one work item.
+> 2.  The tester will be responsible for submitting the assignment.  A team
+>     member will only be listed as contributing to that assignment if at least
+>     two other members of the team agree they completed, or made significant
+>     progress on, at least one work item.
 >
 > 3.  We will aim to get at least 80% on each assignment.
 >
 > 4.  We will hold a half-hour status meeting every week on Thursdays at 4:00
->     pm. Everyone will attend, and be on time. If someone cannot attend, they
->     will let the rest of the team know by email no later than noon on that
->     day.
+>     pm.  Everyone will be in the meeting by 4:05 pm; if someone cannot attend,
+>     they will let the rest of the team know by email no later than 2:00 pm
+>     that day.
 >
-> 5.  Everyone will email a brief point-form summary of their progress during
->     the week to the team mailing list no later than noon on Thursday. Everyone
->     will read everyone else's summary before the 4:00 meeting and make a list
->     of their questions and concerns.
+> 5.  Everyone will add a brief point-form summary of their progress that week
+>     to the project wiki no later than 12:00 noon on Thursday.  Everyone will
+>     read everyone else's summary before the 4:00 meeting.
 >
-> 6.  All email about the project will go to the team mailing list, rather than
->     person-to-person. Everyone will check email at least twice a day during
->     the week, and at least once a day on weekends.
+> 6.  All discussion about the project will take place on the team's Slack
+>     channel so that everyone can see it and search through it later.
 >
 > 7.  No one will check code into version control that fails to compile.  No one
 >     will check in code that fails to pass existing tests without first getting
 >     the permission of that round's tester. No one will change the database
->     schema or add dependencies on third-party or open source libraries without
->     first getting permission from the whole team.
+>     schema or add dependencies on new libraries without first getting
+>     permission from the whole team.
 
 It may sound a little silly, like those "contracts" that some parents and
-children make up regarding chores and allowances, but it's actually very
-effective. First, people really do have different expectations about what being
-in a team means. Some people, for example, may be happy with a bare pass; others
-may want the team to shoot for an A+ on everything. Knowing who wants what won't
-make these tensions go away, but it certainly helps focus the argument.
+children make up regarding chores and allowances, but it's very effective.
+First, people may have very different ideas about what being in a team means:
+some may be happy with a bare pass, while others may want the team to shoot for
+an A+ on everything. Knowing who wants what won't make these tensions go away,
+but it certainly helps focus the argument.
 
 Drawing up a contract also prevents later disagreements about who actually
 promised or agreed to what. As with meetings, people often remember things
@@ -245,47 +250,48 @@ I still don't know if teams should have to give copies of their contracts to
 their instructors or not. On the one hand, it's a great way to let your
 instructor know how you're planning to operate, and what you're planning to
 achieve. Given that she probably has a lot more experience than you, it gives
-her a chance to tell you if you've forgotten anything, or how well those really
-cool ideas your teammate talked you into will actually work. On the other hand,
-as soon as something has to be handed in, some students will write what they
-think the instructor wants to read, rather than what they actually think.
+her a chance to tell you if you've forgotten anything or that your teammate's
+really cool idea is unlikely to work in practice. On the other hand, as soon as
+something has to be handed in, some students will write what they think the
+instructor wants to read, rather than what they actually think.
 
 Two last notes. First, most software development teams in industry and open
 source don't bother with contracts like these. There may be corporate guidelines
-on good citizenship, or performance metrics written into your job spec, but in
-general, people expect that if you're doing this for a living, you know what
-others can reasonably expect of you, and you will live up to those
-expectations. (This often turns out not to be the case, which is one of the
-reasons so many real-world projects fail.)
+on good citizenship, or performance metrics written into job descriptions, but
+in general people expect that if you're doing this for a living, you know what
+others can reasonably expect of you, and you will live up to those expectations.
 
 Second, if your instructor has you draw up a team contract at the start of the
 project, then she can and should base part of your team's grade on how well you
 stuck to it. If she handed you a team contract, she should definitely base part
-of the grade on compliance. If there was no contract at all, then I think it's
-unfair to turn around at the end of the project and ask people to rate one
-another, since they won't have known while they were working what they were
-going to be rated on.
+of the grade on compliance. If there was no contract at all, though, it's unfair
+to turn around at the end of the project and ask people to rate one another,
+since they won't have known while they were working what they were going to be
+rated on.
 
 Asking people on a team to rate their peers is a common practice in industry.
 Instructors sometimes shy away from it because they're afraid students will
-gives everyone in the team a high rating in order to boost grades. However, the
-evidence shows that this actually occurs fairly infrequently
-[@b:kaufman-felder-accounting].
+gives everyone in the team a high rating in order to boost grades. However, this
+actually occurs fairly infrequently <cite>Kaufman2000</cite>.
 
 What's more, as long as evaluation is based on observables, rather than
 personality traits, peer assessment can actually be as accurate as assessment by
-TAs and other outsiders. "Observables" means that instead of asking, "Is the
-person outgoing," or "Does the person have a positive attitude," assessments
-should ask, "Does the person listen attentively during meetings," or, "Does the
-person attempt to solve problems before asking for help." The performance review
-guidelines in <app key="performance-evaluation"></app> show how well you code is
-only a one part of how useful you are to a software development company.
+the instructors and other outsiders. "Observables" means that instead of asking,
+"Is the person outgoing?" or "Does the person have a positive attitude?"
+assessments should ask, "Does the person listen attentively during meetings?"
+or, "Does the person attempt to solve problems before asking for help?" The
+performance review guidelines in <app key="performance-evaluation"></app> can
+serve as a useful starting point for such evaluations.
 
 ## People to watch out for
 
-Tolstoy wrote that all happy families resemble one another, but each unhappy
-family is unhappy in its own way. Similarly, all good team members share certain
-characteristics, but bad ones can be bad in many different ways. Here are a few:
+> All happy families resemble one another,
+> but every unhappy family is unhappy in its own way.
+>
+> - Leo Tolstoy, *Anna Karenina*
+
+Good team members share certain characteristics, but bad ones can be bad in many
+different ways. Here are a few:
 
 -   *Anna* knows more about every subject than everyone else on the team put
     together---at least, she thinks she does. No matter what you say, she'll
@@ -298,21 +304,21 @@ characteristics, but bad ones can be bad in many different ways. Here are a few:
     side. This is healthy in small doses, but when Bao does it, there's always
     another objection lurking behind the first half dozen.
 
--   *Caitlin* has so little confidence in her own ability (despite her good
-    grades) that she won't make any decision, no matter how small, until she has
+-   *Cailin* has so little confidence in their ability (despite their good grades)
+    that they won't make any decision, no matter how small, until they have
     checked with someone else. Everything has to be spelled out in detail for
-    her so that there's no possibility of her getting anything wrong.
+    them so that there's no possibility of them getting anything wrong.
 
 -   *Frank* believes that knowledge is power. He enjoys knowing things that other
     people don't---or to be more accurate, he enjoys it when people know he
     knows things they don't. Frank can actually make things work, but when asked
     how he did it, he'll grin and say, "Oh, I'm sure you can figure it out."
 
--   *Hediyeh* is quiet. Very quiet. She never speaks up in meetings, even when she
-    knows that what other people are saying is wrong. She might contribute to
-    the mailing list, but she's very sensitive to criticism, and will always
-    back down rather than defending her point of view. Hediyeh isn't a
-    troublemaker, but rather a lost opportunity.
+-   *Hediyeh* is quiet. Very quiet. She never speaks up in meetings, even when
+    she knows that what other people are saying is wrong. She's more willing to
+    contribute on Slack or via email, but she's very sensitive to criticism, and
+    will always back down rather than defending her point of view. Hediyeh isn't
+    a troublemaker, but rather a lost opportunity.
 
 -   *Kenny* is a hitchhiker. He has discovered that most people would rather
     shoulder some extra work than snitch, and he takes advantage of it at every
@@ -327,28 +333,30 @@ characteristics, but bad ones can be bad in many different ways. Here are a few:
     about letting people down---but somehow something always comes up, and her
     tasks are never finished until the last possible moment. Of course, that
     means that everyone who is depending on her can't do their work until
-    *after* the last possible moment...
+    *after* the last possible moment…
 
--   *Petra*'s favorite phrase is "why don't we". Why don't we write a GUI to help
-    people edit the program's configuration files? Hey, why don't we invent our
-    own little language for designing GUIs? Her energy and enthusiasm are hard
-    to argue with, but argue you must.  Otherwise, for every step you move
-    forward, the project's goalposts will recede by two. This is called *feature
-    creep*, and has ruined many projects that might otherwise have delivered
-    something small, but useful.
+-   *Petra*'s favorite phrase is "why don't we". Why don't we write a GUI to
+    help people edit the program's configuration files? Hey, why don't we invent
+    our own little language for designing GUIs? Their energy and enthusiasm are
+    hard to argue with, but argue you must.  Otherwise, for every step you move
+    forward, the project's goalposts will recede by two. This is called <g
+    key="feature-creep">feature creep</g>, and has ruined many projects that
+    might otherwise have delivered something small but useful.
 
--   *Raj* is rude. "It's just the way I talk," he says, "If you can't hack it,
-    maybe you should find another team." His favorite phrase is, "That's
-    stupid," and he uses obscenity as casually as minor characters in Tarantino
-    films. His only redeeming grace is that he can't dissemble in front of the
-    instructor as well as Kenny, so he's easier to get rid of.
+-   *Raj* is rude. His favorite phrase is, "That's stupid," and if anyone
+    complains, he says, "It's just the way I talk---if you can't hack it, maybe
+    you should find another team." His only redeeming grace is that he can't
+    dissemble in front of the instructor as well as Kenny, so he's easier to get
+    rid of.
 
--   *Sergei* is simply incompetent. He doesn't understand the problem, he hasn't
-    bothered to master the tools and libraries he's supposed to be using, the
-    code he checks in doesn't compile, and his thirty-second bug fixes introduce
-    more problems than they solve. If he means well, try to re-partition the
-    work so that he'll do less damage. If he doesn't, he should be treated like
-    any other hitchhiker.
+-   *Sergei* simply seems apathetic. He doesn't read the assignment specs, he
+    hasn't bothered to master the tools and libraries he's supposed to be using,
+    the code he checks in doesn't compile, and his thirty-second bug fixes
+    introduce more problems than they solve. Before treating Sergei like a
+    hitchhiker, try to find out if there's a reason for his failure to deliver:
+    if he's caring for a family member or struggling with mental health
+    challenges, the most compassionate thing to do is to give him some time to
+    get back on his feet.
 
 ## Irreconcilable differences
 
@@ -358,25 +366,23 @@ visualization startup. Individually, we were all smart, decent people. Put us
 together, though, and somehow our personalities and IQs canceled out, leaving us
 all dumb and nasty.
 
-According to <cite>Oakley2004</cite>, instructors can allow for this by
-announcing at the start of the course that teams will be dissolved and re-formed
-halfway through the project, *unless* every member on the team submits a
-separate signed request to stay together. There's a bit of psychology here: if
-people are required to ask for their team to be dissolved, they will often
-think, "It's more trouble than it's worth, I'll just put up with it." If
-dissolution is the default, though, then students won't be inhibited by any
-stigma attached to being the one who caused trouble.
+Instructors can allow for this by announcing at the start of the course that
+teams will be dissolved and re-formed halfway through the project, *unless*
+every member on the team submits a separate signed request to stay together.
+There's a bit of psychology here: if people are required to ask for their team
+to be dissolved, they will often think, "It's more trouble than it's worth, I'll
+just put up with it." If dissolution is the default, though, then students won't
+be inhibited by any stigma attached to being the one who caused trouble.
 
 Students also usually understand that dissolving their team and forming a new
 one takes time that could be invested in earning a higher grade.  In practice,
-therefore, teams will almost always choose to stick together if they see that
-hitchhikers and rudies are actually being dealt with.
+therefore, teams will usually stick together if they see that troublemakers are
+actually being dealt with.
 
 ## Ten simple rules for talking people into things
 
-I don't always exhibit good judgment, but I *am* pretty good at talking people
-into things.  Here are ten simple rules for doing it that I hope you will only
-use for good.
+Persuading people to do things is almost as essential to teamwork as running a
+good meeting. These ten simple rules have served me well.
 
 1. Don't.
 :   If you have to talk someone into something, odds are that they don't really
@@ -385,12 +391,12 @@ use for good.
     psychological tricks that will only engender resentment.
 
 2. Be kind.
-:   I don't know if there actually is a book called "Secret Tricks of the Ninja
-    Sales Masters", but if there is, it probably tells readers that doing
+:   I don't know if there actually is a book called *Secret Tricks of the Ninja
+    Sales Masters*, but if there is, it probably tells readers that doing
     something for a potential customer creates a sense of obligation, which in
     turn increases the odds of a sale.  That may work, but (a) it only works
     once and (b) it's a skeezy thing to do.  If, on the other hand, you are
-    genuinely kind, and help other people because it's what good people do, you
+    genuinely kind and help other people because it's what good people do, you
     just might inspire them to be good people too.
 
 3. Appeal to the greater good.
@@ -402,28 +408,26 @@ use for good.
     place, propose something better.)
 
 4. Start small.
-:   Most people are understandably reluctant to dive into things head-first, so
+    Most people are understandably reluctant to dive into things head-first, so
     give them a chance to test the waters and to get to know you and everyone
     else involved in whatever it is you want help with.  Don't be surprised or
     disappointed if that's where things end: everyone is busy or tired or has
     projects of their own, or maybe just has a different mental model of how
-    collaboration is supposed to work.  Remember the 90-9-1 rule (90% of people
-    will watch, 9% will speak up, and 1% will actually do things) and set your
-    expectations accordingly.
+    collaboration is supposed to work.  Remember the <g key="90-9-1-rule">90-9-1
+    rule</g> and set your expectations accordingly.
 
 5. Don't build a project: build a community.
-:   I used to belong to a baseball team that never actually played baseball: our
-    "games" were just an excuse for us to hang out and enjoy each other's
-    company.  If you actually want to accomplish something, you probably don't
-    want to go quite that far, but sharing a cup of tea with someone or
-    celebrating the birth of their first grandchild can get you things that no
-    reasonable amount of money can.
+:   I used to belong to a softball team that never actually played softball: our
+    "games" were just an excuse for us to enjoy each other's company.  You
+    probably don't want to go quite that far, but sharing a cup of tea with
+    someone or celebrating the birth of their first grandchild can get you
+    things that no reasonable amount of money can.
 
 6. Establish a point of connection.
 :   "I was speaking to X" or "we met at Y" gives them context, which in turn
     makes them more comfortable.  This must be specific: spammers and
     cold-callers have trained us all to ignore anything that starts, "I recently
-    came across your website".
+    came across your website…"
 
 7. Be specific about what you are asking for.
 :   People need to know this so that they can figure out whether the time and

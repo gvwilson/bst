@@ -60,10 +60,20 @@ Hunt1999
     *The Pragmatic Programmer: From Journeyman to Master.*
     Addison-Wesley Professional, 1999, 978-0201616224.
 
+Kaufman2000
+:   Deborah B. Kaufman and Richard M. Felder:
+    "Accounting for Individual Effort in Cooperative Learning Teams."
+    *Journal of Engineering Education*, 89(2), 2000.
+
 Kernighan1981
 :   Brian W. Kernighan and P. J. Plauger:
     *Software Tools in Pascal.*
     Addison-Wesley Professional, 1981, 978-0201103427.
+
+Kruger1999
+:   Justin Kruger and David Dunning:
+    "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment."
+    *J. Personality and Social Psychology*, 77(6), 1999.
 
 Lindberg2008
 :   Van Lindberg: *Intellectual Property and Open Source: A Practical Guide to Protecting Code*.

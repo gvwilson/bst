@@ -1,5 +1,25 @@
+- key: 90-9-1-rule
+  term: "90-9-1 rule"
+  def: >
+    90% of people will watch, 9% will speak up, and 1% will actually do things.
+
+- key: active-listening
+  term: "active listening"
+  def: >
+    FIXME
+
 - key: ae
   term: "analysis & estimation"
+  def: >
+    FIXME
+
+- key: alpha-geek
+  term: "alpha geek"
+  def: >
+    FIXME
+
+- key: big-bang
+  term: "big-bang integration"
   def: >
     FIXME
 
@@ -15,6 +35,11 @@
 
 - key: cc0
   term: "CC0"
+  def: >
+    FIXME
+
+- key: chaotic-decomposition
+  term: "chaotic decomposition"
   def: >
     FIXME
 
@@ -40,6 +65,21 @@
 
 - key: feature-boxing
   term: "feature boxing"
+  def: >
+    FIXME
+
+- key: feature-creep
+  term: "feature creep"
+  def: >
+    FIXME
+
+- key: feature-decomposition
+  term: "feature decomposition"
+  def: >
+    FIXME
+
+- key: functional-decomposition
+  term: "functional decomposition"
   def: >
     FIXME
 
@@ -78,6 +118,11 @@
   def: >
     FIXME
 
+- key: modular-decomposition
+  term: "modular decomposition"
+  def: >
+    FIXME
+
 - key: open-license
   term: "open license"
   def: >
@@ -98,6 +143,11 @@
   def: >
     FIXME
 
+- key: rotating-decomposition
+  term: "rotating decomposition"
+  def: >
+    FIXME
+
 - key: sense-vote
   term: "sense vote"
   def: >
@@ -113,8 +163,12 @@
   def: >
     FIXME
 
+- key: team-contract
+  term: "team contract"
+  def: >
+    FIXME
+
 - key: time-boxing
   term: "time boxing"
   def: >
     FIXME
-
