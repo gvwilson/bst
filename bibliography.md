@@ -98,6 +98,16 @@ Parnin2010
     "Resumption Strategies for Interrupted Programming Tasks.",
     *Software Quality Journal*, 19(1), 2010, doi:10.1007/s11219-010-9104-9.
 
+PerezDeRosso2013
+:   Santiago Perez De Rosso and Daniel Jackson:
+    "What's Wrong With Git?"
+    *Proc. Onward!'13*, 2013, doi:10.1145/2509578.2509584.
+
+PerezDeRosso2016
+:   Santiago Perez De Rosso and Daniel Jackson:
+    "Purposes,  Concepts,  Misfits,  and a Redesign of Git."
+    *Proc. OOPSLA'16*, 2016, doi:10.1145/2983990.2984018.
+
 Petre2013
 :   Marian Petre:
     "UML in Practice."

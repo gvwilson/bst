@@ -38,6 +38,11 @@
   def: >
     FIXME
 
+- key: centralized-system
+  term: "centralized system"
+  def: >
+    FIXME
+
 - key: chaotic-decomposition
   term: "chaotic decomposition"
   def: >
@@ -45,6 +50,11 @@
 
 - key: crunch-mode
   term: "crunch mode"
+  def: >
+    FIXME
+
+- key: decentralized-system
+  term: "decentralized system"
   def: >
     FIXME
 
@@ -113,6 +123,16 @@
   def: >
     A simple set of rules for making decisions in small groups.
 
+- key: mental-model
+  term: "mental model"
+  def: >
+    FIXME
+
+- key: merge
+  term: "merge"
+  def: >
+    FIXME
+
 - key: mit-license
   term: "MIT License"
   def: >
@@ -143,6 +163,21 @@
   def: >
     FIXME
 
+- key: pull
+  term: "pull"
+  def: >
+    FIXME
+
+- key: push
+  term: "push"
+  def: >
+    FIXME
+
+- key: repository
+  term: "repository"
+  def: >
+    FIXME
+    
 - key: rotating-decomposition
   term: "rotating decomposition"
   def: >

@@ -13,7 +13,7 @@ chapters:
   - slug: "teams"
     title: "Teams"
   - slug: "version-control"
-    title: "Version Control"
+    title: "Version Control and All That"
   - slug: "test-debug"
     title: "Testing and Debugging"
   - slug: "tooling"

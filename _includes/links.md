@@ -1,4 +1,7 @@
+[bitbucket]: https://bitbucket.org/
 [captain-awkward]: https://captainawkward.com/
+[carpentries]: http://carpentries.org
+[carpentries-git]: https://swcarpentry.github.io/git-novice/
 [carpentrycon-talk]: https://www.youtube.com/watch?v=7xR50ty5DZ0
 [charles-rules]: https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument
 [choose-license]: https://choosealicense.com/
@@ -7,8 +10,11 @@
 [git]: https://git-scm.com/
 [git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
 [github]: https://github.com/
+[github-guides]: https://guides.github.com/
+[gitlab]: https://gitlab.com/
 [hippocratic-license]: https://firstdonoharm.dev/
 [jsdoc]: https://jsdoc.app/
+[mercurial]: https://www.mercurial-scm.org/
 [noaa-disruptive]: https://coast.noaa.gov/ddb/
 [osi-license-list]: https://opensource.org/licenses
 [petre-marian]: https://www.open.ac.uk/people/mp8
