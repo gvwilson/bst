@@ -48,6 +48,16 @@
   def: >
     FIXME
 
+- key: commit
+  term: "commit (in Git)"
+  def: >
+    FIXME
+
+- key: commit-message
+  term: "commit message"
+  def: >
+    FIXME
+
 - key: crunch-mode
   term: "crunch mode"
   def: >
@@ -88,8 +98,23 @@
   def: >
     FIXME
 
+- key: flag
+  term: "flag"
+  def: >
+    FIXME
+
 - key: functional-decomposition
   term: "functional decomposition"
+  def: >
+    FIXME
+
+- key: git-clone
+  term: "clone (in Git)"
+  def: >
+    FIXME
+
+- key: git-remote
+  term: "remote (in Git)"
   def: >
     FIXME
 
@@ -188,6 +213,16 @@
   def: >
     A preliminary vote used to determine whether further discussion is needed in a meeting.
 
+- key: shell-prompt
+  term: "shell prompt"
+  def: >
+    FIXME
+
+- key: sub-command
+  term: "sub-command"
+  def: >
+    FIXME
+
 - key: symbolic-debugger
   term: "symbolic debugger"
   def: >
@@ -205,5 +240,10 @@
 
 - key: time-boxing
   term: "time boxing"
+  def: >
+    FIXME
+
+- key: timestamp
+  term: "timestamp"
   def: >
     FIXME

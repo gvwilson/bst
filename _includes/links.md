@@ -11,6 +11,7 @@
 [git-man-page-generator]: https://git-man-page-generator.lokaltog.net/
 [github]: https://github.com/
 [github-guides]: https://guides.github.com/
+[gitkraken]: https://www.gitkraken.com/
 [gitlab]: https://gitlab.com/
 [hippocratic-license]: https://firstdonoharm.dev/
 [jsdoc]: https://jsdoc.app/

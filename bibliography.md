@@ -24,6 +24,15 @@ Borst2015
     "What Makes Interruptions Disruptive?"
     *Proc. CHI'15*, 2015, doi:10.1145/2702123.2702156.
 
+Chacon2014
+:   Scott Chacon and Ben Straub:
+    *Pro Git* (2nd edition).
+    Apress, 2014, 978-1484200773.
+
+Cook2019
+:   Mary Rose Cook: [Gitlet](http://gitlet.maryrosecook.com/).
+    <http://gitlet.maryrosecook.com/>, viewed Feb 2021.
+
 Csikszentmihalyi1991
 :   Mihaly Csikszentmihalyi:
     *Flow: The Psychology of Optimal Experience*.
