@@ -25,9 +25,8 @@ g="centralized-system">centralized systems</span>:
 1.  In order to share files with other people (or to create a backup, which is
     really just a way to share files with your future self) people would <span
     g="push">push</span> the contents of their copy to the main repository.  To
-    get other people's work, they would <span g="pull">pull</span> changes from
-    the main repository and <span g="merge">merge</span> them with their own
-    work.
+    get other people's work, they would download changes from the main
+    repository and combine them with their own work.
 
 Centralized version control systems have largely been replaced by <span
 g="decentralized-system">decentralized</span> ones, and in particular by a tool
@@ -317,8 +316,8 @@ and the word `main` identifies the branch I'm on.  We'll discuss branches in the
 next section, but for now, you can run `git branch` to see which ones you have
 and which one you're working in.
 
-The counterpart of `git push` is `git pull`. It gets updates from the remote
-repository and merges them into your local copy:
+The counterpart of `git push` is `git pull`. It <span g="git-pull">pulls</g>
+changes from the remote repository and merges them into your local copy:
 
 ```
 $ git pull origin main

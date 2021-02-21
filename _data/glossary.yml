@@ -23,6 +23,16 @@
   def: >
     FIXME
 
+- key: branch-per-feature-workflow
+  term: "branch-per-feature workflow"
+  def: >
+    FIXME
+
+- key: git-branch
+  term: "branch (in Git)"
+  def: >
+    FIXME
+
 - key: bsd-license
   term: "BSD license"
   def: >
@@ -58,8 +68,18 @@
   def: >
     FIXME
 
+- key: git-conflict
+  term: "conflict (in Git)"
+  def: >
+    FIXME
+
 - key: crunch-mode
   term: "crunch mode"
+  def: >
+    FIXME
+
+- key: cwd
+  term: "current working directory"
   def: >
     FIXME
 
@@ -100,6 +120,11 @@
 
 - key: flag
   term: "flag"
+  def: >
+    FIXME
+
+- key: git-fork
+  term: "fork (in Git)"
   def: >
     FIXME
 
@@ -153,8 +178,8 @@
   def: >
     FIXME
 
-- key: merge
-  term: "merge"
+- key: git-merge
+  term: "merge (in Git)"
   def: >
     FIXME
 
@@ -188,8 +213,13 @@
   def: >
     FIXME
 
-- key: pull
+- key: git-pull
   term: "pull"
+  def: >
+    FIXME
+
+- key: pull-request
+  term: "pull request"
   def: >
     FIXME
 

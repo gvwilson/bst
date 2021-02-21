@@ -1,5 +1,6 @@
 import argparse
 import re
+import sys
 import yaml
 
 '''Utilities used across all tools.'''
@@ -8,13 +9,15 @@ import yaml
 RAW = re.compile(r'{%\s+raw\s+%}.*?{%\s+endraw\s+%}', re.DOTALL)
 
 
-def get_all_matches(pattern, filenames, group=1, scrub=True):
+def get_all_matches(pattern, filenames, group=1, scrub=True, no_duplicates=False):
     '''Create set of matches in source files.'''
     result = set()
     for filename in filenames:
         text = read_file(filename, scrub)
         for match in pattern.finditer(text):
             for key in match.group(group).split(','):
+                if no_duplicates and (key in result):
+                    print(f'** duplicate key "{key}"', file=sys.stderr)
                 result.add(key.strip())
     return result
 

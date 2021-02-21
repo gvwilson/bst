@@ -19,7 +19,7 @@ def glossary(options):
     '''Main driver.'''
     glossary = utils.read_yaml(options.glossary)
     defined = get_definitions(glossary)
-    referenced = utils.get_all_matches(GLOSS_REF, options.sources) | get_internal(glossary)
+    referenced = utils.get_all_matches(GLOSS_REF, options.sources, no_duplicates=True) | get_internal(glossary)
     utils.report('glossary', referenced=referenced, defined=defined)
 
 

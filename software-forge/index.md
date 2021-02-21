@@ -56,9 +56,8 @@ marian:~/bst $ ls
 marian:~/bst $ git log --oneline -n 4
 ```
 
-Marian also sees that Git has automatically created a <span
-g="git-remote">remote</span> for their repository that points back at their
-repository on GitHub:
+Marian also sees that Git has automatically created a remote for their
+repository that points back at their repository on GitHub:
 
 ```
 marian:~/bst $ git remote -v
