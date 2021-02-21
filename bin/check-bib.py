@@ -15,7 +15,7 @@ CITATION = re.compile(r'<cite>(.+?)</cite>', re.DOTALL)
 # Definitions are left-justified starting with an upper-case letter.
 DEFINITION = re.compile(r'^([A-Z][A-Za-z0-9]+)$', re.DOTALL + re.MULTILINE)
 
-def bibliography(options):
+def check_bib(options):
     '''Main driver.'''
     defined = get_definitions(options.bibliography)
     cited = utils.get_all_matches(CITATION, options.sources)
@@ -36,4 +36,4 @@ if __name__ == '__main__':
         ['--bibliography', False, 'Path to bibliography Markdown'],
         ['--sources', True, 'List of input files']
     )
-    bibliography(options)
+    check_bib(options)

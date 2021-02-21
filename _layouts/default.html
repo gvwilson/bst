@@ -24,6 +24,7 @@
         </header>
         {% endif %}
         {% include toc.html html=content class='toc' h_min=2 h_max=2 %}
+        {% include terms.html slug=slug %}
         {{ content }}
       </main>
       {% include foot.html %}

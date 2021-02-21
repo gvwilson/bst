@@ -13,7 +13,7 @@ import utils
 CHAP_REF = re.compile(r'<span\s+(a|c)="(.+?)">', re.DOTALL)
 
 
-def crossref(options):
+def check_ref(options):
     '''Main driver.'''
     config = utils.read_yaml(options.config)
     defined = get_slugs(config)
@@ -31,4 +31,4 @@ if __name__ == '__main__':
         ['--config', False, 'Path to YAML configuration file'],
         ['--sources', True, 'List of input files']
     )
-    crossref(options)
+    check_ref(options)

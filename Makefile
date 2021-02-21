@@ -7,6 +7,8 @@ INCLUDES=$(wildcard _includes/*)
 LAYOUTS=$(wildcard _layouts/*.html)
 MARKDOWN=$(wildcard *.md) $(wildcard */index.md)
 STATIC=$(wildcard _sass/*/*.scss) $(wildcard css/*.css) $(wildcard css/*.scss) $(wildcard js/*.js)
+GLOSSARY=_data/glossary.yml
+TERMS=_data/terms.yml
 
 .DEFAULT: commands
 
@@ -16,18 +18,21 @@ commands:
 
 ## build: rebuild site without running server
 build:
+	@make make-terms
 	${JEKYLL} build
 
 ## serve: build site and run server
 serve:
+	@make make-terms
 	${JEKYLL} serve
 
-${SITE}/index.html: _config.yml ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC}
+${SITE}/index.html: ${CONFIG} ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC}
+	@make make-terms
 	${JEKYLL} build
 
 ## book.tex: create LaTeX file.
 book.tex: ${SITE}/index.html bin/html2tex.py
-	bin/html2tex.py --config _config.yml --site _site --head tex/head.tex --foot tex/foot.tex > book.tex
+	bin/html2tex.py --config ${CONFIG} --site _site --head tex/head.tex --foot tex/foot.tex > book.tex
 
 ## book.pdf: create PDF file.
 book.pdf: book.tex
@@ -48,11 +53,15 @@ check-bib:
 
 ## check-gloss: compare references and definitions
 check-gloss:
-	@bin/check-gloss.py --glossary _data/glossary.yml --sources ${MARKDOWN}
+	@bin/check-gloss.py --glossary ${GLOSSARY} --sources ${MARKDOWN}
 
 ## check-ref: compare chapter cross-references to chapters and appendices
 check-ref:
-	@bin/check-ref.py --config _config.yml --sources ${MARKDOWN}
+	@bin/check-ref.py --config ${CONFIG} --sources ${MARKDOWN}
+
+## make-terms: create YAML file listing terms per chapter.
+make-terms:
+	bin/make-terms.py --config ${CONFIG} --glossary ${GLOSSARY} --output ${TERMS}
 
 ## ----
 

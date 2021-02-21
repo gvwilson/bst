@@ -1,0 +1,132 @@
+bibliography: []
+conclusion: []
+conduct: []
+contributing: []
+design: []
+getting-started:
+- key: elevator-pitch
+  term: elevator pitch
+glossary: []
+important-stuff:
+- key: hitchhiker
+  term: hitchiker
+- key: crunch-mode
+  term: crunch mode
+- key: governance
+  term: governance
+- key: marthas-rules
+  term: Martha's Rules
+- key: sense-vote
+  term: sense vote
+- key: active-listening
+  term: active listening
+introduction:
+- key: design-by-contract
+  term: design by contract
+- key: tdd
+  term: test-driven development (TDD)
+legalities:
+- key: gpl
+  term: GNU Public License
+- key: mit-license
+  term: MIT License
+- key: cc-by
+  term: CC-BY
+- key: bsd-license
+  term: BSD license
+- key: cc0
+  term: CC0
+- key: open-license
+  term: open license
+- key: hippocratic-license
+  term: Hippocratic License
+license: []
+performance-evaluation: []
+process:
+- key: time-boxing
+  term: time boxing
+- key: feature-boxing
+  term: feature boxing
+- key: project-manager
+  term: project manager
+- key: ae
+  term: analysis & estimation
+- key: product-manager
+  term: product manager
+software-forge:
+- key: pull-request
+  term: pull request
+- key: git-fork
+  term: fork (in Git)
+- key: issue-tracker
+  term: issue tracker
+teams:
+- key: big-bang
+  term: big-bang integration
+- key: team-contract
+  term: team contract
+- key: 90-9-1-rule
+  term: 90-9-1 rule
+- key: chaotic-decomposition
+  term: chaotic decomposition
+- key: functional-decomposition
+  term: functional decomposition
+- key: modular-decomposition
+  term: modular decomposition
+- key: feature-creep
+  term: feature creep
+- key: alpha-geek
+  term: alpha geek
+- key: rotating-decomposition
+  term: rotating decomposition
+- key: feature-decomposition
+  term: feature decomposition
+test-debug: []
+thinking-learning: []
+tooling:
+- key: symbolic-debugger
+  term: symbolic debugger
+- key: doc-generator
+  term: documentation generator
+- key: pattern-rule
+  term: pattern rule
+version-control:
+- key: sub-command
+  term: sub-command
+- key: commit-message
+  term: commit message
+- key: git-clone
+  term: clone (in Git)
+- key: mental-model
+  term: mental model
+- key: branch-per-feature-workflow
+  term: branch-per-feature workflow
+- key: git-merge
+  term: merge (in Git)
+- key: decentralized-system
+  term: decentralized system
+- key: repository
+  term: repository
+- key: timestamp
+  term: timestamp
+- key: git-pull
+  term: pull
+- key: shell-prompt
+  term: shell prompt
+- key: git-remote
+  term: remote (in Git)
+- key: git-conflict
+  term: conflict (in Git)
+- key: centralized-system
+  term: centralized system
+- key: flag
+  term: flag
+- key: push
+  term: push
+- key: commit
+  term: commit (in Git)
+- key: cwd
+  term: current working directory
+- key: git-branch
+  term: branch (in Git)
+wrapping-up: []

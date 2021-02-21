@@ -11,15 +11,12 @@ import utils
 # Cross-references look like internal links.
 CROSS_REF = re.compile(r'\[.+?\]\((#.+?)\)', re.DOTALL)
 
-# Glossary references use <span g="...">...</span>.
-GLOSS_REF = re.compile(r'<span\s+g="(.+?)">', re.DOTALL)
 
-
-def glossary(options):
+def check_gloss(options):
     '''Main driver.'''
     glossary = utils.read_yaml(options.glossary)
     defined = get_definitions(glossary)
-    referenced = utils.get_all_matches(GLOSS_REF, options.sources, no_duplicates=True) | get_internal(glossary)
+    referenced = utils.get_all_matches(utils.GLOSS_REF, options.sources, no_duplicates=True) | get_internal(glossary)
     utils.report('glossary', referenced=referenced, defined=defined)
 
 
@@ -42,4 +39,4 @@ if __name__ == '__main__':
         ['--glossary', False, 'Path to glossary YAML file'],
         ['--sources', True, 'List of input files']
     )
-    glossary(options)
+    check_gloss(options)
