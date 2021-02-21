@@ -25,10 +25,9 @@ def bibliography(options):
 def get_definitions(filename):
     '''Create set of citation keys.'''
     result = set()
-    with open(filename, 'r') as reader:
-        text = reader.read()
-        for match in DEFINITION.finditer(text):
-            result.add(match.group(1))
+    text = utils.read_file(filename)
+    for match in DEFINITION.finditer(text):
+        result.add(match.group(1))
     return result
 
 

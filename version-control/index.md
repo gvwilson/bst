@@ -341,12 +341,12 @@ and *only* on the one before.
 However,
 there are times when we want to try things out
 without disrupting our main work.
-To do this, we can use \gref{branches}{git_branch} to work on separate tasks in parallel.\index{branch (in Git)}\index{Git!branch}
+To do this, we can use <span g="git-branch">branches</span> to work on separate tasks in parallel.
 Each branch is a parallel timeline;
 changes made on the branch only affect that branch
 unless and until we explicitly combine them with work done in another branch.
 
-We can see what branches exist in a repository using this command:\index{Git commands!branch}
+We can see what branches exist in a repository using this command:
 
 ```bash
 $ git branch
@@ -357,12 +357,12 @@ $ git branch
 ```
 
 When we initialize a repository,
-Git automatically creates a branch called `master`.\index{Git!master branch}
+Git automatically creates a branch called `master`.
 It is often considered the "official" version of the repository.
 The asterisk `*` indicates that it is currently active,
 i.e.,
 that all changes we make will take place in this branch by default.
-(The active branch is like the \gref{current working directory}{current_working_directory} in the shell.)
+(The active branch is like the <span g="cwd">current working directory</span> in the shell.)
 
 > **Default Branches**
 > 
@@ -424,8 +424,7 @@ if __name__ == '__main__':
 ```
 
 We used this version of `plotcounts.py`
-to display the word counts for *Dracula* on a log-log plot
-(Figure \@ref(fig:git-cmdline-loglog-plot)).
+to display the word counts for *Dracula* on a log-log plot.
 The relationship between word count and rank looked linear,
 but since the eye is easily fooled,
 we should fit a curve to the data.
@@ -472,7 +471,7 @@ On branch master
 nothing to commit, working directory clean
 ```
 
-To switch to our new branch we can use the `checkout` command\index{Git commands!checkout}
+To switch to our new branch we can use the `checkout` command
 that we first saw in Chapter \@ref(git-cmdline):
 
 ```bash
@@ -497,7 +496,7 @@ Commands like `ls` and `git log` therefore show that the files and history haven
 
 > **Where Are Branches Saved?**
 >
-> Git saves every version of every file in the `.git` directory\index{Git!.git directory}
+> Git saves every version of every file in the `.git` directory
 > that it creates in the project's root directory.
 > When we switch from one branch to another,
 > it replaces the files we see with
@@ -521,11 +520,11 @@ We could proceed in three ways at this point:
 
 1.  Add our changes to `plotcounts.py` once again in the `master` branch.
 2.  Stop working in `master` and start using the `fit` branch for future development.
-3.  \gref{Merge}{git_merge} the `fit` and `master` branches.
+3.  <span g="git-merge">Merge</span> the `fit` and `master` branches.
 
 The first option is tedious and error-prone;
 the second will lead to a bewildering proliferation of branches,
-but the third option is simple, fast, and reliable.\index{Git commands!merge}\index{merge (in Git)}
+but the third option is simple, fast, and reliable.
 To start,
 let's make sure we're in the `master` branch:
 
@@ -600,7 +599,7 @@ Deleted branch fit (was 1577404).
 
 ## Handling Conflicts {#git-advanced-conflict}
 
-A \gref{conflict}{git_conflict} occurs\index{Git!conflict}\index{conflict!in Git}
+A <span g="git-conflict">conflict</span> occurs
 when a line has been changed in different ways in two separate branches
 or when a file has been deleted in one branch but edited in the other.
 Merging `fit` into `master` went smoothly
@@ -776,7 +775,7 @@ while the lines from there to `>>>>>>> docs` show what was in `docs`.
 If there were several conflicting regions in the same file,
 Git would mark each one this way.
 
-We have to decide what to do next:\index{Git!resolve conflict}\index{resolve conflict (in Git)}
+We have to decide what to do next:
 keep the `master` changes,
 keep those from `docs`,
 edit this part of the file to combine them,
@@ -903,7 +902,7 @@ this workflow will help us keep track of what we are doing:
     and all of our tests should pass.
 
 Most experienced developers use this
-\gref{branch-per-feature workflow}{branch_per_feature_workflow},\index{branch-per-feature workflow (in Git)}\index{Git!branch-per-feature workflow}
+<span g="branch-per-feature-workflow">branch-per-feature workflow</span>,
 but what exactly is a "feature"?
 These rules make sense for small projects:
 
@@ -946,7 +945,7 @@ We can do this in two ways:
 
 2.  Everyone can read from the project's main repository,
     but only a few people can commit changes to it.
-    The project's other contributors \gref{fork}{git_fork} the main repository\index{Git!fork a repository}\index{fork (in Git)}
+    The project's other contributors <span g="git-fork">fork</span> the main repository
     to create one that they own,
     do their work in that,
     and then submit their changes to the main repository.
@@ -958,7 +957,7 @@ or if contributors are worried that they might make a mess in the `master` branc
 the second approach is safer.
 
 Git itself doesn't have any notion of a "main repository",
-but \gref{forges}{forge} like [GitHub][github],
+but <span g="forge">forges</span> like [GitHub][github],
 [GitLab][gitlab],
 and [BitBucket][bitbucket] all encourage people
 to use Git in ways that effectively create one.
@@ -966,31 +965,21 @@ Suppose,
 for example,
 that Sami wants to contribute to the Zipf's Law code that
 Amira is hosting on GitHub at `https://github.com/amira-khan/zipf`.
-Sami can go to that URL and click on the "Fork" button in the upper right corner
-(Figure \@ref(fig:git-advanced-fork-button)).
+Sami can go to that URL and click on the "Fork" button in the upper right corner.
 GitHub immediately creates a copy of Amira's repository within Sami's account on GitHub's own servers.
 
-```{r git-advanced-fork-button, echo=FALSE, fig.cap="Forking a repository."}
-knitr::include_graphics("figures/git-advanced/fork-button.png")
-```
-
 When the command completes,
-the setup on GitHub now looks like Figure \@ref(fig:git-advanced-after-fork).
-Nothing has happened yet on Sami's own machine:
+nothing has happened yet on Sami's own machine:
 the new repository exists only on GitHub.
 When Sami explores its history,
 they see that it contains all of the changes Amira made.
 
-```{r git-advanced-after-fork, echo=FALSE, fig.cap="Repositories on GitHub after forking."}
-knitr::include_graphics("figures/git-advanced/after-fork.png")
-```
-
-A copy of a repository is called a \gref{clone}{git_clone}.\index{Git!clone a repository}\index{clone (in Git)}
+A copy of a repository is called a <span g="git-clone">clone</span>.
 In order to start working on the project,
 Sami needs a clone of *their* repository (not Amira's) on their own computer.
 We will modify Sami's prompt to include their desktop user ID (`sami`)
 and working directory (initially `~`)
-to make it easier to follow what's happening:\index{Git commands!clone}
+to make it easier to follow what's happening:
 
 ```bash
 sami:~ $ git clone https://github.com/sami-virtanen/zipf.git
@@ -1032,7 +1021,7 @@ a0b88e5 Added repository overview
 232b564 Initial commit of README file
 ```
 
-Sami also sees that Git has automatically created a \gref{remote}{git_remote} for their repository\index{Git!remote}\index{remote (in Git)}
+Sami also sees that Git has automatically created a <span g="git-remote">remote</span> for their repository
 that points back at their repository on GitHub:
 
 ```bash
@@ -1061,7 +1050,7 @@ upstream    https://github.com/amira-khan/zipf.git (push)
 ```
 
 Sami has called their new remote `upstream` because it points at the repository
-theirs is derived from.\index{Git!upstream repository}\index{upstream repository (in Git)}
+theirs is derived from.
 They could use any name,
 but `upstream` is a nearly universal convention.
 
@@ -1150,9 +1139,9 @@ and periodically pull in Sami's changes,
 but that would lead to chaos,
 since we could never be sure that everyone's work was in any one place at the same time.
 Instead,
-almost everyone uses \gref{pull requests}{pull_request}.\index{pull request (in Git)}\index{Git!pull request}
+almost everyone uses <span g="pull-request">pull requests</span>.
 They aren't part of Git itself,
-but are supported by all major online \gref{forges}{forge}.
+but are supported by all major online <span g="forge">forges</span>.
 
 A pull request is essentially a note saying,
 "Someone would like to merge branch A of repository B into branch X of repository Y".
@@ -1238,102 +1227,42 @@ To https://github.com/sami-virtanen/zipf.git
 
 When Sami goes to their GitHub repository in the browser,
 GitHub notices that they have just pushed a new branch
-and asks them if they want to create a pull request
-(Figure \@ref(fig:git-advanced-after-sami-pushes)).
-
-```{r git-advanced-after-sami-pushes, echo=FALSE, fig.cap="Repository state after Sami pushes."}
-knitr::include_graphics("figures/git-advanced/after-sami-pushes.png")
-```
+and asks them if they want to create a pull request.
 
 When Sami clicks on the button,
 GitHub displays a page showing the default source and destination of the pull request
-and a pair of editable boxes for the pull request's title and a longer comment
-(Figure \@ref(fig:git-advanced-pull-request-start)).
-
-```{r git-advanced-pull-request-start, echo=FALSE, fig.cap="Starting a pull request."}
-knitr::include_graphics("figures/git-advanced/open-pull-request.png")
-```
+and a pair of editable boxes for the pull request's title and a longer comment.
 
 If they scroll down,
-Sami can see a summary of the changes that will be in the pull request
-(Figure \@ref(fig:git-advanced-pull-request-summary)).
-
-```{r git-advanced-pull-request-summary, echo=FALSE, fig.cap="Summary of a pull request."}
-knitr::include_graphics("figures/git-advanced/open-pull-request-detail.png")
-```
+Sami can see a summary of the changes that will be in the pull request.
 
 The top (title) box is autofilled with the previous commit message,
 so Sami adds an extended explanation to provide additional context
-before clicking on "Create Pull Request"
-(Figure \@ref(fig:git-advanced-pull-request-fill-in)).
+before clicking on "Create Pull Request".
 When they do,
 GitHub displays a page showing the new pull request,
-which has a unique serial number
-(Figure \@ref(fig:git-advanced-pull-request-new)).
+which has a unique serial number.
 Note that this pull request is displayed in Amira's repository rather than Sami's
 since it is Amira's repository that will be affected if the pull request is merged.
 
-```{r git-advanced-pull-request-fill-in, echo=FALSE, fig.cap="Filling in a pull request."}
-knitr::include_graphics("figures/git-advanced/fill-in-pull-request.png")
-```
-
-```{r git-advanced-pull-request-new, echo=FALSE, fig.cap="Creating a new pull request."}
-knitr::include_graphics("figures/git-advanced/new-pull-request.png")
-```
-
-Amira's repository now shows a new pull request
-(Figure \@ref(fig:git-advanced-pull-request-viewing)).
+Amira's repository now shows a new pull request.
 Clicking on the "Pull requests" tab brings up a list of PRs
-(Figure \@ref(fig:git-advanced-pull-request-list))
-and clicking on the pull request link itself displays its details
-(Figure \@ref(fig:git-advanced-pull-request-details)).
+and clicking on the pull request link itself displays its details.
 Sami and Amira can both see and interact with these pages,
 though only Amira has permission to merge.
-
-```{r git-advanced-pull-request-viewing, echo=FALSE, fig.cap="Viewing a pull request."}
-knitr::include_graphics("figures/git-advanced/viewing-new-pull-request.png")
-```
-
-```{r git-advanced-pull-request-list, echo=FALSE, fig.cap="Listing pull requests."}
-knitr::include_graphics("figures/git-advanced/pr-list.png")
-```
-
-```{r git-advanced-pull-request-details, echo=FALSE, fig.cap="Details of pull requests."}
-knitr::include_graphics("figures/git-advanced/pr-details.png")
-```
 
 Since there are no conflicts,
 GitHub will let Amira merge the PR immediately using the "Merge pull request" button.
 She could also discard or reject it without merging using the "Close pull request" button.
 Instead,
-she clicks on the "Files changed" tab to see what Sami has changed
-(Figure \@ref(fig:git-advanced-pull-request-changes)).
+she clicks on the "Files changed" tab to see what Sami has changed.
 
-```{r git-advanced-pull-request-changes, echo=FALSE, fig.cap="Viewing changes to files."}
-knitr::include_graphics("figures/git-advanced/pr-changes.png")
-```
-
-If she moves her mouse over particular lines,\index{Git!pull request!reviewing}\index{reviewing (Git pull request)}\index{code review!pull request}
-a white-on-blue cross appears near the numbers to indicate that she can add comments
-(Figure \@ref(fig:git-advanced-pull-request-comment-marker)).
+If she moves her mouse over particular lines,
+a white-on-blue cross appears near the numbers to indicate that she can add comments.
 She clicks on the marker beside her own name and writes a comment:
 She only wants to make one comment rather than write a lengthier multi-comment review,
-so she chooses "Add single comment"
-(Figure \@ref(fig:git-advanced-pull-request-write-comment)).
-GitHub redisplays the page with her remarks inserted
-(Figure \@ref(fig:git-advanced-pull-request-pr-with-comment)).
-
-```{r git-advanced-pull-request-comment-marker, echo=FALSE, fig.cap="A GitHub comment marker."}
-knitr::include_graphics("figures/git-advanced/pr-comment-marker.png")
-```
-
-```{r git-advanced-pull-request-write-comment, echo=FALSE, fig.cap="Writing a comment on a pull request."}
-knitr::include_graphics("figures/git-advanced/pr-writing-comment.png")
-```
-
-```{r git-advanced-pull-request-pr-with-comment, echo=FALSE, fig.cap="Viewing a comment on a pull request."}
-knitr::include_graphics("figures/git-advanced/pr-with-comment.png")
-```
+so she chooses "Add single comment".
+GitHub redisplays the page with her remarks inserted.
 
 While Amira is working,
 GitHub has been emailing notifications to both Sami and Amira.
@@ -1342,27 +1271,18 @@ it takes them to the PR and shows Amira's comment.
 Sami changes `README.md`,
 commits,
 and pushes,
-but does *not* create a new pull request or do anything to the existing one.\index{Git!pull request!updating}
+but does *not* create a new pull request or do anything to the existing one.
 As explained above,
 a PR is a note asking that two branches be merged,
 so if either end of the merge changes,
 the PR updates automatically.
 
 Sure enough,
-when Amira looks at the PR again a few moments later she sees Sami's changes
-(Figure \@ref(fig:git-advanced-pull-request-pr-with-fix)).
+when Amira looks at the PR again a few moments later she sees Sami's changes.
 Satisfied,
 she goes back to the "Conversation" tab and clicks on "Merge".
 The icon at the top of the PR's page changes text and color to show that the merge was successful
 (Figure \@ref(fig:git-advanced-pull-request-successful-merge)).
-
-```{r git-advanced-pull-request-pr-with-fix, echo=FALSE, fig.cap="A pull request with a fix."}
-knitr::include_graphics("figures/git-advanced/pr-with-fix.png")
-```
-
-```{r git-advanced-pull-request-successful-merge, echo=FALSE, fig.cap="After a successful merge."}
-knitr::include_graphics("figures/git-advanced/pr-successful-merge.png")
-```
 
 To get those changes from GitHub to her desktop repository,
 Amira uses `git pull`:
@@ -1434,14 +1354,9 @@ Now Sami can make contributions directly to the repository,
 rather than via a pull request from a forked repository.
 
 Sami makes a change to `README.md` in the `master` branch on GitHub.
-Meanwhile, Amira is making a conflicting change to the same file in a different branch.\index{Git!pull request!conflict}
+Meanwhile, Amira is making a conflicting change to the same file in a different branch.
 When Amira creates her pull request,
-GitHub will detect the conflict and report that the PR cannot be merged automatically
-(Figure \@ref(fig:git-advanced-pr-conflict)).
-
-```{r git-advanced-pr-conflict, echo=FALSE, fig.cap="Showing a conflict in a pull request."}
-knitr::include_graphics("figures/git-advanced/pr-conflict.png")
-```
+GitHub will detect the conflict and report that the PR cannot be merged automatically.
 
 Amira can solve this problem with the tools she already has.
 If she has made her changes in a branch called `editing-readme`,

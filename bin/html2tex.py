@@ -22,7 +22,6 @@ RECURSE_ONLY = {
     'header',
     'html',
     'main',
-    'span',
     'td',
     'th'
 }

@@ -1,18 +1,21 @@
 import argparse
+import re
 import yaml
 
 '''Utilities used across all tools.'''
 
 
-def get_all_matches(pattern, filenames, group=1):
+RAW = re.compile(r'{%\s+raw\s+%}.*?{%\s+endraw\s+%}', re.DOTALL)
+
+
+def get_all_matches(pattern, filenames, group=1, scrub=True):
     '''Create set of matches in source files.'''
     result = set()
     for filename in filenames:
-        with open(filename, 'r') as reader:
-            text = reader.read()
-            for match in pattern.finditer(text):
-                for key in match.group(group).split(','):
-                    result.add(key.strip())
+        text = read_file(filename, scrub)
+        for match in pattern.finditer(text):
+            for key in match.group(group).split(','):
+                result.add(key.strip())
     return result
 
 
@@ -25,6 +28,15 @@ def get_options(*options):
         else:
             parser.add_argument(flag, help=explain)
     return parser.parse_args()
+
+
+def read_file(filename, scrub=True):
+    '''Read a file, removing raw sections if requested.'''
+    with open(filename, 'r') as reader:
+        text = reader.read()
+        if scrub:
+            text = RAW.sub('', text)
+        return text
 
 
 def read_yaml(filename):

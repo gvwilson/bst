@@ -53,12 +53,12 @@ This project uses Martha's Rules for consensus decision making:
 1.  Use level-2 headings only within chapters and appendices.
 
 1.  To create a cross-reference:
-    -   Use `<span g="key">some text</span>` for glossary entries.
+    -   Use `{% raw %}<span g="key">some text</span>{% endraw %}` for glossary entries.
         The key must appear in `_data/glossary.yml`.
-    -   Use `<span c="slug"></span>` to cross-reference a chapter
-        and `<span a="slug"></span>` to cross-reference an appendix.
+    -   Use `{% raw %}<span c="slug"></span>{% endraw %}` to cross-reference a chapter
+        and `{% raw %}<span a="slug"></span>{% endraw %}` to cross-reference an appendix.
         The slugs must appear in `_config.yml`.
-    -   Use `<cite>key,key</cite>` for bibliography citations.
+    -   Use `{% raw %}<cite>key,key</cite>{% endraw %}` for bibliography citations.
         The keys must appear in `bibliography/index.md`.
 
 1.  To include a code sample use
