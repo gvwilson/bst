@@ -14,6 +14,8 @@ chapters:
     title: "Teams"
   - slug: "version-control"
     title: "Version Control and All That"
+  - slug: "software-forge"
+    title: "What Else Your Software Forge Can Do For You"
   - slug: "test-debug"
     title: "Testing and Debugging"
   - slug: "tooling"

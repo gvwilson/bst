@@ -306,13 +306,12 @@ important as the first: if you can't go back and find out what was said a month
 ago---or, just as importantly, if someone *else* can't do that---you might as
 well not have said it.
 
-Wikis* seem like a good way to keep notes, create documentation, and so
-on. Their strengths are a syntax that's (a little) simpler than HTML, and the
-fact that content is automatically and immediately visible on the web. In
-practice, you'll probably get as much mileage out of a bunch of HTML pages under
-version control---you have to set up a repository anyway, and version control
-systems are much better at reconciling conflicts between concurrent authors than
-wikis.
+Wikis seem like a good way to keep notes, create documentation, and so on. Their
+strengths are a syntax that's (a little) simpler than HTML, and the fact that
+content is automatically and immediately visible on the web. In practice, you'll
+probably get as much mileage out of a bunch of HTML pages under version
+control---you have to set up a repository anyway, and version control systems
+are much better at reconciling conflicts between concurrent authors than wikis.
 
 Blogs, on the other hand, have proven more useful. One kind of project blog
 consists of articles written by the team's members as a journal of their
@@ -344,21 +343,6 @@ particular, post a summary of the conversation to your project's web site, just
 as you would post meeting minutes. And if you want to figure out how to make IM
 a productivity enhancer, please send me email: I'm always looking for good
 graduate students.
-
-## Portals
-
-All of which brings us to project management portals, which do for groupware
-what IDEs do for desktop tools. The best-known by far is GitHub, which hosts
-millions of projects, but there are many others to choose from. A portal
-typically provides a read-only view of the project's version control repository
-with a issue tracker, a wiki, mailing lists, blogs, and other odds and ends.
-
-Portals are attractive because setting up one system that does all of these
-things is a lot less work than setting up one system for each. In addition, each
-tool becomes more powerful when it can easily be used with others: if tickets
-can easily link to change sets in version control, which can link to wiki pages,
-which can link to email messages, each piece of information becomes more
-valuable.
 
 ## The next level
 
