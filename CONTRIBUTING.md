@@ -43,16 +43,58 @@ This project uses Martha's Rules for consensus decision making:
     If a majority votes "yes" the proposal is implemented.
     Otherwise, the proposal is returned to the sponsor for further work.
 
-## Development Process
+## Formatting
 
-1.  Use `discussion` to label general discussion threads,
-    `proposal` to identify proposals that need to be voted on,
-    and `bug` for things that need to be fixed.
+1.  Each chapter or appendix is identified by a slug such as `version-control`.
+    Its text lives in <code><em>slug</em>/index.md</code>, and there is an entry
+    under the `chapters` key in `_config.yml` with its slug and its title. This
+    list controls ordering.
 
-1.  When starting work on a subject,
-    create an issue labelled `in progress` and assign it to yourself.
-    Use `help wanted` if you need assistance or want someone else to take it over
-    and `ready for review` when the pull request is ready for review or being reviewed.
+1.  Use level-2 headings only within chapters and appendices.
 
-1.  The first draft for each topic should be point-form notes and working code.
-    We will reorganize these once we have written enough to see overall scope.
+1.  To create a cross-reference:
+    -   Use `<span g="key">some text</span>` for glossary entries.
+        The key must appear in `_data/glossary.yml`.
+    -   Use `<span c="slug"></span>` to cross-reference a chapter
+        and `<span a="slug"></span>` to cross-reference an appendix.
+        The slugs must appear in `_config.yml`.
+    -   Use `<cite>key,key</cite>` for bibliography citations.
+        The keys must appear in `bibliography/index.md`.
+
+1.  To include a code sample use
+    `{% raw %}{% include code file="name.ext" %}{% endraw %}`.
+    The path to the file must be relative to the including file. in most
+    cases it will be in the same directory as the chapter or appendix.
+
+1.  To continue a paragraph that has been interrupted by a code sample
+    or something else, use:
+
+    ```
+    ::: continue
+    text of paragraph
+    :::
+    ```
+
+    This has no effect on the appearance of the HTML, but prevents an
+    unwanted paragraph indent in the PDF version.
+
+1.  To create a callout box, use:
+
+    ```
+    ::: callout
+    **Title of callout**
+
+    text of callout
+    :::
+    ```
+
+1.  To insert an external link, use `{% raw %}[text][tag]{% endraw %}`
+    in the body, then add the link to `_includes/links.md`.  This file
+    must be included at the foot of every chapter or appendix so that
+    the links will resolve. (We cannot include it in the layout because
+    of the order in which Jekyll processes inclusions.)
+
+1.  The commands to rebuild the site, run a server, produce the PDF
+    version, and check internal consistency are all stored in `Makefile`
+    and use the tools in `bin/*.py`. Run `make` on its own to get a list
+    of available commands.
