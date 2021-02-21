@@ -242,9 +242,9 @@ that it would actually work.
 
 Once you know where the goalposts are, the next thing is to get everyone to
 agree on what you're supposed to accomplish.  The best way to do this is write
-an <g key="elevator-pitch">elevator pitch</g> like the one shown below to figure
-out what problem you're trying to solve, who it affects, and why your solution
-is a good one.
+an <span g="elevator-pitch">elevator pitch</span> like the one shown below to
+figure out what problem you're trying to solve, who it affects, and why your
+solution is a good one.
 
 > **The problem of**
 > developing software in a predictable and reliable manner

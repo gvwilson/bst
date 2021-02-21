@@ -26,8 +26,8 @@ short, readable summary.  The most important results for developers are:
 
 1.  Working more than eight hours a day for an extended period of time lowers
     your total productivity, not just your hourly productivity---i.e., you get
-    less done *in total* (not just per hour) when you're in <g
-    key="crunch-mode">crunch mode</g> than you do when you work regular hours.
+    less done *in total* (not just per hour) when you're in <span
+    g="crunch-mode">crunch mode</span> than you do when you work regular hours.
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
     catastrophic error just as much as being legally drunk.
@@ -126,8 +126,8 @@ Make a list of the things you have to do.
     when I'm thinking, but a lot of people keep a personal wiki or send
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
-    only keep a handful of things in short-term memory at once (<chap
-    key="thinking-learning"></chap>); if you try to manage a to-do list longer
+    only keep a handful of things in short-term memory at once (<span
+    c="thinking-learning"></span>); if you try to manage a to-do list longer
     than that in your head, you will forget things.
 
 Weed out everything that you don't need to do right away.
@@ -139,8 +139,8 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from version control (<chap
-    key="version-control"></chap>), the assignment specification, a fresh cup of
+:   The most recent files from version control (<span
+    c="version-control"></span>), the assignment specification, a fresh cup of
     tea---whatever it is, don't give yourself an excuse to interrupt your work,
     because the world will provide enough of those.
 
@@ -208,7 +208,7 @@ They may even start to imitate you.
 ## Meetings
 
 The previous section explained how to be productive individually---what about
-being productive in a team? <chap key="teams"></chap> will explore this subject,
+being productive in a team? <span c="teams"></span> will explore this subject,
 but the single most important thing is knowing how to run a meeting efficiently.
 The rules doing so are simple but rarely followed:
 
@@ -290,8 +290,8 @@ Everyone can check what was actually said or promised.
 
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
-    follow up on them later.  If you are using an issue-tracking system (<chap
-    key="tooling"></chap>), create a ticket for each new question or task right
+    follow up on them later.  If you are using an issue-tracking system (<span
+    c="tooling"></span>), create a ticket for each new question or task right
     after the meeting and update those that are being carried forward.  This
     helps a lot when the time comes to draw up the agenda for the next meeting.
 
@@ -310,9 +310,9 @@ formal or informal---in other words, whether it's accountable or unaccountable
 <cite>Freeman1972</cite>.  The latter can work for groups of up to half a dozen
 people in which everyone knows everyone else.  Beyond that, groups need to spell
 out who has the authority to make which decisions and how to achieve consensus.
-In short, they need explicit <g key="governance">governance</g>.
+In short, they need explicit <span g="governance">governance</span>.
 
-<g key="marthas-rules">Martha's Rules</g> are a practical way to do this in
+<span g="marthas-rules">Martha's Rules</span> are a practical way to do this in
 groups with up to a few dozen members <cite>Minahan1986</cite>, and work very
 well for smaller teams too:
 
@@ -333,11 +333,10 @@ well for smaller teams too:
     delegate is present.  The sponsor is also responsible for presenting the
     item to the group.
 
-4.  After the sponsor presents the proposal a <g key="sense-vote">sense vote</g>
-    is cast for the proposal prior to any discussion:
-    -   Who likes the proposal?
-    -   Who can live with the proposal?
-    -   Who is uncomfortable with the proposal?
+4.  After the sponsor presents the proposal a <span g="sense-vote">sense
+    vote</span> is cast for the proposal prior to any discussion: - Who likes
+    the proposal?  - Who can live with the proposal?  - Who is uncomfortable
+    with the proposal?
 
 5.  If all of the group likes or can live with the proposal, it passes with no
     further discussion.
@@ -370,7 +369,7 @@ Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's `README` file (<chap key="version-control"></chap>) or
+section in the project's `README` file (<span c="version-control"></span>) or
 put into a separate file called `CONTRIBUTING`.  This material should describe
 the naming conventions to use for functions, what tags to put on issues, or how
 to install and configure the software needed to start work on the project.
@@ -416,9 +415,9 @@ Make sure we are not guilty of the same sin.
     meetings if we do it just as frequently.
 
 Check expectations.
-:   Are we sure the offender knows what standards they are supposed to be
-    meeting?  This is where things like the team contracts described in <chap
-    key="teams"></chap> come in handy.
+:   Are we sure the offender knows what standards they are supposed to be meeting?
+    This is where things like the team contracts described in <span
+    c="teams"></span> come in handy.
 
 Check the situation.
 :   Is someone dealing with an ailing parent or immigration woes?  Do they have
@@ -467,24 +466,24 @@ and the steps we have already taken to resolve it.  Make sure the offender gets
 a copy as well, and ask the instructor to arrange a meeting to resolve the
 issue.
 
-One technique your instructor may ask you to use in a meeting of this kind is <g
-key="active-listening">active listening</g>. When one person makes a point, the
-person on the other side of the issue explains it back to them, as in, "So what
-I think Igor is saying is…" This confirms that the second person has actually
-paid attention to what the first person said. It can also defuse a lot of
-tension, since explaining your position back to you clearly forces the other
-person to see the world through your eyes, if only for a few moments.
+One technique your instructor may ask you to use in a meeting of this kind is
+<span g="active-listening">active listening</span>. When one person makes a
+point, the person on the other side of the issue explains it back to them, as
+in, "So what I think Igor is saying is…" This confirms that the second person
+has actually paid attention to what the first person said. It can also defuse a
+lot of tension, since explaining your position back to you clearly forces the
+other person to see the world through your eyes, if only for a few moments.
 
 > **Hitchhikers**
 >
-> <g key="hitchhiker">Hitchhikers</g> who show up but never actually do anything
-> are particularly difficult to manage, in part because they are usually very
-> good at appearing reasonable.  They will nod as we present our case, then say,
-> "Well, yes, but…" and list a bunch of minor exceptions or cases where others
-> on the team have also fallen short of expectations.  Tracking progress and
-> contributions is essential for handling them.  If we can't back up our
-> complaint, our instructor will likely be left with the impression that the
-> whole team is dysfunctional.
+> <span g="hitchhiker">Hitchhikers</span> who show up but never actually do
+> anything are particularly difficult to manage, in part because they are
+> usually very good at appearing reasonable.  They will nod as we present our
+> case, then say, "Well, yes, but…" and list a bunch of minor exceptions or
+> cases where others on the team have also fallen short of expectations.
+> Tracking progress and contributions is essential for handling them.  If we
+> can't back up our complaint, our instructor will likely be left with the
+> impression that the whole team is dysfunctional.
 
 What can we do if conflict becomes more personal and heated?
 

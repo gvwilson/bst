@@ -45,10 +45,10 @@ users may wind up operating under different licensing structures.
 
 To make license selection for code as easy as possible, GitHub allows us to
 select one of several common software licenses when creating a repository.  The
-Open Source Initiative maintains [a list][osi-license-list] of
-<g key="open-license">open licenses</g>, and
-[choosealicense.com][choose-license] will help us find a license that suits our
-needs.  Some of the things we need to think about are:
+Open Source Initiative maintains [a list][osi-license-list] of <span
+g="open-license">open licenses</span>, and [choosealicense.com][choose-license]
+will help us find a license that suits our needs.  Some of the things we need to
+think about are:
 
 1.  Do we want to license the work at all?
 
@@ -76,12 +76,13 @@ that is also in the project's root directory.
 ### Software
 
 In order to choose the right license for our software, we need to understand the
-difference between two kinds of license.  The <g key="mit-license">MIT
-License</g> and its close sibling the <g key="bsd-license">BSD License</g> say
-that people can do whatever they want to with the software as long as they cite
-the original source, and that the authors accept no responsibility if things go
-wrong.  The <g key="gpl">GNU Public License</g> (GPL) gives people similar
-rights, but requires them to share their own work on the same terms:
+difference between two kinds of license.  The <span g="mit-license">MIT
+License</span> and its close sibling the <span g="bsd-license">BSD
+License</span> say that people can do whatever they want to with the software as
+long as they cite the original source, and that the authors accept no
+responsibility if things go wrong.  The <span g="gpl">GNU Public License</span>
+(GPL) gives people similar rights, but requires them to share their own work on
+the same terms:
 
 > You may copy, distribute and modify the software as long as you track
 > changes/dates in source files.  Any modifications to or software including
@@ -102,9 +103,9 @@ it places the fewest restrictions on future action.
 
 > **First, Do No Harm**
 >
-> The <g key="hippocratic-license">Hippocratic License</g> is a newer license
-> that is quickly becoming popular.  Where the GPL requires people to share
-> their work, the Hippocratic License requires them to do no harm.  More
+> The <span g="hippocratic-license">Hippocratic License</span> is a newer
+> license that is quickly becoming popular.  Where the GPL requires people to
+> share their work, the Hippocratic License requires them to do no harm.  More
 > precisely, it forbids people from using the software in ways that violate the
 > [Universal Declaration of Human Rights][udhr].  We have learned the hard way
 > that software and science can be mis-used; adopting the Hippocratic License is
@@ -117,7 +118,7 @@ software.  When it comes to data and reports, the most widely used family of
 licenses are those produced by [Creative Commons][creative-commons].  These have
 been written and checked by lawyers and are well understood by the community.
 
-The most liberal option is referred to as <g key="cc0">CC0</g> where the "0"
+The most liberal option is referred to as <span g="cc0">CC0</span> where the "0"
 stands for "zero restrictions".  This puts work in the public domain, i.e.,
 allows anyone who wants to use it to do so however they want with no
 restrictions.  CC-0 is usually the best choice for data, since it simplifies
@@ -126,9 +127,9 @@ negate the scholarly tradition and requirement of citing sources; it just
 doesn't make it a legal requirement.
 
 The next step up from CC-0 is the Creative Commons--Attribution license, usually
-referred to as <g key="cc-by">CC-BY</g>. This allows people to do whatever they
-want to with the work as long as they cite the original source.  This is the
-best license to use for manuscripts: we want people to share them widely but
+referred to as <span g="cc-by">CC-BY</span>. This allows people to do whatever
+they want to with the work as long as they cite the original source.  This is
+the best license to use for manuscripts: we want people to share them widely but
 also want to get credit for our work.
 
 Other Creative Commons licenses incorporate various restrictions, and are

@@ -13,34 +13,36 @@ allocate credit and blame where they're due.
 Dozens of version control systems exist. For many years, CVS was the workhorse
 of the open source world, and very popular in commercial projects as well. It
 was replaced by Subversion, which fixe many of its predecessor's flaws while
-introducing a few minor ones of its own. Both of these were <g
-key="centralized-system">centralized systems</g>:
+introducing a few minor ones of its own. Both of these were <span
+g="centralized-system">centralized systems</span>:
 
-1.  One <g key="repository">repository</g> stored the definitive copy of the
+1.  One <span g="repository">repository</span> stored the definitive copy of the
     project's files.
 
 1.  Nobody ever edited the contents of the main repository directly. Instead,
     everyone worked in a local copy.
 
-1.  In order to share files with other people (or to create a backup, which
-    is really just a way to share files with your future self) people would
-    <g key="push">push</g> the contents of their copy to the main repository.
-    To get other people's work, they would <g key="pull">pull</g> changes from
-    the main repository and <g key="merge">merge</g> them with their own work.
+1.  In order to share files with other people (or to create a backup, which is
+    really just a way to share files with your future self) people would <span
+    g="push">push</span> the contents of their copy to the main repository.  To
+    get other people's work, they would <span g="pull">pull</span> changes from
+    the main repository and <span g="merge">merge</span> them with their own
+    work.
 
-Centralized version control systems have largely been replaced by <g
-key="decentralized-system">decentralized</g> ones, and in particular by a tool
+Centralized version control systems have largely been replaced by <span
+g="decentralized-system">decentralized</span> ones, and in particular by a tool
 called [Git][git]. In theory, Git doesn't need a main repository; instead,
 developers can merge the contents of any repository with any other one.  In
 practice, almost every project designates one repository as the master copy so
 that everyone knows where to look to find the current state of the project.
 
-Unfortunately, Git has a needlessly complicated interface. <cite>PerezDeRosso2013</cite>
-found that even experienced users have a <g key="mental-model">mental model</g>
-of how it works that contradicts its actual operation in important ways,
-and each of those contradictions produces a steady stream of "what the hell?"
-moments. Other distributed version control systems like [Mercurial][mercurial]
-are proof that this complexity and pain are unnecessary.
+Unfortunately, Git has a needlessly complicated interface.
+<cite>PerezDeRosso2013</cite> found that even experienced users have a <span
+g="mental-model">mental model</span> of how it works that contradicts its actual
+operation in important ways, and each of those contradictions produces a steady
+stream of "what the hell?"  moments. Other distributed version control systems
+like [Mercurial][mercurial] are proof that this complexity and pain are
+unnecessary.
 
 > **Why can't we fix it?**
 >
@@ -94,21 +96,18 @@ produces a toolkit that uses Git as a file backup system.
 The first step is to make sure that Git knows who we are by telling it our name
 and email address:
 
-```
-$ git config --global user.name "Peggy Springsteen"
-$ git config --global user.email "peggy@wolframhart.org"
-```
+{% include code file="config.sh" %}
 
 Breaking this down:
 
--   The dollar sign `$` is a <g key="shell-prompt">shell prompt</g>.  We don't
+-   The dollar sign `$` is a <span g="shell-prompt">shell prompt</span>.  We don't
     type that; the shell prints it to show us that it's waiting for a command.
 
 -   Git commands are written as <code>git <em>verb</em></code>, where
-    <code><em>verb</em></code> is a <g key="sub-command">sub-command</g> telling
-    Git exactly what we want to do.
+    <code><em>verb</em></code> is a <span g="sub-command">sub-command</span>
+    telling Git exactly what we want to do.
 
--   The `--global` <g key="flag">flag</g> is used to specify a value for the
+-   The `--global` <span g="flag">flag</span> is used to specify a value for the
     command in the same way that parameters are used to pass values to
     functions. In this case, we're telling Git that we want to configure things
     globally (i.e., for every project we have on this computer). We can also
@@ -140,7 +139,7 @@ files you have and how they've changed.
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the
-project's URL to get a local copy called a <g key="git-clone">clone</g>. For
+project's URL to get a local copy called a <span g="git-clone">clone</span>. For
 example, if you want a clone of this book, you can do this:
 
 ```
@@ -158,7 +157,7 @@ its history. If I run this command right now for this book, I get:
 ```
 $ git log
 commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
-Author: Greg Wilson <gvwilson@third-bit.com>
+Author: Greg Wilson <spanvwilson@third-bit.com>
 Date:   Fri Feb 19 09:48:37 2021 -0500
 
     Opening section of version control.
@@ -188,19 +187,19 @@ Each entry has:
 
 -   Two lines showing who saved the state of the project and when. The name and
     email address in the `Author` field are the ones we set up with `git
-    config`; the <g key="timestamp">timestamp</g> is accurate to the second, and
-    includes timezone information like the `-0500` showing that I'm in Eastern
-    time so that anyone in the world can tell exactly when these files were
-    saved.
+    config`; the <span g="timestamp">timestamp</span> is accurate to the second,
+    and includes timezone information like the `-0500` showing that I'm in
+    Eastern time so that anyone in the world can tell exactly when these files
+    were saved.
 
--   A short comment called a <g key="commit-message">commit message</g> that
+-   A short comment called a <span g="commit-message">commit message</span> that
     tells us what this change is all about. We will take a look in the next
     section at how to write a good commit message; for now, just remember that
     if you and your teammates have made a hundred changes to the project over
     the course of ten or twelve weeks, you're going to want something more
     informative than "Fixed stuff."
 
-All right: what are <g key="commit">commits</g> and where do they come from? A
+All right: what are <span g="commit">commits</span> and where do they come from? A
 commit is a snapshot of the project at a particular moment in time; we create
 them using a command like:
 
@@ -284,8 +283,9 @@ since then: the project's history stays intact.
 Finally, I should make sure there's a second physical copy of my work so that if
 my drive fails or my laptop is stolen I don't lose everything I've done. If I
 created the repository by cloning something on GitHub, then Git will
-automatically have created a bookmark called a <g key="git-remote">remote</g>
-that points at the original repository. I can get a list of remotes like this:
+automatically have created a bookmark called a <span
+g="git-remote">remote</span> that points at the original repository. I can get a
+list of remotes like this:
 
 ```
 $ git remote -v
@@ -331,7 +331,7 @@ servers).
 > and make sure that everything builds and runs there. Doing that will tell you
 > if you or one of your teammates has forgotten to commit a key file. In an
 > advanced course, you might be asked to do this automatically every time
-> someone commits changes; we'll explore this in <chap key="tooling"></chap>.
+> someone commits changes; we'll explore this in <span c="tooling"></span>.
 
 ## A branch-based workflow
 
@@ -1485,12 +1485,12 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, an <g key="issue-tracker">issue tracker</g> is a shared to-do
-list. Ticketing systems are also called ticketing systems and bug trackers,
-because most software projects use one to keep track of the bugs that developers
-and users find. These days, issue trackers are almost invariably web-based. To
-create a new ticket, you enter a title and a short description; the system then
-assigns it a unique serial number. You can usually also specify:
+At its simplest, an <span g="issue-tracker">issue tracker</span> is a shared
+to-do list. Ticketing systems are also called ticketing systems and bug
+trackers, because most software projects use one to keep track of the bugs that
+developers and users find. These days, issue trackers are almost invariably
+web-based. To create a new ticket, you enter a title and a short description;
+the system then assigns it a unique serial number. You can usually also specify:
 
 -   who is responsible for the ticket (e.g., who's supposed to fix the bug, or
     test the fix, or update the documentation);

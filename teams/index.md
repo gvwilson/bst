@@ -14,8 +14,8 @@ instead.  These conflicts are more wearying than any number of buffer overruns
 or accidentally erased files, which is why most computer science courses stick
 to individual assignments.
 
-It doesn't take much to make a team work smoothly, though. The rules in <chap
-key="important-stuff"><chap> for running meetings, making decisions, and
+It doesn't take much to make a team work smoothly, though. The rules in <span
+c="important-stuff"><span> for running meetings, making decisions, and
 resolving conflicts are a good start; this chapter will look at what else
 you can do.
 
@@ -28,7 +28,7 @@ forwards and backs in rugby, the infield and outfield in baseball, and so on.
 She went on to explain that hunting parties in non-agricultural societies are
 usually that size as well, as are basic military units around the world (a
 platoon is two squads of six people).  Since we can only keep a handful of
-things in our short-term memory at once (<chap key="thinking-learning"></chap>)
+things in our short-term memory at once (<span c="thinking-learning"></span>)
 that's as big as a team can practically be.
 
 The same observation applies to software development.  Three or four people can
@@ -66,7 +66,7 @@ of the benefits of working in a team are lost: there's less back-and-forth
 discussion of design issues, and little improvement in communication skills.
 Those may not be important to you, but if there is a final exam in your course
 with questions about the project work, your mark on it may depend on how much
-you know about your teammates' work (<chap key="wrapping-up"></chap>).
+you know about your teammates' work (<span c="wrapping-up"></span>).
 
 There's another strong argument against self-selected teams: the pre-existing or
 ongoing relationships between their members make life a lot easier for
@@ -122,14 +122,14 @@ All right, you've formed a team: now what? How do you decide who does what? And
 just as importantly, how do you make sure that everyone actually does what
 they're supposed to?
 
-There are many ways to divide project work between team members. In a
-<g key="modular-decomposition">modular decomposition</g>, each person is
+There are many ways to divide project work between team members. In a <span
+g="modular-decomposition">modular decomposition</span>, each person is
 responsible for one part of the program. For example, one person might design
 and build the GUI, while another writes the database interface, and a third
 implements the business rules. This is generally a bad strategy for three
 reasons:
 
-1.  It leads to <g key="big-bang">big bang integration</g>, in which all the
+1.  It leads to <span g="big-bang">big bang integration</span>, in which all the
     components meet each other for the first time right at the end of the
     project. Big bang almost always fails.
 
@@ -139,17 +139,17 @@ reasons:
 3.  If someone drops out or fails to complete their module, the project as a
     whole will fail.
 
-<g key="functional-decomposition">Functional decomposition</g>, in which each
-person is responsible for one type of task, is usually more successful. With
-this strategy, one person does the testing, another handles the documentation, a
-third does the bulk of the coding, and the fourth takes care of build and
-deployment.  This guarantees that everyone understands most of the project by
-the end of the term. The obvious drawback is that each person only gets to hone
-one set of skills.
+<span g="functional-decomposition">Functional decomposition</span>, in which
+each person is responsible for one type of task, is usually more
+successful. With this strategy, one person does the testing, another handles the
+documentation, a third does the bulk of the coding, and the fourth takes care of
+build and deployment.  This guarantees that everyone understands most of the
+project by the end of the term. The obvious drawback is that each person only
+gets to hone one set of skills.
 
 Another, less obvious, drawback stems from the fact that some activities are
 viewed as being more prestigious than others. If the team decomposes work
-functionally, the self-appointed <g key="alpha-geek">alpha geeks</g> will
+functionally, the self-appointed <span g="alpha-geek">alpha geeks</span> will
 usually snag the plum jobs like architecture and coding, leaving less appealing
 work to people who aren't as pushy or self-confident. This tends to reinforce
 existing inequities; it also tends to lower the team's overall grade, since
@@ -165,23 +165,23 @@ they work.
 > easy way to tell if someone really knows what they're talking about or if what
 > they're actually reporting is their self-esteem.
 
-<g key="feature-decomposition">Feature decomposition</g> is a variation on
+<span g="feature-decomposition">Feature decomposition</span> is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
 subsystem for the life of the project, each team member handles the design,
 coding, testing, and documentation for one small feature after another.  Working
-this way is central to agile development (<chap key="process"></chap)) and is a
+this way is central to agile development (<span c="process"></span)) and is a
 good way to cope with the never-ending timeslicing of student life.
 
-Finally, there is <g key="rotating-decomposition">rotating decomposition</g>:
-everyone does one task for a few weeks, then a different task for the new few,
-and so on. This is initially less productive in absolute terms than either of
-the preceding strategies, since the team has to pay for ramp-up several times
-over. In the long term, though, it outperforms the alternatives: it is more
-robust (having a team member drop out is less harmful), and if everyone on the
-team is familiar with every aspect of the software, they can all contribute to
-design and debugging sessions.
+Finally, there is <span g="rotating-decomposition">rotating
+decomposition</span>: everyone does one task for a few weeks, then a different
+task for the new few, and so on. This is initially less productive in absolute
+terms than either of the preceding strategies, since the team has to pay for
+ramp-up several times over. In the long term, though, it outperforms the
+alternatives: it is more robust (having a team member drop out is less harmful),
+and if everyone on the team is familiar with every aspect of the software, they
+can all contribute to design and debugging sessions.
 
-Any of these strategies is better than <g key="chaotic-decomposition">chaotic
+Any of these strategies is better than <span g="chaotic-decomposition">chaotic
 decomposition</a>, which unfortunately is the most common approach. If people
 have different ideas about who's supposed to do what, some things won't be done
 at all while others will be done several times over. (You can tell if your
@@ -195,8 +195,8 @@ there when you need it.
 ## Team contracts
 
 No matter what decomposition you use, your team should write, sign, and submit a
-<g key="team-contract">team contract</g> outlining what everyone has agreed to
-do to make the project a success. In my experience, this is most effective if
+<span g="team-contract">team contract</span> outlining what everyone has agreed
+to do to make the project a success. In my experience, this is most effective if
 each team creates their own as part of their first assignment so that they
 actually have to think about what they're promising their teammates.  Here's an
 example:
@@ -280,7 +280,7 @@ the instructors and other outsiders. "Observables" means that instead of asking,
 "Is the person outgoing?" or "Does the person have a positive attitude?"
 assessments should ask, "Does the person listen attentively during meetings?"
 or, "Does the person attempt to solve problems before asking for help?" The
-performance review guidelines in <app key="performance-evaluation"></app> can
+performance review guidelines in <span a="performance-evaluation"></span> can
 serve as a useful starting point for such evaluations.
 
 ## People to watch out for
@@ -335,12 +335,12 @@ different ways. Here are a few:
     means that everyone who is depending on her can't do their work until
     *after* the last possible moment…
 
--   *Petra*'s favorite phrase is "why don't we". Why don't we write a GUI to
-    help people edit the program's configuration files? Hey, why don't we invent
-    our own little language for designing GUIs? Their energy and enthusiasm are
-    hard to argue with, but argue you must.  Otherwise, for every step you move
-    forward, the project's goalposts will recede by two. This is called <g
-    key="feature-creep">feature creep</g>, and has ruined many projects that
+- *Petra*'s favorite phrase is "why don't we". Why don't we write a GUI to help
+    people edit the program's configuration files? Hey, why don't we invent our
+    own little language for designing GUIs? Their energy and enthusiasm are hard
+    to argue with, but argue you must.  Otherwise, for every step you move
+    forward, the project's goalposts will recede by two. This is called <span
+    g="feature-creep">feature creep</span>, and has ruined many projects that
     might otherwise have delivered something small but useful.
 
 -   *Raj* is rude. His favorite phrase is, "That's stupid," and if anyone
@@ -407,14 +407,13 @@ good meeting. These ten simple rules have served me well.
     it*.  (If what you're proposing *isn't* going to make the world a better
     place, propose something better.)
 
-4. Start small.
-    Most people are understandably reluctant to dive into things head-first, so
-    give them a chance to test the waters and to get to know you and everyone
-    else involved in whatever it is you want help with.  Don't be surprised or
-    disappointed if that's where things end: everyone is busy or tired or has
-    projects of their own, or maybe just has a different mental model of how
-    collaboration is supposed to work.  Remember the <g key="90-9-1-rule">90-9-1
-    rule</g> and set your expectations accordingly.
+4. Start small.  Most people are understandably reluctant to dive into things
+    head-first, so give them a chance to test the waters and to get to know you
+    and everyone else involved in whatever it is you want help with.  Don't be
+    surprised or disappointed if that's where things end: everyone is busy or
+    tired or has projects of their own, or maybe just has a different mental
+    model of how collaboration is supposed to work.  Remember the <span
+    g="90-9-1-rule">90-9-1 rule</span> and set your expectations accordingly.
 
 5. Don't build a project: build a community.
 :   I used to belong to a softball team that never actually played softball: our

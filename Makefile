@@ -38,21 +38,21 @@ book.pdf: book.tex
 
 ## check: run all checks
 check:
-	@make bibliography
-	@make crossref
-	@make glossary
+	@make check-bib
+	@make check-gloss
+	@make check-ref
 
-## bibliography: compare citations and definitions
-bibliography:
-	@bin/bibliography.py --bibliography bibliography.md --sources ${MARKDOWN}
+## check-bib: compare citations and definitions
+check-bib:
+	@bin/check-bib.py --bibliography bibliography/index.md --sources ${MARKDOWN}
 
-## crossref: compare chapter cross-references to chapters and appendices
-crossref:
-	@bin/crossref.py --config _config.yml --sources ${MARKDOWN}
+## check-gloss: compare references and definitions
+check-gloss:
+	@bin/check-gloss.py --glossary _data/glossary.yml --sources ${MARKDOWN}
 
-## glossary: compare references and definitions
-glossary:
-	@bin/glossary.py --glossary _data/glossary.yml --sources ${MARKDOWN}
+## check-ref: compare chapter cross-references to chapters and appendices
+check-ref:
+	@bin/check-ref.py --config _config.yml --sources ${MARKDOWN}
 
 ## ----
 

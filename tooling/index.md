@@ -131,8 +131,8 @@ game.exe : game.bc graphics.bc utils.bc
 {: .noindent}
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
-the `tx` compiler with several options.  Below that is a
-<g key="pattern-rule">pattern rule</g> telling Make how to create any `.bc` file
+the `tx` compiler with several options.  Below that is a <span
+g="pattern-rule">pattern rule</span> telling Make how to create any `.bc` file
 from a `.grace` file with the same root name; the cryptic expression `$<` is
 Make's way of saying "the first thing the target depends on".
 
@@ -238,14 +238,14 @@ teamwork.
 
 ## Debugger
 
-A <g key="symbolic-debugger">symbolic debugger</g> is a program that allows you to
-control and inspect the execution of another program. You can step through the
-target program a line at a time, display the values of variables or expressions,
-look at the call stack, or (my personal favorite) set *breakpoints* to say
-"pause the program when it reaches this line" . Depending on the language you're
-using, you may have to compile your program with certain options turned on to
-make it debuggable, but that's a small price to pay for the hours or days a
-debugger can save you when you're trying to track down a problem.
+A <span g="symbolic-debugger">symbolic debugger</span> is a program that allows
+you to control and inspect the execution of another program. You can step
+through the target program a line at a time, display the values of variables or
+expressions, look at the call stack, or (my personal favorite) set *breakpoints*
+to say "pause the program when it reaches this line" . Depending on the language
+you're using, you may have to compile your program with certain options turned
+on to make it debuggable, but that's a small price to pay for the hours or days
+a debugger can save you when you're trying to track down a problem.
 
 Some debuggers, like GDB, are standalone programs; others are build into
 IDEs. Both are better than adding `print` statements to your program,
@@ -367,7 +367,7 @@ productive. Some aren't part of the standard undergraduate curriculum yet, even
 though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
-The first is a <g key="doc-generator">documentation generator</g> like
+The first is a <span g="doc-generator">documentation generator</span> like
 [JSDoc][jsdoc]. This is a compiler of a sort, but instead of translating source
 code into something executable, it extracts information from specially-formatted
 comments and strings, and turns it into human-readable documentation.  The

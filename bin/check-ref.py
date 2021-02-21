@@ -9,8 +9,8 @@ import sys
 import utils
 
 
-# Chapter and appendix references use <chap key="..."></chap> and <app key="..."></app>.
-CHAP_REF = re.compile(r'<(chap|app)\s+key="(.+?)">', re.DOTALL)
+# Chapter and appendix references use <span c="..."></span> and <span a="..."></span>.
+CHAP_REF = re.compile(r'<span\s+(a|c)="(.+?)">', re.DOTALL)
 
 
 def crossref(options):

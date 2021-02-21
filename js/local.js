@@ -23,11 +23,12 @@ const fixBibCites = (toRoot) => {
  * @param {Object} numbering Numbering data.
  */
 const fixCrossRefs = (toRoot, numbering) => {
-  const tags = ['app', 'chap']
-  tags.forEach(tag => {
-    Array.from(document.querySelectorAll(tag))
+  const attrs = ['a', 'c']
+  attrs.forEach(attr => {
+    const sel = `span[${attr}]`
+    Array.from(document.querySelectorAll(sel))
       .forEach(node => {
-        const slug = node.getAttribute('key')
+        const slug = node.getAttribute(attr)
         const link = document.createElement('a')
         link.setAttribute('href', `${toRoot}/${slug}/`)
         link.innerHTML = numbering[slug].label
@@ -42,9 +43,9 @@ const fixCrossRefs = (toRoot, numbering) => {
  * @param {string} volume Name of this volume.
  */
 const fixGlossaryRefs = (toRoot) => {
-  Array.from(document.querySelectorAll('g'))
+  Array.from(document.querySelectorAll('span[g]'))
     .forEach(node => {
-      const key = node.getAttribute('key')
+      const key = node.getAttribute('g')
       const link = document.createElement('a')
       link.setAttribute('href', `${toRoot}/glossary/#${key}`)
       link.setAttribute('class', 'glossary-reference')

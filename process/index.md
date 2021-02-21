@@ -142,13 +142,14 @@ agile processes, but isn't really possible in a classroom setting.
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called <g key="time-boxing">time
-boxing</g>: you specify how long a cycle will last, then see how much work you
-can fit into that interval.  The alternative is <g key="feature-boxing">feature
-boxing</g>: you decide what you want to do and then build a schedule that gives
-you enough time to do it.  Most people believe that time boxing works better,
-since it encourages developers to take smaller steps and allows them to give
-customers more frequent demos (which serve as course corrections).
+expected to deliver in each iteration.  This is called <span
+g="time-boxing">time boxing</span>: you specify how long a cycle will last, then
+see how much work you can fit into that interval.  The alternative is <span
+g="feature-boxing">feature boxing</span>: you decide what you want to do and
+then build a schedule that gives you enough time to do it.  Most people believe
+that time boxing works better, since it encourages developers to take smaller
+steps and allows them to give customers more frequent demos (which serve as
+course corrections).
 
 FIXME: explain that waterfall doesn't exist.
 
@@ -163,7 +164,7 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
-The <g key="product-manager">product manager</g> is the person who owns the
+The <span g="product-manager">product manager</span> is the person who owns the
 spec.  While developers are building Version N, she is talking to customers to
 find out what should go into Version N+1.  She doesn't ask them what features
 they want; if she does, she'll get a mish-mash of conversations overheard in
@@ -185,7 +186,7 @@ up the build", and "upgrade to the latest version of Node.js".
 So, it's Monday morning.  Version N shipped last Thursday; the team has had a
 weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
-to recover, go back and re-read <chap key="important-stuff"></chap>.)  At this
+to recover, go back and re-read <span c="important-stuff"></span>.)  At this
 point the product manager divides up the list of desired features and assigns
 them to the developers.  Each developer then has some time---typically a few
 days to a couple of weeks---to do a little research, write some throwaway
@@ -194,9 +195,9 @@ implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
 the build?  On deployment?  How will the feature be tested?  And so on.
 
-This process is called <g key="ae">analysis & estimation</g> (A&E).  The result
-is a short document, typically 1--5 pages long.  There's no set form for this,
-but they usually include whatever background information a well-informed
+This process is called <span g="ae">analysis & estimation</span> (A&E).  The
+result is a short document, typically 1--5 pages long.  There's no set form for
+this, but they usually include whatever background information a well-informed
 developer is unlikely to already know, a discussion of the alternatives, lessons
 learned from any prototyping that was done, and an estimate of how much time
 would be needed to build each alternative.  This time includes estimates from QA
@@ -262,8 +263,8 @@ Denial.
 :   This is very popular but doesn't actually solve the problem.
 
 Start working evenings and weekends.
-:   This is also very popular, but is quickly self-defeating.  As <chap
-    key="important-stuff"></chap> explained, the quality of your work goes down
+:   This is also very popular, but is quickly self-defeating.  As <span
+    c="important-stuff"></span> explained, the quality of your work goes down
     when you're tired, so any ground you gain by working 'til three a.m.  you
     lose to extra debugging and rewriting.
 
@@ -289,9 +290,9 @@ ten-week window.  That's OK: it's a shame you won't get to them, but at least
 you know it now and can start taking action (like lowering your customer's
 expectations) well in advance of delivery.
 
-In the real world these calculations are the responsibility of the
-<g key="project-manager">project manager</g>.  Her job is to make sure everyone
-is doing what they're supposed to, to handle interruptions (there are *always*
+In the real world these calculations are the responsibility of the <span
+g="project-manager">project manager</span>.  Her job is to make sure everyone is
+doing what they're supposed to, to handle interruptions (there are *always*
 interruptions), and to track the team's progress.  After a few weeks, the
 project manager should compare how much has actually been done with how much was
 supposed to be done and adjust plans accordingly.

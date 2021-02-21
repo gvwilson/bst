@@ -11,8 +11,8 @@ import utils
 # Cross-references look like internal links.
 CROSS_REF = re.compile(r'\[.+?\]\((#.+?)\)', re.DOTALL)
 
-# Glossary references use <g key="...">...</g>.
-GLOSS_REF = re.compile(r'<g\s+key="(.+?)">', re.DOTALL)
+# Glossary references use <span g="...">...</span>.
+GLOSS_REF = re.compile(r'<span\s+g="(.+?)">', re.DOTALL)
 
 
 def glossary(options):

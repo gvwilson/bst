@@ -80,11 +80,6 @@ def convert(node, accum, doEscape):
         temp = ''.join(convert_children(node, [], doEscape))
         accum.append(rf'\hreffoot{{{temp}}}{{{link}}}')
 
-    # app => appendix cross-reference
-    elif node.name == 'app':
-        key = node['key']
-        accum.append(rf'\appref{{{key}}}')
-
     # blockquote => quotation
     elif node.name == 'blockquote':
         accum.append('\\begin{quotation}\n')
@@ -94,11 +89,6 @@ def convert(node, accum, doEscape):
     # br => line break
     elif node.name == 'br':
         accum.append(r' \\')
-
-    # chap => chapter cross-reference
-    elif node.name == 'chap':
-        key = node['key']
-        accum.append(rf'\chapref{{{key}}}')
 
     # cite => cite
     elif node.name == 'cite':
@@ -158,15 +148,6 @@ def convert(node, accum, doEscape):
         convert_children(node, accum, doEscape)
         accum.append(r'}')
 
-    # g => glossary reference
-    elif node.name == 'g':
-        key = node['key']
-        accum.append(r'\glossref{')
-        convert_children(node, accum, doEscape)
-        accum.append('}{')
-        accum.append(key)
-        accum.append('}')
-
     # h1 => chapter title
     elif node.name == 'h1':
         key = node['key']
@@ -222,6 +203,28 @@ def convert(node, accum, doEscape):
         accum.append(r'\textbf{')
         convert_children(node, accum, doEscape)
         accum.append(r'}')
+
+    # chap => cross-reference of some kind
+    elif node.name == 'span':
+        # appendix
+        if node.has_attr('a'):
+            key = node['a']
+            accum.append(rf'\appref{{{key}}}')
+        # chapter
+        elif node.has_attr('c'):
+            key = node['c']
+            accum.append(rf'\chapref{{{key}}}')
+        # glossary
+        elif node.has_attr('g'):
+            key = node['g']
+            accum.append(r'\glossref{')
+            convert_children(node, accum, doEscape)
+            accum.append('}{')
+            accum.append(key)
+            accum.append('}')
+        # not our problem
+        else:
+            convert_children(node, accum, doEscape)
 
     # table
     elif node.name == 'table':
