@@ -1,12 +1,17 @@
 ---
 ---
 
-FIXME: introduction
+<chap key="version-control"></chap> described how to use version control to
+manage individual work, but it really comes into its own when we are working
+with other people. Software forges like [GitHub][github], [GitLab][gitlab], and
+[BitBucket][bitbucket] are all designed to support this, and they all provide
+other tools for managing and reviewing shared information. This chapter will
+look at how to use them to prepare the ground for <chap key="process"></chap>'s
+discussion of software development processes.
 
 ## Using Git together
 
-So far we have used Git to manage individual work, but it really comes into its
-own when we are working with other people.  We can do this in two ways:
+People can share work through a Git repository in one of two ways:
 
 1.  Everyone has read and write access to a single shared repository.
 
@@ -20,13 +25,13 @@ comfortable using Git, but if the project is larger, or if contributors are
 worried that they might make a mess in the `main` branch, the second approach is
 safer.
 
-Git itself doesn't have any notion of a "main repository", but software forges
-like [GitHub][github], [GitLab][gitlab], and [BitBucket][bitbucket] all
-encourage people to use Git as if there was one.  Suppose, for example, that
-Marian wants to contribute to the assignment that Peggy is hosting on GitHub at
-`https://github.com/peggy/zipf`.  Marian can go to that URL and click on the
-"Fork" button in the upper right corner.  GitHub immediately creates a copy of
-Peggy's repository within Marian's account on GitHub's own servers.
+Git itself doesn't have any notion of a "main repository", but [GitHub][github]
+and other software forges all encourage people to use Git as if there was one.
+Suppose, for example, that Marian wants to contribute to the assignment that
+Peggy is hosting on GitHub at `https://github.com/peggy/zipf`.  Marian can go to
+that URL and click on the "Fork" button in the upper right corner.  GitHub
+immediately creates a copy of Peggy's repository within Marian's account on
+GitHub's own servers.
 
 When the command completes, nothing has happened yet on Marian's own machine:
 the new repository exists only on GitHub.  When Marian explores its history, she
@@ -229,7 +234,97 @@ toes.
 
 ## Code reviews
 
-FIXME: how to do a code review (include examples)
+There's no point creating pull requests if they are all merged as-is. The reason
+they exist is to allow <span g="code-review">code review</span>.  One study
+after another since the mid-1970s has proven that code review is the most
+cost-effective way to find bugs in software <cite>Cohen2010</cite>. It is also
+the most effective way to share knowledge between team members: if you read
+someone else's code, you have a chance to learn all the things that you didn't
+know to ask and they didn't realize they should tell you.
+
+There are lots of guides online for doing code reviews, most of them based on
+their authors' personal experience. A notable exception is the [SmartBear
+guide][smartbear-code-review], which draws on a large study of code review in
+industry. The rules below present some of their findings with modifications for
+students' situations.
+
+Have the instructor do a demonstration review.
+:   Even if you have done code reviews before, you may not know what's expected
+    for this class. The instructor can show you by putting up some sample code
+    and going through it, thinking aloud as they notice things worth commenting
+    on so that you have an idea of how much detail they expected.
+
+Review at most 200 lines of a code at a time.
+:   The [SmartBear guide][smartbear-code-review] recommends reviewing at most
+    400 lines at a time, which should take 60-90 minutes. You will probably get
+    there eventually, but in our experience it's better to start with something
+    smaller and work up to that.
+
+    A corollary of this rule is that no pull request should be more than 200
+    lines long. If one is, the odds are that reviewers won't be able to hold it
+    all in their head at once (<chap key="thinking-learning"></chap>) and so
+    will miss things.
+
+Authors should clean up code before review.
+:   If the person creating the pull request goes through and adds some more
+    comments, cleans up some variable names, and does a bit of refactoring
+    (<chap key="design"></chap>), they won't just make reviewing easier: the
+    odds are very good that they will find and fix a few problems on their own.
+
+Use checklists.
+:   <cite>Gawande2011</cite> popularized the idea that using checklists improves
+    results even for experts.  If you are new to code reviews, ask the
+    instructor for a list of the dozen most common problems to check for.
+    (Anything more than that is likely to be overhwelming.) If you and your
+    teammates have been working together for a while, look at your own code
+    reviews and make a list of the things that keep coming up.  Having the list
+    will make you more aware of the issues while you're coding, which in turn
+    will make you less likely to keep making the same mistakes.
+
+Follow up.
+:   The author of the code doesn't have to accept every suggestion, but should
+    have a better reason than "I don't want to" for rejecting any of them.
+    GitHub and other platforms allow people to create discussion threads for
+    each comment, and will mark threads as being out of date when the pull
+    request is updated. Whoever did the review should then scan the changes to
+    make sure their points have been addressed, and to give themselves a chance
+    to learn a few more things from the author.
+
+Don't tolerate rudeness.
+    Most code review guidelines say, "Be respectful."  The problem is that if
+    you are, you probably don't need to be told that, and if you're not, a
+    written rule probably isn't going to change your behavior. What *will*
+    change behavior is teammates defending the victims of rudeness by telling
+    the offender, "That's not how we speak to each other."
+    <cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that
+    training people how to be good <span g="ally">allies</span> was more
+    effective at reducing abuse than most of the other things companies do;
+    we'll explore this more in <chap key="legalities"></chap>.
+
+So what does a code review actually look like? Here's a short Python program
+that searches for duplicated files (i.e., ones that have exactly the same
+content). The listing below shows the comments I left when reviewing it.
+
+{% include code file="dup.py" %}
+
+| Line(s) | Comment |
+| ------- | ------- |
+| 02      | Add a <span g="docstring">docstring</g> describing the program. |
+| 03      | Put imports in alphabetical order. |
+| 07      | Use a set instead of a list for faster lookup. |
+| …       | One entry per line will be easier to read. |
+| 09      | `SENSES` isn't used anywhere: delete. |
+| 12      | Add a docstring describing this function. |
+| 12-22   | Use `argparse` to handle options. |
+| 12-22   | Put option handling in its own function. |
+| 17      | Print error message to `sys.stderr`. |
+| 33      | Add a docstring describing this function. |
+| 34-39   | Use `any` instead of a loop to check this. |
+| 41      | <span g="magic-number">Magic number</span> 10. |
+| 41      | Provide option to control progress reporting. |
+| 47      | Use `'rb'` to read files as binary. |
+| 57      | Add a docstring describing this function. |
+| 60      | Why `paths.pop()`? |
 
 ## Tracking issues
 

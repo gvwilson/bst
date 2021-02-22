@@ -8,125 +8,133 @@ getting-started:
   term: elevator pitch
 glossary: []
 important-stuff:
-- key: hitchhiker
-  term: hitchiker
 - key: crunch-mode
   term: crunch mode
 - key: sense-vote
   term: sense vote
+- key: hitchhiker
+  term: hitchiker
 - key: governance
   term: governance
-- key: active-listening
-  term: active listening
 - key: marthas-rules
   term: Martha's Rules
+- key: active-listening
+  term: active listening
 introduction:
-- key: tdd
-  term: test-driven development (TDD)
 - key: design-by-contract
   term: design by contract
+- key: tdd
+  term: test-driven development (TDD)
 legalities:
+- key: cc-by
+  term: CC-BY
+- key: open-license
+  term: open license
+- key: mit-license
+  term: MIT License
 - key: gpl
   term: GNU Public License
 - key: hippocratic-license
   term: Hippocratic License
-- key: open-license
-  term: open license
-- key: cc-by
-  term: CC-BY
-- key: mit-license
-  term: MIT License
-- key: bsd-license
-  term: BSD license
 - key: cc0
   term: CC0
+- key: bsd-license
+  term: BSD license
 license: []
 performance-evaluation: []
 process:
-- key: time-boxing
-  term: time boxing
 - key: ae
   term: analysis & estimation
-- key: project-manager
-  term: project manager
 - key: product-manager
   term: product manager
+- key: time-boxing
+  term: time boxing
+- key: project-manager
+  term: project manager
 - key: feature-boxing
   term: feature boxing
 software-forge:
-- key: pull-request
-  term: pull request
 - key: git-fork
   term: fork (in Git)
+- key: pull-request
+  term: pull request
 - key: issue-tracker
   term: issue tracker
+- key: ally
+  term: ally
+- key: code-review
+  term: code review
+- key: magic-number
+  term: magic number
+- key: docstring
+  term: docstring
 teams:
-- key: rotating-decomposition
-  term: rotating decomposition
-- key: alpha-geek
-  term: alpha geek
-- key: feature-decomposition
-  term: feature decomposition
 - key: big-bang
   term: big-bang integration
-- key: feature-creep
-  term: feature creep
-- key: 90-9-1-rule
-  term: 90-9-1 rule
-- key: team-contract
-  term: team contract
-- key: chaotic-decomposition
-  term: chaotic decomposition
-- key: functional-decomposition
-  term: functional decomposition
 - key: modular-decomposition
   term: modular decomposition
+- key: rotating-decomposition
+  term: rotating decomposition
+- key: chaotic-decomposition
+  term: chaotic decomposition
+- key: feature-creep
+  term: feature creep
+- key: functional-decomposition
+  term: functional decomposition
+- key: feature-decomposition
+  term: feature decomposition
+- key: team-contract
+  term: team contract
+- key: 90-9-1-rule
+  term: 90-9-1 rule
+- key: alpha-geek
+  term: alpha geek
 test-debug: []
 thinking-learning: []
 tooling:
 - key: symbolic-debugger
   term: symbolic debugger
-- key: pattern-rule
-  term: pattern rule
 - key: doc-generator
   term: documentation generator
+- key: pattern-rule
+  term: pattern rule
 version-control:
-- key: timestamp
-  term: timestamp
-- key: commit
-  term: commit (in Git)
-- key: decentralized-system
-  term: decentralized system
-- key: shell-prompt
-  term: shell prompt
-- key: cwd
-  term: current working directory
-- key: push
-  term: push
-- key: git-pull
-  term: pull
 - key: centralized-system
   term: centralized system
-- key: flag
-  term: flag
-- key: sub-command
-  term: sub-command
+- key: decentralized-system
+  term: decentralized system
+- key: commit
+  term: commit (in Git)
+- key: git-merge
+  term: merge (in Git)
+- key: git-branch
+  term: branch (in Git)
+- key: git-pull
+  term: pull
+- key: shell-prompt
+  term: shell prompt
 - key: git-conflict
   term: conflict (in Git)
-- key: git-remote
-  term: remote (in Git)
 - key: commit-message
   term: commit message
 - key: git-clone
   term: clone (in Git)
-- key: repository
-  term: repository
-- key: branch-per-feature-workflow
-  term: branch-per-feature workflow
-- key: git-merge
-  term: merge (in Git)
+- key: flag
+  term: flag
+- key: timestamp
+  term: timestamp
+- key: git-remote
+  term: remote (in Git)
 - key: mental-model
   term: mental model
-- key: git-branch
-  term: branch (in Git)
+- key: repository
+  term: repository
+- key: push
+  term: push
+- key: sub-command
+  term: sub-command
+- key: branch-per-feature-workflow
+  term: branch-per-feature workflow
+- key: cwd
+  term: current working directory
 wrapping-up: []

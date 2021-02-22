@@ -20,6 +20,7 @@
 [osi-license-list]: https://opensource.org/licenses
 [petre-marian]: https://www.open.ac.uk/people/mp8
 [selenium]: https://www.selenium.dev/
+[smartbear-code-review]: https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 [t3-personas]: https://teachtogether.tech/en/index.html#s:process-personas
 [thirdbit-datacamp]: http://third-bit.com/2019/04/22/datacamp-clarifications/
 [tldr-gpl]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)

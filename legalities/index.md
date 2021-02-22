@@ -1,6 +1,10 @@
 ---
 ---
 
+## Including Everyone
+
+FIXME: allyship from a legal and moral standpoint
+
 ## Licensing
 
 A license dictates how project materials can be used and redistributed.  If the

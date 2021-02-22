@@ -67,6 +67,21 @@ def book(entry):
     ])
 
 
+def incollection(entry):
+    '''Convert chapter in collection.'''
+    return '\n'.join([
+        key(entry),
+        ENTRY_START,
+        credit(entry, which='author'),
+        title(entry, True),
+        'In ',
+        credit(entry, which='editor'),
+        bookTitle(entry, False),
+        bookInfo(entry),
+        ENTRY_END
+    ])
+
+
 def inproceedings(entry):
     '''Convert proceedings entry.'''
     return '\n'.join([
@@ -77,7 +92,6 @@ def inproceedings(entry):
         proceedingsInfo(entry),
         ENTRY_END
     ])
-
 
 
 def link(entry):
@@ -95,6 +109,7 @@ def link(entry):
 HANDLERS = {
     'article': article,
     'book': book,
+    'incollection': incollection,
     'inproceedings': inproceedings,
     'link': link
 }
@@ -124,6 +139,14 @@ def bookInfo(entry):
     return f'{entry["publisher"]}, {entry["year"]}, {entry["isbn"]}.'
 
 
+def bookTitle(entry, quote):
+    '''Generate book title (possibly linking).'''
+    assert 'booktitle' in entry, \
+        'Entry must have booktitle'
+    title = f'<a href="{entry["url"]}">{entry["booktitle"]}</a>' if ('url' in entry) else entry["booktitle"]
+    return f'<em>{title}.</em>'
+
+
 def proceedingsInfo(entry):
     '''Generate proceedings entry information.'''
     assert ('booktitle' in entry) and ('doi' in entry), \
@@ -132,17 +155,25 @@ def proceedingsInfo(entry):
     return f'<em>{entry["booktitle"]}</em>, {doi}.'
 
 
-def credit(entry):
-    '''Generate credit (author or editor).'''
+def credit(entry, which=None):
+    '''Generate credit (author or editor if not specified).'''
+    import sys
+    print('ENTRY', entry, 'which', which, file=sys.stderr)
     names = None
     suffix = ''
-    if 'author' in entry:
-        names = entry['author']
-    elif 'editor' in entry:
-        names = entry['editor']
+    if which is None:
+        if 'author' in entry:
+            which = 'author'
+        elif 'editor' in entry:
+            which = 'editor'
+    assert which, \
+        f'Do not know author or editor for {entry}'
+    if which == 'editor':
         suffix = ' (eds.)'
+    names = entry[which]
     assert names is not None, \
         'Entry must have author or editor'
+    print('...names is', names, 'and suffix', suffix, file=sys.stderr)
     if len(names) == 1:
         names = names[0]
     elif len(names) == 2:

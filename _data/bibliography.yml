@@ -52,11 +52,24 @@
   year: 2014
   isbn: 978-1484200773
 
+- key: Cohen2010
+  type: incollection
+  author:
+  - Jason Cohen
+  title: "Modern Code Review"
+  booktitle: "Making Software"
+  editor:
+  - Andy Oram
+  - Greg Wilson
+  publisher: O'Reilly
+  year: 2010
+  isbn: 978-0596808327
+
 - key: Cook2019
   type: link
   author:
   - Mary Rose Cook
-  title: Gitlet
+  title: "Gitlet"
   url: http://gitlet.maryrosecook.com/
   year: 2016
 
@@ -68,6 +81,28 @@
   publisher: Harper
   year: 1991
   isbn: 978-0060920432
+
+- key: Dobbin2019
+  type: article
+  author:
+  - Frank Dobbin
+  - Alexandra Kalev
+  title: "The Promise and Peril of Sexual Harassment Programs"
+  journal: "PNAS"
+  volume: 116
+  number: 25
+  year: 2019
+  doi: 10.1073/pnas.1818477116
+  url: https://www.pnas.org/content/116/25/12255.abstract
+
+- key: Dobbin2020
+  type: link
+  author:
+  - Frank Dobbin
+  - Alexandra Kalev
+  title: "Why Sexual Harassment Programs Backfire"
+  year: 2020
+  url: https://hbr.org/2020/05/why-sexual-harassment-programs-backfire
 
 - key: Feathers2004
   type: book
@@ -93,7 +128,7 @@
   type: book
   author:
   - Karl Fogel
-  title: Producing Open Source Software"
+  title: "Producing Open Source Software"
   publisher: O'Reilly
   year: 2005
   isbn: 978-0596007591
@@ -110,11 +145,20 @@
   year: 1972
   doi: 10.1353/wsq.2013.0072
 
+- key: Gawande2011
+  type: book
+  author:
+  - Atul Gawade
+  title: "The Checklist Manifesto: How to Get Things Right"
+  publisher: Picador
+  year: 2011
+  isbn:  978-0312430009
+
 - key: Glass2002
   type: book
   author:
   - Robert L. Glass
-  title: Facts and Fallacies of Software Engineering"
+  title: "Facts and Fallacies of Software Engineering"
   publisher: Addison-Wesley Professional
   year: 2002
   isbn: 978-0321117427
@@ -143,7 +187,7 @@
   type: book
   author:
   - Brian W. Kernighan and P. J. Plauger
-  title: Software Tools in Pascal"
+  title: "Software Tools in Pascal"
   publisher: Addison-Wesley Professional
   year: 1981
   isbn: 978-0201103427

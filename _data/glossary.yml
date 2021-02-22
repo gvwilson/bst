@@ -13,6 +13,11 @@
   def: >
     FIXME
 
+- key: ally
+  term: "ally"
+  def: >
+    FIXME
+
 - key: alpha-geek
   term: "alpha geek"
   def: >
@@ -58,6 +63,11 @@
   def: >
     FIXME
 
+- key: code-review
+  term: "code review"
+  def: >
+    FIXME
+
 - key: commit
   term: "commit (in Git)"
   def: >
@@ -95,6 +105,11 @@
 
 - key: doc-generator
   term: "documentation generator"
+  def: >
+    FIXME
+
+- key: docstring
+  term: "docstring"
   def: >
     FIXME
 
@@ -165,6 +180,11 @@
 
 - key: issue-tracker
   term: "issue tracker"
+  def: >
+    FIXME
+
+- key: magic-number
+  term: "magic number"
   def: >
     FIXME
 

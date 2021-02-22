@@ -32,6 +32,15 @@ Scott Chacon and Ben Straub:
 <em>Pro Git (2nd edition)</em>.
 Apress, 2014, 978-1484200773.
 </dd>
+<dt id="cohen2010" class="bibliography">Cohen2010</dt>
+<dd>
+Jason Cohen:
+"Modern Code Review".
+In 
+Andy Oram and Greg Wilson (eds.):
+<em>Making Software.</em>
+O'Reilly, 2010, 978-0596808327.
+</dd>
 <dt id="cook2019" class="bibliography">Cook2019</dt>
 <dd>
 Mary Rose Cook:
@@ -42,6 +51,17 @@ Mary Rose Cook:
 Mihaly Csikszentmihalyi:
 <em>Flow: The Psychology of Optimal Experience</em>.
 Harper, 1991, 978-0060920432.
+</dd>
+<dt id="dobbin2019" class="bibliography">Dobbin2019</dt>
+<dd>
+Frank Dobbin and Alexandra Kalev:
+"<a href="https://www.pnas.org/content/116/25/12255.abstract">The Promise and Peril of Sexual Harassment Programs</a>".
+<em>PNAS</em>, 116(25), 2019, <a href="https://doi.org/10.1073/pnas.1818477116">10.1073/pnas.1818477116</a>.
+</dd>
+<dt id="dobbin2020" class="bibliography">Dobbin2020</dt>
+<dd>
+Frank Dobbin and Alexandra Kalev:
+"<a href="https://hbr.org/2020/05/why-sexual-harassment-programs-backfire">Why Sexual Harassment Programs Backfire</a>".
 </dd>
 <dt id="feathers2004" class="bibliography">Feathers2004</dt>
 <dd>
@@ -58,7 +78,7 @@ Springer, 2001, 978-1852333577.
 <dt id="fogel2005" class="bibliography">Fogel2005</dt>
 <dd>
 Karl Fogel:
-<em><a href="https://producingoss.com/">Producing Open Source Software"</a></em>.
+<em><a href="https://producingoss.com/">Producing Open Source Software</a></em>.
 O'Reilly, 2005, 978-0596007591.
 </dd>
 <dt id="freeman1972" class="bibliography">Freeman1972</dt>
@@ -67,10 +87,16 @@ Jo Freeman:
 "The Tyranny of Structurelessness".
 <em>The Second Wave</em>, 2(1), 1972, <a href="https://doi.org/10.1353/wsq.2013.0072">10.1353/wsq.2013.0072</a>.
 </dd>
+<dt id="gawande2011" class="bibliography">Gawande2011</dt>
+<dd>
+Atul Gawade:
+<em>The Checklist Manifesto: How to Get Things Right</em>.
+Picador, 2011, 978-0312430009.
+</dd>
 <dt id="glass2002" class="bibliography">Glass2002</dt>
 <dd>
 Robert L. Glass:
-<em>Facts and Fallacies of Software Engineering"</em>.
+<em>Facts and Fallacies of Software Engineering</em>.
 Addison-Wesley Professional, 2002, 978-0321117427.
 </dd>
 <dt id="hunt1999" class="bibliography">Hunt1999</dt>
@@ -88,7 +114,7 @@ Deborah B. Kaufman and Richard M. Felder:
 <dt id="kernighan1981" class="bibliography">Kernighan1981</dt>
 <dd>
 Brian W. Kernighan and P. J. Plauger:
-<em>Software Tools in Pascal"</em>.
+<em>Software Tools in Pascal</em>.
 Addison-Wesley Professional, 1981, 978-0201103427.
 </dd>
 <dt id="kruger1999" class="bibliography">Kruger1999</dt>
