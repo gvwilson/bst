@@ -14,6 +14,7 @@
 [gitkraken]: https://www.gitkraken.com/
 [gitlab]: https://gitlab.com/
 [hippocratic-license]: https://firstdonoharm.dev/
+[jira]: https://www.atlassian.com/software/jira
 [jsdoc]: https://jsdoc.app/
 [mercurial]: https://www.mercurial-scm.org/
 [noaa-disruptive]: https://coast.noaa.gov/ddb/

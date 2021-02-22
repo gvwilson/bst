@@ -252,7 +252,12 @@
   term: "repository"
   def: >
     FIXME
-    
+
+- key: reprex
+  term: "reproducible example (reprex)"
+  def: >
+    FIXME
+
 - key: rotating-decomposition
   term: "rotating decomposition"
   def: >
@@ -295,5 +300,10 @@
 
 - key: timestamp
   term: "timestamp"
+  def: >
+    FIXME
+
+- key: utc
+  term: "Universal Time Coordinates (UTC)"
   def: >
     FIXME

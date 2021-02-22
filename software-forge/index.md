@@ -334,39 +334,37 @@ however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
 At its simplest, an <span g="issue-tracker">issue tracker</span> is a shared
-to-do list. Ticketing systems are also called ticketing systems and bug
+to-do list. Issue tracking systems are also called ticketing systems and bug
 trackers, because most software projects use one to keep track of the bugs that
 developers and users find. These days, issue trackers are almost invariably
-web-based. To create a new ticket, you enter a title and a short description;
-the system then assigns it a unique serial number. You can usually also specify:
+web-based. To create a new issue, you enter a title and a short description; the
+system then assigns it a unique serial number. You can usually also specify:
 
--   who is responsible for the ticket (e.g., who's supposed to fix the bug, or
-    test the fix, or update the documentation);
+-   what kind of issue it is (such as a bug report, a request for a new feature,
+    or a question to be answered);
 
--   what kind of ticket it is (a bug report, a request for a new feature, a
-    question to be answered, or some other task);
+-   who is responsible for the issue (i.e., who's supposed to fix the bug, test
+    the fix, or update the documentation);
 
 -   how important it is; and
 
 -   when it's due.
 
 If version control keeps track of where your project has been, your ticketing
-system keeps track of where you're going. After version control, ticketing is
-therefore the most essential part of a team project. Without it, you and your
-teammates will have to constantly ask each other "What are you working on?",
-"What am I supposed to be working on?", and "Who was supposed to do that?" Once
-you start using one, on the other hand, it's easy to find out what the project's
-status is: just look at the open tickets, and at those that have been closed
-recently.  You can use this to create agendas for your status meetings , and to
-remind yourself what you were doing three months ago when the time comes to
-write your final report.
+system keeps track of where you're going. After version control, it is the most
+important part of a team project; without it, you and your teammates will have
+to constantly ask each other "What are you working on?", "What am I supposed to
+be working on?", and "Who was supposed to do that?" Once you start using one
+it's easy to find out what the project's status is: just look at the open
+tickets, and at those that have been closed recently.  You can use this to
+create agendas for your status meetings, and to remind yourself what you were
+doing three months ago when the time comes to write your final report.
 
 Of course, a issue tracker is only as useful as what you put into it.  If you're
 describing a bug in a large application, you should include enough information
-to allow someone to reproduce the problem, and someone else to figure out how
-urgent the bug is, who should work on it, and what other parts of the
-application might be affected by a fix. This is why industrial-strength issue
-trackers like Bugzilla have upwards of two dozen fields per ticket to record:
+to allow someone to reproduce the problem. This is why industrial-strength
+systems like [Jira][jira] can have a couple of dozen fields for each issue,
+including:
 
 -   what version of the software you were using;
 
@@ -378,9 +376,7 @@ trackers like Bugzilla have upwards of two dozen fields per ticket to record:
 
 -   whatever stack traces, error reports, or log messages the program produced;
 
--   its severity (i.e., how much damage the bug might do);
-
--   its priority (how urgently the bug needs to be fixed); and
+-   its severity (i.e., how much damage the bug might do); and
 
 -   other tickets that might be related.
 
@@ -388,9 +384,36 @@ This is a lot more information than student projects require. In addition,
 students are almost always working on several courses at once, and it's common
 for students to have to put their team project aside for a few days to work on
 assignments for other courses. For these reasons, I've found that most student
-teams won't actually use anything more sophisticated than a web-base to-do list
-unless they're forced to by the course's grading scheme. In that case, most come
-away with the impression that tickets are something you only use when you have
-to, rather than a vital team coordination tool.
+teams won't actually use anything more sophisticated than a web-base to-do list:
+unless, of course, they're forced to by the grading scheme. In that case, most
+come away with the impression that tickets are something you only use when you
+have to.
+
+So what does a good issue look like? Here's one I filed for the duplicate file
+finder reviewed in the previous section.
+
+{% include code file="bug-report.txt" %}
+
+The ID on the first line is assigned by the issue tracker, an often serves as a
+short-hand name for the issue in conversation. ("Hey, is anyone working on
+number fifty-five yet?") The date is in <span g="utc">UTC</g> so that it is
+unambiguous: while your team may all be in one place, it's increasingly likely
+that you are scattered across several timezones.
+
+The title on line 3 is probably the most important part of the issue. Projects
+will accumulate hundreds of issues over time; a good subject line makes it much
+easier to find the ones you need. The `type`, `severity`, and `tags` fields also
+improve <g span="discoverability">discoverability</g>; while `type` and
+`severity` could be tags, having them in fields of their own makes it easier to
+sort and filter issues.
+
+Finally, the description briefly summarizes the problem. If the author hadn't
+already identified the cause, it would include a <span g="reprex">reproducible
+example</span>, or reprex. This helps the person understand what the issue is
+much more than, "The program crashes when I open strange files," but experience
+shows that if people are required to come up with a reprex when filing an issue,
+they will often solve their own problem along the way.
+
+FIXME: triage
 
 {% include links.md %}
