@@ -12,9 +12,6 @@ import utils
 # Citation use <cite>key,key</cite>.
 CITATION = re.compile(r'<cite>(.+?)</cite>', re.DOTALL)
 
-# Definitions are left-justified starting with an upper-case letter.
-DEFINITION = re.compile(r'^([A-Z][A-Za-z0-9]+)$', re.DOTALL + re.MULTILINE)
-
 def check_bib(options):
     '''Main driver.'''
     defined = get_definitions(options.bibliography)
@@ -24,16 +21,13 @@ def check_bib(options):
 
 def get_definitions(filename):
     '''Create set of citation keys.'''
-    result = set()
-    text = utils.read_file(filename)
-    for match in DEFINITION.finditer(text):
-        result.add(match.group(1))
-    return result
+    raw = utils.read_yaml(filename)
+    return set([entry['key'] for entry in raw])
 
 
 if __name__ == '__main__':
     options = utils.get_options(
-        ['--bibliography', False, 'Path to bibliography Markdown'],
+        ['--bibliography', False, 'Path to bibliography YAML file'],
         ['--sources', True, 'List of input files']
     )
     check_bib(options)

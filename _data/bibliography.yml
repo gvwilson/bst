@@ -1,0 +1,301 @@
+- key: Abad2018
+  type: inproceedings
+  author:
+  - Zahra Shakeri Hossein Abad
+  - Oliver Karras
+  - Kurt Schneider
+  - Ken Barker
+  - Mike Bauer
+  title: "Task Interruption in Software Development Projects"
+  booktitle: "Proc. EASE'18"
+  year: 2018
+  doi: 10.1145/3210459.3210471
+
+- key: Almeida2017
+  type: inproceedings
+  author:
+  - Daniel A. Almeida
+  - Gail C. Murphy
+  - Greg Wilson
+  - Mike Hoye
+  title: "Do Software Developers Understand Open Source Licenses?"
+  booktitle: "Proc. ICPC'17"
+  year: 2017
+  doi: 10.1109/ICPC.2017.7
+
+- key: Berlin2000
+  type: book
+  author:
+  - Isaiah Berlin
+  title: "The Proper Study of Mankind: An Anthology of Essays"
+  publisher: "Farrar Straus and Giroux"
+  year: 2000
+  isbn: 978-0374527174
+
+- key: Borst2015
+  type: inproceedings
+  author:
+  - Jelmer P. Borst
+  - Niels A. Taatgen
+  - Hedderik van Rijn
+  title: "What Makes Interruptions Disruptive?"
+  booktitle: "Proc. CHI'15"
+  year: 2015
+  doi: 10.1145/2702123.2702156
+
+- key: Chacon2014
+  type: book
+  author:
+  - Scott Chacon and Ben Straub
+  title: "Pro Git (2nd edition)"
+  publisher: Apress
+  year: 2014
+  isbn: 978-1484200773
+
+- key: Cook2019
+  type: link
+  author:
+  - Mary Rose Cook
+  title: Gitlet
+  url: http://gitlet.maryrosecook.com/
+  year: 2016
+
+- key: Csikszentmihalyi1991
+  type: book
+  author:
+  - Mihaly Csikszentmihalyi
+  title: "Flow: The Psychology of Optimal Experience"
+  publisher: Harper
+  year: 1991
+  isbn: 978-0060920432
+
+- key: Feathers2004
+  type: book
+  author:
+  - Michael C. Feathers
+  title: "Working Effectively with Legacy Code"
+  publisher: Prentice-Hall
+  year: 2004
+  isbn: 978-0131177055
+
+- key: Fincher2001
+  type: book
+  author:
+  - Sally Fincher
+  - Marian Petre
+  - Martyn Clarke
+  title: "Computer Science Project Work: Principles and Pragmatics"
+  publisher: Springer
+  year: 2001
+  isbn: 978-1852333577
+
+- key: Fogel2005
+  type: book
+  author:
+  - Karl Fogel
+  title: Producing Open Source Software"
+  publisher: O'Reilly
+  year: 2005
+  isbn: 978-0596007591
+  url: https://producingoss.com/
+
+- key: Freeman1972
+  type: article
+  author:
+  - Jo Freeman
+  title: "The Tyranny of Structurelessness"
+  journal: The Second Wave
+  volume: 2
+  number: 1
+  year: 1972
+  doi: 10.1353/wsq.2013.0072
+
+- key: Glass2002
+  type: book
+  author:
+  - Robert L. Glass
+  title: Facts and Fallacies of Software Engineering"
+  publisher: Addison-Wesley Professional
+  year: 2002
+  isbn: 978-0321117427
+
+- key: Hunt1999
+  type: book
+  author:
+  - Andrew Hunt and David Thomas
+  title: "The Pragmatic Programmer: From Journeyman to Master"
+  publisher: Addison-Wesley Professional
+  year: 1999
+  isbn: 978-0201616224
+
+- key: Kaufman2000
+  type: article
+  author:
+  - Deborah B. Kaufman and Richard M. Felder
+  title: "Accounting for Individual Effort in Cooperative Learning Teams"
+  journal: Engineering Education
+  volume: 89
+  number: 2
+  year: 2000
+  doi: 10.1002/j.2168-9830.2000.tb00507.x
+
+- key: Kernighan1981
+  type: book
+  author:
+  - Brian W. Kernighan and P. J. Plauger
+  title: Software Tools in Pascal"
+  publisher: Addison-Wesley Professional
+  year: 1981
+  isbn: 978-0201103427
+
+- key: Kruger1999
+  type: article
+  author:
+  - Justin Kruger and David Dunning
+  title: "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment"
+  journal: Personality and Social Psychology
+  volume: 77
+  number: 6
+  year: 1999
+  doi: 10.1037/0022-3514.77.6.1121
+
+- key: Lindberg2008
+  type: book
+  author:
+  - Van Lindberg
+  title: "Intellectual Property and Open Source: A Practical Guide to Protecting Code"
+  publisher: "O'Reilly"
+  year: 2008
+  isbn: 978-0596517960
+
+- key: Margolis2002
+  type: book
+  author:
+  - Jane Margolis and Allan Fisher
+  title: "Unlocking the Clubhouse: Women in Computing"
+  publisher: MIT Press
+  year: 2002
+  isbn: 978-0262632690
+
+- key: Minahan1986
+  type: article
+  author:
+  - Anne Minahan
+  title: "Martha's Rules"
+  journal: Affilia
+  volume: 1
+  number: 2
+  year: 1986
+  doi: 10.1177/088610998600100206
+
+- key: Oakley2004
+  type: article
+  author:
+  - Barbara Oakley
+  - Richard M. Felder
+  - Rebecca Brent
+  - Imad Elhajj
+  title: "Turning Student Groups into Effective Teams"
+  journal: Journal of Student Centered Learning
+  volume: 2
+  number: 1
+  year: 2004
+
+- key: Parnin2010
+  type: article
+  author:
+  - Chris Parnin and Spencer Rugaber
+  title: "Resumption Strategies for Interrupted Programming Tasks"
+  journal: Software Quality Journal
+  volume: 19
+  number: 1
+  year: 2010
+  doi: 10.1007/s11219-010-9104-9
+
+- key: PerezDeRosso2013
+  type: inproceedings
+  author:
+  - Santiago Perez De Rosso and Daniel Jackson
+  title: "What's Wrong With Git?"
+  booktitle: "Proc. Onward!'13"
+  year: 2013
+  doi: 10.1145/2509578.2509584
+
+- key: PerezDeRosso2016
+  type: inproceedings
+  author:
+  - Santiago Perez De Rosso and Daniel Jackson
+  title: "Purposes,  Concepts,  Misfits,  and a Redesign of Git"
+  booktitle: "Proc. OOPSLA'16"
+  year: 2016
+  doi: 10.1145/2983990.2984018
+
+- key: Petre2013
+  type: inproceedings
+  author:
+  - Marian Petre
+  title: "UML in Practice"
+  booktitle: "Proc. ICSE'13"
+  year: 2013
+  doi: 10.1109/icse.2013.6606618
+
+- key: Petre2016
+  type: book
+  author:
+  - Marian Petre and André van der Hoek
+  title: "Software Design Decoded: 66 Ways Experts Think"
+  publisher: MIT Press
+  year: 2016
+  isbn: 978-0262035187
+
+- key: Robinson2005
+  type: link
+  author:
+  - Evan Robinson
+  title: "Why Crunch Mode Doesn't Work: 6 Lessons"
+  year: 2005
+  url: http://www.igda.org/articles/erobinson_crunch.php
+
+- key: Spinellis2007
+  type: article
+  author:
+  - Diomidis Spinellis
+  title: "The Tools We Use"
+  journal: "IEEE Software"
+  volume: 24
+  number: 4
+  year: 2007
+
+- key: Steinmacher2014
+  type: inproceedings
+  author:
+  - Igor Steinmacher
+  - Igor Scaliante Wiese
+  - Tayana Conte
+  - Marco Aurélio Gerosa
+  - David Redmiles
+  title: "The Hard Life of Open Source Software Project Newcomers"
+  booktitle: "Proc. CHASE'14"
+  year: 2014
+  doi: 10.1145/2593702.2593704
+
+- key: Thomas2019
+  type: book
+  author:
+  - David Thomas and Andrew Hunt
+  title: "The Pragmatic Programmer: Your Journey to Mastery"
+  publisher: Addison-Wesley Professional
+  year: 2019
+  isbn: 978-0135957059
+
+- key: Tregubov2017
+  type: inproceedings
+  author:
+  - Alexey Tregubov
+  - Barry Boehm
+  - Natalia Rodchenko
+  - Jo Ann Lane
+  title: "Impact of Task Switching and Work Interruptions on Software Development Processes"
+  booktitle: "Proc. ICSSP'17"
+  year: 2017
+  doi: 10.1145/3084100.3084116
