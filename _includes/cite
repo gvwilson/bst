@@ -1,4 +1,0 @@
-{%- assign keys = include.key | split: "," -%}
-<span class="citation">[{%- for key in keys -%}
-<a class="citation" href="{% if page.root %}{{ page.root }}{% else %}..{% endif %}/bibliography/#{{ key | downcase }}">{{ key }}</a>
-{%- endfor -%}]</span>

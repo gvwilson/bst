@@ -1,3 +1,7 @@
-```
+{%- comment -%}
+Include a code file. The filetype is determined by the file's extension.
+{%- endcomment -%}
+{%- assign ext = include.file | split: '.' | shift -%}
+```{{ ext }}
 {% include_relative {{ include.file }} -%}
 ```

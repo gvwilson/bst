@@ -1,0 +1,10 @@
+{% if include.this %}
+<header>
+  <h1 class="page-title" key="{{ slug }}">{{ include.this.title }}</h1>
+</header>
+{% else %}
+<header>
+  <h1 class="landing-title">{{ site.title }}</h1>
+  <p class="landing-subtitle">{{ site.subtitle }}</p>
+</header>
+{% endif %}

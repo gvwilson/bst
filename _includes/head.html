@@ -6,8 +6,8 @@
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
   <title>{% if page.root == '.' %}{{ site.title }}{% else %}{{ site.title }} &middot; {{ page.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" type="text/css">
-  <link rel="stylesheet" href="{{ '/css/local.css' | relative_url }}" type="text/css">
-  <script src="{{ '/js/local.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/static/local.css' | relative_url }}" type="text/css">
+  <script src="{{ '/static/local.js' | relative_url }}"></script>
   {% include numbering.html %}
   <script>window.onload = () => fixPage()</script>
 </head>

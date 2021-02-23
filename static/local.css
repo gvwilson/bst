@@ -49,12 +49,28 @@ div.terms {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+}
+
+div.terms p:last-of-type {
+    margin-bottom: 0px;
 }
 
 /* Display callouts */
 div.callout {
   background-color: #f9f9f9;
+}
+
+/* Center figures */
+figure {
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin: auto;
 }
 
 /* Show a table with no extra space */

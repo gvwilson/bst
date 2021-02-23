@@ -2,6 +2,7 @@ title: The Compassionate Programmer
 subtitle: a student's guide to building software in teams
 url: https://gvwilson.github.io/bst
 repository: gvwilson/bst
+default_image: /static/fixme.svg
 
 chapters:
   - slug: "introduction"
