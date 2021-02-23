@@ -343,3 +343,14 @@
   booktitle: "Proc. ICSSP'17"
   year: 2017
   doi: 10.1145/3084100.3084116
+
+- key: Weinstein2018
+  type: book
+  author:
+  - Yana Weinstein
+  - Megan Sumeracki
+  - Oliver Caviglioli
+  title: "Understanding How We Learn: A Visual Guide"
+  publisher: Routledge
+  year: 2018
+  isbn: 978-1138561724

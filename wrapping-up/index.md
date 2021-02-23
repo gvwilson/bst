@@ -147,14 +147,18 @@ equations are problematic: MathML (the mathematical markup language) is
 complicated to write and poorly supported, so many people still resort to
 embedding pictures of equations in web pages.
 
-> **XML and why not**
->
-> If you're really keen, you can use an XML markup format like DocBook, which
-> provides a set of semantically-meaningful tags like `<author>` and
-> `<citation>`. Various tools can then compile the XML into HTML, PDF, or other
-> formats. I've tried this, but have never been satisfied: it takes a lot of
-> typing (or mousing) to add all those tags, which makes DocBook feel like
-> overkill for a simple end-of-term report.
+<div class="callout" markdown="1">
+
+### XML and why not
+
+If you're really keen, you can use an XML markup format like DocBook, which
+provides a set of semantically-meaningful tags like `<author>` and
+`<citation>`. Various tools can then compile the XML into HTML, PDF, or other
+formats. I've tried this, but have never been satisfied: it takes a lot of
+typing (or mousing) to add all those tags, which makes DocBook feel like
+overkill for a simple end-of-term report.
+
+</div>
 
 Then there's LaTeX, a markup language that's much more sophisticated than HTML,
 and has literally thousands of add-on packages for equations, code formatting,

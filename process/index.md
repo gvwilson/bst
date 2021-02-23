@@ -1,84 +1,93 @@
 ---
 ---
 
-A development process is a set of guidelines that a team follows when building a
-piece of software.  Many have been described over the last thirty-five years;
-most have passionate advocates and equally passionate detractors.
+A <span g="development-process">development process</span> defines who does
+what, when, in order to build a piece of software.  Many have been described
+over the last thirty-five years; most have passionate advocates and equally
+passionate detractors.
 
-I am sceptical of most claims made about processes, partly because many fly in
+I am sceptical of most claims made about processes, partly because they fly in
 the face of my personal experience, but also because teams that adopt
-diametrically opposed methodologies all see productivity improve.
+diametrically opposed processes all see productivity improve.  One explanation
+is that common practice is the worst of all possible worlds, and any change at
+all would be an improvement.  (There are days when I believe this.)  A more
+likely explanation is that what really matters is paying attention to what
+you're doing.  It's kind of like dieting: Atkins, South Beach, macrobiotic,
+seasonal, or fruitarian is secondary to eating better and exercising more.
 
-One possible explanation is that common practice is the worst of all possible
-worlds, and any change at all would be an improvement.  (There are days when I
-believe this.)  A more likely explanation is that what really matters is
-deciding that you want to be a better programmer.  If you make a sincere
-commitment to that, then exactly how you get there is a detail.  It's kind of
-like dieting: Atkins, South Beach, macrobiotic, seasonal, or fruitarian is
-secondary to being sincere about eating better and exercising more.
+This chapter starts by describing how most programmers work day-to-day and how
+to adapt that routine to the imposed chaos of student life. It then compares two
+processes widely used in industry that will give you an idea of what to do week
+by week.
 
 ## Daily routine
 
-Before describing the two development processes you're most likely to encounter
-in courses, I'd like to talk for a moment about what your day-to-day routine
-should look like.  As I said above, this "micro process" is pretty much the same
-no matter what "macro process" you follow.
+Most guides to being productive tell you to establish a routine.  Research shows
+that you'll learn more from spacing things out than from cramming
+<cite>Weinstein2018</cite>, and doing a bit of work on your project every day is
+good insurance against getting sick or being interrupted by other work.
+However, it often isn't feasible when you're juggling deadlines in four or five
+other courses.
 
-First, decide on your tooling.  If some team members are using Make from the
-command line while others are building inside an IDE, or if one person is
-automating tests with shell scripts, while another is using Python, you will
-lose precious time to duplication and contradiction.
+Even if you can't set a regular schedule, you *can* set aside blocks of time so
+that your flow isn't interrupted, and be systematic in those blocks.  Here's an
+example:
 
-Once that's done, establish a routine.  A little every day is great in theory,
-but it doesn't work in practice when you're juggling four or five courses.
-What's more important is to set aside blocks of time so that your flow isn't
-interrupted and to be systematic in those blocks.  Here's an example:
-
--   3:00 p.m.: you have two hours to spend on your project, so you launch VS Code
+-   3:00 p.m.: You have two hours to spend on your project, so you launch VS Code
     and update your Git repository.  Your teammates have changed 17 files since
     the meeting two days ago.
 
--   3:05 p.m.: you log in to GitHub and look at the event log.  Five tickets have
-    been closed, but eight new ones have been created, three of which are
-    assigned to you.  It looks like the file parser you wrote last week doesn't
-    handle the "clarification" the prof posted on Monday.  You start writing
-    unit tests to check the things that are breaking.
+-   3:05 p.m.: You log in to GitHub.  Five issues have been closed, but there are
+    eight new ones, three of which are assigned to you.  It looks like the file
+    parser you wrote last week doesn't handle the "clarification" the prof
+    posted on Monday.  You create a new branch and start writing unit tests to
+    isolate the things that are breaking (<chap key="test-debug"></chap>).
 
--   3:25 p.m.: you have added twelve new tests to the project.  Eleven currently
-    fail the way you expect; the twelfth triggers an assertion in a data
-    structure one of your teammates built.  You file a ticket with a reference
-    to the test case, check the tests in, and start fixing your code.
+-   3:25 p.m.: You have added twelve new tests, each between three and ten lines
+    long.  Eleven fail the way you expect; the twelfth triggers an assertion in
+    a data structure one of your teammates built.  You commit the tests to Git,
+    file an issue with a reference to the test case, and start fixing your code.
 
--   4:00 p.m.: the eleven tests whose failure was your fault now pass, so you
-    check in your fixes and close the tickets.  You're careful to refer to the
-    commit that contains the fix in your comments when you close the issues, and
-    to the issues in the comment on your commit---it only takes a second to type
-    in this information, and it makes it much easier for your teammates to keep
-    track of what you've done.  You then take a five-minute break to check email
-    and then close your mail client again (since you've learned the hard way
-    that you can't resist looking at new messages if you know they're there).
+-   4:00 p.m.: The eleven tests whose failure was your fault now pass, so you
+    create a pull request with your fixes for one of your teammates to review.
+    You mention the issues they wrote in the commit message so that GitHub
+    automatically links the code to the issues and vice versa---it only takes a
+    second to type in this information, and it makes it much easier for your
+    teammates to keep track of what you've done.  You then take a five-minute
+    break to check email; when you're done, you close your mail client again
+    because you've learned the hard way that you can't resist looking at new
+    messages if you get notifications.
 
--   Now you can start work on the new feature you want to add (which translates
-    part of the program's internal data structure into a blob of JSON to send to
-    a web server).  You have an hour less to do this than you originally
-    planned, but that's OK: by fixing bugs first, you've avoided the
+-   4:05 p.m.: You can now start work on the feature you want to add, which
+    translates part of the program's internal data structure into a blob of JSON
+    to send to a web server.  You have an hour less to do this than you
+    originally planned, but that's OK: by fixing bugs first, you've avoided the
     all-too-common situation of only half the code working when the project is
-    "done".  As with bug fixes, you start by writing some test cases to help you
-    think through the details of the classes you're going to add.
+    "done". Again, the first step is to create a new branch so that you can
+    later create a small (i.e., reviewable) pull request.
 
--   4:20 p.m.: after rewriting your test cases a couple of times you're happy with
-    the API for the new feature.  Time to start coding?  Not quite: with only 40
-    minutes to go, you know you won't finish it today.  Instead, you decide to
-    write stubs of the classes to capture your thinking.  These stubs have the
-    methods you think you're going to need, but all of them return 0 or `null`.
+-   4:30 p.m.: after a couple of drafts, you're happy with the design of the new
+    feature. With only 20 minutes until your next break, you know you won't
+    finish it and its tests today.  Instead, you decide to write stubs of the
+    helper methods you think you're going to need.  These stubs all return 0,
+    `null`, or something else that allows you to write and run your first few
+    tests.
 
--   4:45 p.m.: after checking everything in, you write a short message on the
-    project's chat to tell your teammates what you've done.  You then reward
-    yourself by checking email and watching a few YouTube videos of cats doing
-    stupid things.
+-   4:50 p.m.: After checking everything in, you post a short message on the
+    project's Slack channel to tell your teammates what you've done.  You then
+    reward yourself by checking email and watching a few YouTube videos of cats
+    doing stupid things.
 
-Three sessions like that a week from each person on the project plus a single
-team meeting and you'll be in great shape.
+Three or four sessions a week like that from each person on the team plus a
+single meeting to stay organized and you will be in great shape.
+
+<div class="callout" markdown="1">
+
+### Test-driven development
+
+<span g="tdd">test-driven development</span>
+
+</div>
 
 ## Agile vs. sturdy
 
@@ -319,11 +328,3 @@ fix the number of people working on something and what features they're to
 produce, that determines the schedule, and so on.  Some people claim that it's
 actually a four-way tradeoff, with "quality" as the fourth attribute.  That's
 nonsense: if a feature only works half the time, it isn't done.
-
-## Agile
-
-FIXME discussion
-
-## Test-driven development
-
-FIXME discussion

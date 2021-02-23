@@ -98,6 +98,11 @@
   def: >
     FIXME
 
+- key: development-process
+  term: "development process"
+  def: >
+    FIXME
+
 - key: design-by-contract
   term: "design by contract"
   def: >
@@ -150,6 +155,11 @@
 
 - key: git-clone
   term: "clone (in Git)"
+  def: >
+    FIXME
+
+- key: git-rebase
+  term: "rebase (in Git)"
   def: >
     FIXME
 

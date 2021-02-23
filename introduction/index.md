@@ -18,13 +18,13 @@ Looking at it and at its twentieth anniversary edition <cite>Thomas2019</cite>
 now, I am struck by how useful its advice continues to be, but I'm also struck
 by what *isn't* there. How do you run a meeting in a way that ensures everyone
 is heard? After working in and around programming for forty years, I believe
-knowing that is more useful than knowing what <span
-g="design-by-contract">design by contract</span> is. Why and how are tech
-companies so hostile to women, people of color, and members of the LGBT
-community? The evidence that they are is much stronger than the evidence
-supporting the use of <span g="tdd">test-driven development</span>.  And given
-how online platforms have fueled radicalization and disinformation, shouldn't
-every book on how to be a better programmer at least mention them?
+knowing that is more useful than knowing what design by contract is (<span
+c="design"></span>). Why and how are tech companies so hostile to women, people
+of color, and members of the LGBT community? The evidence that they are is much
+stronger than the evidence for the benefits of test-driven development (<span
+c="process"></span>).  And given how online platforms have fueled radicalization
+and disinformation, shouldn't every book on how to be a better programmer at
+least mention them?
 
 > "Once the rockets are up, who cares where they come down?<br/>
 > That's not my department" say Wernher von Braun

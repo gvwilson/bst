@@ -191,14 +191,18 @@ interruptions <cite>Abad2018</cite>.  It's very much like processes being paged
 in and out by an operating system: if it happens too often, the CPU spends all
 its time moving things around and none doing useful work.
 
-> *How bad is it?*
->
-> A student of mine kept a stopwatch beside his computer for a couple of weeks
-> during term.  Every time he read mail, put Twitter in the foreground, or went
-> to Manchester United's web site he hit the button to stop it.  At the end of
-> two weeks he discovered that he only spent 28% of his "working" time working.
-> Put it another way, he could have finished his assignments in a third of the
-> time they actually took.
+<div class="callout" markdown="1">
+
+### How bad is it?
+
+A student of mine kept a stopwatch beside his computer for a couple of weeks
+during term.  Every time he read mail, put Twitter in the foreground, or went >
+to Manchester United's web site he hit the button to stop it.  At the end of >
+two weeks he discovered that he only spent 28% of his "working" time working.  >
+Put it another way, he could have finished his assignments in a third of the >
+time they actually took.
+
+</div>
 
 Making lists and setting 50-minute alarms will seem a little earnest at first,
 but your friends will stop mocking you when they see that you're able to finish
@@ -295,11 +299,15 @@ People can be held accountable at subsequent meetings.
     after the meeting and update those that are being carried forward.  This
     helps a lot when the time comes to draw up the agenda for the next meeting.
 
-> *Are you a blowfish or a clam?*
->
-> [This guide][noaa-disruptive] to dealing with disruptive behaviors has useful
-> labels and even more useful advice for handling people who may send meetings
-> off course.
+<div class="callout" markdown="1">
+
+### Are you a blowfish or a clam?
+
+[This guide][noaa-disruptive] to dealing with disruptive behaviors has useful
+labels and even more useful advice for handling people who may send meetings
+off course.
+
+</div>
 
 ## Making decisions
 
@@ -474,16 +482,20 @@ has actually paid attention to what the first person said. It can also defuse a
 lot of tension, since explaining your position back to you clearly forces the
 other person to see the world through your eyes, if only for a few moments.
 
-> **Hitchhikers**
->
-> <span g="hitchhiker">Hitchhikers</span> who show up but never actually do
-> anything are particularly difficult to manage, in part because they are
-> usually very good at appearing reasonable.  They will nod as we present our
-> case, then say, "Well, yes, but…" and list a bunch of minor exceptions or
-> cases where others on the team have also fallen short of expectations.
-> Tracking progress and contributions is essential for handling them.  If we
-> can't back up our complaint, our instructor will likely be left with the
-> impression that the whole team is dysfunctional.
+<div class="callout" markdown="1">
+
+### Hitchhikers
+
+<span g="hitchhiker">Hitchhikers</span> who show up but never actually do
+anything are particularly difficult to manage, in part because they are >
+usually very good at appearing reasonable.  They will nod as we present our >
+case, then say, "Well, yes, but…" and list a bunch of minor exceptions or >
+cases where others on the team have also fallen short of expectations.  >
+Tracking progress and contributions is essential for handling them.  If we >
+can't back up our complaint, our instructor will likely be left with the >
+impression that the whole team is dysfunctional.
+
+</div>
 
 What can we do if conflict becomes more personal and heated?
 

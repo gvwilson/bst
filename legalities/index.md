@@ -12,16 +12,20 @@ license or a publication agreement makes it difficult for people to contribute,
 the project is less likely to attract new members, so the choice of license is
 crucial to the project's long-term sustainability.
 
-> **Open Except...**
->
-> Projects that are only developing software may not have any problem making
-> everything open.  Teams working with sensitive data, on the other hand, must
-> be careful to ensure that what should be private isn't inadvertently shared.
-> In particular, people who are new to Git (and even people who aren't)
-> occasionally add raw data files containing personal identifying information to
-> repositories.  It's possible to rewrite the project's history to remove things
-> when this happens, but that doesn't automatically erase copies people may have
-> in forked repositories.
+<div class="callout" markdown="1">
+
+### Open except...
+
+Projects that are only developing software may not have any problem making
+everything open.  Teams working with sensitive data, on the other hand, must >
+be careful to ensure that what should be private isn't inadvertently shared.  >
+In particular, people who are new to Git (and even people who aren't) >
+occasionally add raw data files containing personal identifying information to >
+repositories.  It's possible to rewrite the project's history to remove things >
+when this happens, but that doesn't automatically erase copies people may have >
+in forked repositories.
+
+</div>
 
 Every creative work has some sort of license; the only question is whether
 authors and users know what it is and choose to enforce it.  Choosing a license
@@ -42,10 +46,14 @@ and therefore need to be asked for approval when a license is changed.
 Similarly, changing a license does not change it retroactively, so different
 users may wind up operating under different licensing structures.
 
-> **Leave It To The Professionals**
->
-> Don't write your own license.  Legalese is a highly technical language, and
-> words don't mean what you think they do.
+<div class="callout" markdown="1">
+
+### Leave it to the professionals
+
+Don't write your own license.  Legalese is a highly technical language, and
+words don't mean what you think they do.
+
+</div>
 
 To make license selection for code as easy as possible, GitHub allows us to
 select one of several common software licenses when creating a repository.  The
@@ -105,15 +113,19 @@ restriction isn't necessary: many projects have survived and thrived without
 this safeguard.  We therefore recommend that projects choose the MIT license, as
 it places the fewest restrictions on future action.
 
-> **First, Do No Harm**
->
-> The <span g="hippocratic-license">Hippocratic License</span> is a newer
-> license that is quickly becoming popular.  Where the GPL requires people to
-> share their work, the Hippocratic License requires them to do no harm.  More
-> precisely, it forbids people from using the software in ways that violate the
-> [Universal Declaration of Human Rights][udhr].  We have learned the hard way
-> that software and science can be mis-used; adopting the Hippocratic License is
-> a small step toward preventing this.
+<div class="callout" markdown="1">
+
+### First, do no harm
+
+The <span g="hippocratic-license">Hippocratic License</span> is a newer license
+that is quickly becoming popular.  Where the GPL requires people to > share
+their work, the Hippocratic License requires them to do no harm.  More >
+precisely, it forbids people from using the software in ways that violate the >
+[Universal Declaration of Human Rights][udhr].  We have learned the hard way >
+that software and science can be mis-used; adopting the Hippocratic License is >
+a small step toward preventing this.
+
+</div>
 
 ### Data and reports
 

@@ -43,13 +43,17 @@ stream of "what the hell?"  moments. Other distributed version control systems
 like [Mercurial][mercurial] are proof that this complexity and pain are
 unnecessary.
 
-> **Why can't we fix it?**
->
-> If Git's interface is a problem, why can't we build a new one?
-> <cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
-> existing interface is simply too powerful: as soon as people run into a
-> problem and start searching online for solutions, they're thrown back into the
-> world of original Git.
+<div class="callout" markdown="1">
+
+### Why can't we fix it?
+
+If Git's interface is a problem, why can't we build a new one?
+<cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
+existing interface is simply too powerful: as soon as people run into a problem
+and start searching online for solutions, they're thrown back into the world of
+original Git.
+
+</div>
 
 So why do people keep using Git? The answer these days is, "Because it's the tax
 they have to pay in order to use [GitHub][github]." At the time of writing,
@@ -72,19 +76,22 @@ that you use a graphical interface like [GitKraken][gitkraken] or the one that
 comes with your IDE. These GUIs are all layered on top of the commands we are
 going to discuss, so they (should) all work the same way.
 
-> **Trapped in the punchcard era**
->
-> The biggest weakness of today's version control systems is that they work best
-> with plain text files---most of them don't really know what to do with binary
-> files, such as sound clips, images, or Microsoft Word documents. When changes
-> have been made to a JavaScript source file, for example, Git can find and
-> display the lines that have been edited. When you and your teammates edit the
-> SVG diagrams in your final report, on the other hand, a line-by-line view
-> isn't much use, and if two of you update the image you're using as a logo, all
-> Git can do it tell you that there's a conflict. It doesn't have to be like
-> this: programmers could build tools to compare and merge files that aren't
-> backward-compatible with punchcards, and by doing so, make version control
-> accessible to people whose file formats aren't stuck in the 1960s.
+<div class="callout" markdown="1">
+
+### Trapped in the punchcard era
+
+The biggest weakness of today's version control systems is that they work be
+files, such as sound clips, images, or Microsoft Word documents. When changes >
+have been made to a JavaScript source file, for example, Git can find and >
+display the lines that have been edited. When you and your teammates edit the >
+SVG diagrams in your final report, on the other hand, a line-by-line view >
+isn't much use, and if two of you update the image you're using as a logo, all >
+Git can do it tell you that there's a conflict. It doesn't have to be like >
+this: programmers could build tools to compare and merge files that aren't >
+backward-compatible with punchcards, and by doing so, make version control >
+accessible to people whose file formats aren't stuck in the 1960s.
+
+</div>
 
 ## A review of the basics
 
@@ -129,12 +136,16 @@ directory. That special sub-directory is what makes something a project: it
 contains all of the administrative data that Git uses to keep track of what
 files you have and how they've changed.
 
-> **Don't mess**
->
-> *Don't ever edit the files in your `.git` directory yourself.*  Doing so will
-> have the same unpleasant result as editing a spreadsheet or an image as if it
-> was a text file. If you'd like to know more about what they're for and how Git
-> uses them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
+<div class="callout" markdown="1">
+
+### Don't mess
+
+*Don't ever edit the files in your `.git` directory yourself.* Doing so will
+have the same unpleasant result as editing a spreadsheet or an image as if it >
+was a text file. If you'd like to know more about what they're for and how Git >
+uses them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
+
+</div>
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the
@@ -229,11 +240,15 @@ bunch of files, then realize that some of them (like editor backup files or
 temporary files created by the compiler) shouldn't be saved, so we take them out
 before committing.
 
-> **The most popular question on Stack Overflow**
->
-> FIXME: the Vim editor.
+<div class="callout" markdown="1">
 
-FIXME: `.gitignore`
+### The most popular question on Stack Overflow
+
+FIXME: the Vim editor.
+
+</div>
+
+FIXME: explain .gitignore
 
 We can keep track of which changes haven't yet been added and which ones have
 using `git status`. If I run this command right now in this book's project I
@@ -328,15 +343,19 @@ work. They're also very useful operations if you're working on your own and
 using two or more computers (such as a personal laptop and your school's
 servers).
 
-> **Clean and build**
->
-> Many instructors require learners to submit work by committing it to a Git
-> repository. One way to check that what works for you will work for whoever is
-> grading it is to clone a fresh copy of the project in a temporary directory
-> and make sure that everything builds and runs there. Doing that will tell you
-> if you or one of your teammates has forgotten to commit a key file. In an
-> advanced course, you might be asked to do this automatically every time
-> someone commits changes; we'll explore this in <span c="tooling"></span>.
+<div class="callout" markdown="1">
+
+### Clean and build
+
+Many instructors require learners to submit work by committing it to a Git
+repository. One way to check that what works for you will work for whoever is >
+grading it is to clone a fresh copy of the project in a temporary directory >
+and make sure that everything builds and runs there. Doing that will tell you >
+if you or one of your teammates has forgotten to commit a key file. In an >
+advanced course, you might be asked to do this automatically every time >
+someone commits changes; we'll explore this in <span c="tooling"></span>.
+
+</div>
 
 ## A branch-based workflow
 
@@ -411,11 +430,15 @@ We haven't made any changes since switching to the `fit` branch,
 so at this point `main` and `fit` are at the same point in the repository's history.
 Commands like `ls` and `git log` therefore show that the files and history haven't changed.
 
-> **Where branches are saved**
->
-> Git saves every version of every file in the repository's `.git` directory.
-> When we switch from one branch to another, it copies files out of there and
-> rearranges directories to restore that state of the world.
+<div class="callout" markdown="1">
+
+### Where branches are saved
+
+Git saves every version of every file in the repository's `.git` directory.
+When we switch from one branch to another, it copies files out of there and >
+rearranges directories to restore that state of the world.
+
+</div>
 
 Why go to all this trouble?  Because it allows us to work on several things at
 once without stepping on our own toes, just as putting variables inside objects
@@ -571,18 +594,22 @@ are pragmatic about this on small projects; on large ones, where dozens of
 people might be committing, even the smallest and most innocuous change needs to
 be in its own branch so that it can be reviewed (which we discuss below).
 
-> **Rebasing**
->
-> One way to make the history of a repository easier to read is to
-> squash several consecutive commits into one.  This is called <span
-> g="git-rebase">rebasing</span>, and can be done using:
->
-> ```
-> $ git rebase -i START
-> ```
->
-> where `START` identifies the commit *before* the ones you want to start
-> merging (i.e., the last one *not* to modify). Rebasing can go wrong in a lot
-> of confusing ways, particularly if you have merged changes from another branch
-> into the one you're squashing, so we recommend that you avoid it for
-> schoolwork.
+<div class="callout" markdown="1">
+
+### Rebasing
+
+One way to make the history of a repository easier to read is to squash several
+consecutive commits into one.  This is called <span
+g="git-rebase">rebasing</span>, and can be done using:
+
+```
+$ git rebase -i START
+```
+
+where `START` identifies the commit *before* the ones you want to start merging
+(i.e., the last one *not* to modify). Rebasing can go wrong in a lot > of
+confusing ways, particularly if you have merged changes from another branch >
+into the one you're squashing, so we recommend that you avoid it for >
+schoolwork.
+
+</div>

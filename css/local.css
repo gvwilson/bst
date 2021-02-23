@@ -48,7 +48,13 @@ div.flex-card-container {
 div.terms {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    padding-top: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Display callouts */
+div.callout {
+  background-color: #f9f9f9;
 }
 
 /* Show a table with no extra space */

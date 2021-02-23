@@ -206,5 +206,11 @@ Alexey Tregubov, Barry Boehm, Natalia Rodchenko, and Jo Ann Lane:
 "Impact of Task Switching and Work Interruptions on Software Development Processes".
 <em>Proc. ICSSP'17</em>, <a href="https://doi.org/10.1145/3084100.3084116">10.1145/3084100.3084116</a>.
 </dd>
+<dt id="weinstein2018" class="bibliography">Weinstein2018</dt>
+<dd>
+Yana Weinstein, Megan Sumeracki, and Oliver Caviglioli:
+<em>Understanding How We Learn: A Visual Guide</em>.
+Routledge, 2018, 978-1138561724.
+</dd>
 
 </dl>

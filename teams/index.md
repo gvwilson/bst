@@ -156,14 +156,18 @@ existing inequities; it also tends to lower the team's overall grade, since
 there's often little relationship between how outspoken people are and how well
 they work.
 
-> **The Dunning-Kruger Effect**
->
-> <cite>Kruger1999</cite> found that people who know a subject well can usually
-> estimate their knowledge accurately, but people who don't will often
-> over-estimate their competence because they don't know what they don't know.
-> Because of this, you should never trust self-reported expertise, as there's no
-> easy way to tell if someone really knows what they're talking about or if what
-> they're actually reporting is their self-esteem.
+<div class="callout" markdown="1">
+
+### The Dunning-Kruger Effect
+
+<cite>Kruger1999</cite> found that people who know a subject well can usually
+estimate their knowledge accurately, but people who don't will often >
+over-estimate their competence because they don't know what they don't know.  >
+Because of this, you should never trust self-reported expertise, as there's no >
+easy way to tell if someone really knows what they're talking about or if what >
+they're actually reporting is their self-esteem.
+
+</div>
 
 <span g="feature-decomposition">Feature decomposition</span> is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
