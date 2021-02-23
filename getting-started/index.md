@@ -296,5 +296,3 @@ would you list on the back to make your software more appealing than its
 competitors?  What would its system requirements be?  Its license?  Its price?
 Once your team agrees on these things, you're ready to start designing and
 coding.
-
-{% include links.md %}

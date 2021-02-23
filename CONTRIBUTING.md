@@ -89,12 +89,13 @@ This project uses Martha's Rules for consensus decision making:
     ```
 
 1.  To insert an external link, use `{% raw %}[text][tag]{% endraw %}`
-    in the body, then add the link to `_includes/links.md`.  This file
-    must be included at the foot of every chapter or appendix so that
-    the links will resolve. (We cannot include it in the layout because
-    of the order in which Jekyll processes inclusions.)
+    in the body, then add the link to the Kramdown `link_defs` section
+    in `_config.yml`. The clumsy syntax is necessary to get around
+    [this bug][jekyll-bug].)
 
 1.  The commands to rebuild the site, run a server, produce the PDF
     version, and check internal consistency are all stored in `Makefile`
     and use the tools in `bin/*.py`. Run `make` on its own to get a list
     of available commands.
+
+[jekyll-bug]: https://stackoverflow.com/questions/66320774/how-to-pre-define-links-in-jekyll-config-yml-using-kramdown-links-def-options

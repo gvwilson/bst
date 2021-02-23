@@ -46,6 +46,8 @@ chapters:
     file: "CONTRIBUTING.md"
   - slug: "glossary"
     title: "Glossary"
+  - slug: "links"
+    title: "Links"
   - slug: "performance-evaluation"
     title: "Performance Evaluation"
 
@@ -60,8 +62,40 @@ author:
 markdown: kramdown
 
 kramdown:
-    syntax_highlighter_opts:
-      disable: true
+  syntax_highlighter_opts:
+    disable: true
+  link_defs: >
+    {
+      "bitbucket": ["https://bitbucket.org/", "BitBucket"],
+      "captain-awkward": ["https://captainawkward.com/", "Captain Awkward"],
+      "carpentries": ["http://carpentries.org", "The Carpentries"],
+      "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
+      "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
+      "charles-rules": ["https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument", "Charles' Rules of Argument"],
+      "choose-license": ["https://choosealicense.com/", "Choose a License"],
+      "creative-commons": ["https://creativecommons.org/", "Creative Commons"],
+      "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
+      "git": ["https://git-scm.com/", "Git"],
+      "git-man-page-generator": ["https://git-man-page-generator.lokaltog.net/", "Git Random Man Page Generator"],
+      "github": ["https://github.com/", "GitHub"],
+      "github-guides": ["https://guides.github.com/", "GitHub Guies"],
+      "gitkraken": ["https://www.gitkraken.com/", "GitKraken"],
+      "gitlab": ["https://gitlab.com/", "GitLab"],
+      "hippocratic-license": ["https://firstdonoharm.dev/", "Hippocratic License"],
+      "jira": ["https://www.atlassian.com/software/jira", "Jira"],
+      "jsdoc": ["https://jsdoc.app/", "JSDoc"],
+      "mercurial": ["https://www.mercurial-scm.org/", "Mercurial"],
+      "noaa-disruptive": ["https://coast.noaa.gov/ddb/", "Dealing with Disruptive Behaviors"],
+      "osi-license-list": ["https://opensource.org/licenses", "Open Source Initiative License List"],
+      "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
+      "selenium": ["https://www.selenium.dev/", "Selenium"],
+      "smartbear-code-review": ["https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/", "Best Practices for Peer Code Review"],
+      "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
+      "thirdbit-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
+      "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
+      "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
+      "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"]
+    }
 
 exclude:
   - '*.sublime-*'

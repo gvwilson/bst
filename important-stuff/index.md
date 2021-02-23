@@ -516,5 +516,3 @@ somewhere else would be punishing them for something they can't control, while
 asking everyone else to put on headphones would make their interaction more
 difficult and their work less fun.  There might not be a solution that satisfies
 everyone; in such cases, the best guide is to do the kindest thing possible.
-
-{% include links.md %}

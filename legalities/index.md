@@ -218,5 +218,3 @@ the experiences of friends and colleagues there and at other companies.
 
 10. Remember that it's OK to cry.
 :   And that other people do care about you.
-
-{% include links.md %}

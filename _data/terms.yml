@@ -8,137 +8,140 @@ getting-started:
   term: elevator pitch
 glossary: []
 important-stuff:
-- key: governance
-  term: governance
-- key: hitchhiker
-  term: hitchiker
 - key: crunch-mode
   term: crunch mode
-- key: marthas-rules
-  term: Martha's Rules
 - key: active-listening
   term: active listening
+- key: hitchhiker
+  term: hitchiker
+- key: governance
+  term: governance
 - key: sense-vote
   term: sense vote
+- key: marthas-rules
+  term: Martha's Rules
 introduction:
 - key: design-by-contract
   term: design by contract
 - key: tdd
   term: test-driven development (TDD)
 legalities:
-- key: cc-by
-  term: CC-BY
 - key: gpl
   term: GNU Public License
-- key: bsd-license
-  term: BSD license
 - key: hippocratic-license
   term: Hippocratic License
-- key: mit-license
-  term: MIT License
 - key: open-license
   term: open license
+- key: mit-license
+  term: MIT License
 - key: cc0
   term: CC0
+- key: cc-by
+  term: CC-BY
+- key: bsd-license
+  term: BSD license
 license: []
+links: []
 performance-evaluation: []
 process:
-- key: product-manager
-  term: product manager
-- key: time-boxing
-  term: time boxing
 - key: feature-boxing
   term: feature boxing
 - key: project-manager
   term: project manager
+- key: product-manager
+  term: product manager
+- key: time-boxing
+  term: time boxing
 - key: ae
   term: analysis & estimation
 software-forge:
-- key: magic-number
-  term: magic number
-- key: docstring
-  term: docstring
-- key: code-review
-  term: code review
-- key: git-fork
-  term: fork (in Git)
 - key: reprex
   term: reproducible example (reprex)
+- key: pull-request
+  term: pull request
+- key: magic-number
+  term: magic number
 - key: ally
   term: ally
 - key: utc
   term: Universal Time Coordinates (UTC)
-- key: pull-request
-  term: pull request
+- key: code-review
+  term: code review
 - key: issue-tracker
   term: issue tracker
+- key: docstring
+  term: docstring
+- key: git-fork
+  term: fork (in Git)
 teams:
-- key: rotating-decomposition
-  term: rotating decomposition
-- key: big-bang
-  term: big-bang integration
-- key: 90-9-1-rule
-  term: 90-9-1 rule
-- key: chaotic-decomposition
-  term: chaotic decomposition
-- key: alpha-geek
-  term: alpha geek
-- key: team-contract
-  term: team contract
-- key: functional-decomposition
-  term: functional decomposition
-- key: feature-decomposition
-  term: feature decomposition
 - key: modular-decomposition
   term: modular decomposition
+- key: functional-decomposition
+  term: functional decomposition
+- key: alpha-geek
+  term: alpha geek
+- key: 90-9-1-rule
+  term: 90-9-1 rule
+- key: feature-decomposition
+  term: feature decomposition
+- key: big-bang
+  term: big-bang integration
+- key: team-contract
+  term: team contract
 - key: feature-creep
   term: feature creep
+- key: rotating-decomposition
+  term: rotating decomposition
+- key: chaotic-decomposition
+  term: chaotic decomposition
 test-debug: []
 thinking-learning: []
 tooling:
-- key: pattern-rule
-  term: pattern rule
-- key: doc-generator
-  term: documentation generator
 - key: symbolic-debugger
   term: symbolic debugger
+- key: doc-generator
+  term: documentation generator
+- key: pattern-rule
+  term: pattern rule
 version-control:
+- key: push
+  term: push
+- key: repository
+  term: repository
+- key: flag
+  term: flag
+- key: commit
+  term: commit (in Git)
+- key: mental-model
+  term: mental model
+- key: git-remote
+  term: remote (in Git)
+- key: git-conflict
+  term: conflict (in Git)
+- key: decentralized-system
+  term: decentralized system
+- key: shell-prompt
+  term: shell prompt
+- key: git-branch
+  term: branch (in Git)
 - key: cwd
   term: current working directory
 - key: git-pull
   term: pull
-- key: git-conflict
-  term: conflict (in Git)
-- key: branch-per-feature-workflow
-  term: branch-per-feature workflow
 - key: git-merge
   term: merge (in Git)
+- key: software-forge
+  term: software forge
+- key: branch-per-feature-workflow
+  term: branch-per-feature workflow
+- key: timestamp
+  term: timestamp
 - key: commit-message
   term: commit message
-- key: git-branch
-  term: branch (in Git)
 - key: sub-command
   term: sub-command
 - key: centralized-system
   term: centralized system
-- key: git-remote
-  term: remote (in Git)
-- key: repository
-  term: repository
-- key: push
-  term: push
 - key: git-clone
   term: clone (in Git)
-- key: commit
-  term: commit (in Git)
-- key: shell-prompt
-  term: shell prompt
-- key: mental-model
-  term: mental model
-- key: decentralized-system
-  term: decentralized system
-- key: flag
-  term: flag
-- key: timestamp
-  term: timestamp
 wrapping-up: []

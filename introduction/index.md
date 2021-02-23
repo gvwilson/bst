@@ -111,5 +111,3 @@ please [send us email][contact].
 
 This book is dedicated to [Marian Petre][petre-marian], who taught me how to
 think about how programmers think and work.
-
-{% include links.md %}

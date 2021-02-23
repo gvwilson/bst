@@ -7,5 +7,3 @@
 <dd class="glossary">{{ entry.def | markdownify }}</dd>
 {% endfor %}
 </dl>
-
-{% include links.md %}

@@ -55,8 +55,8 @@ So why do people keep using Git? The answer these days is, "Because it's the tax
 they have to pay in order to use [GitHub][github]." At the time of writing,
 GitHub has over 40 million users and hosts over 28 million public repositories,
 including those for many well-known open source projects. It is easily the most
-popular [software forge][software-forge] in existence, and offers all of the
-tools a small software team needs. Other forges exist, such as
+popular <span g="software-forge">software forge</spam> in existence, and offers
+all of the tools a small software team needs. Other forges exist, such as
 [Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
 educational market is even larger than than its share of professional
 development, so if you're using anything in class, you're almost certainly using
@@ -586,5 +586,3 @@ be in its own branch so that it can be reviewed (which we discuss below).
 > of confusing ways, particularly if you have merged changes from another branch
 > into the one you're squashing, so we recommend that you avoid it for
 > schoolwork.
-
-{% include links.md %}

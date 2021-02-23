@@ -415,5 +415,3 @@ shows that if people are required to come up with a reprex when filing an issue,
 they will often solve their own problem along the way.
 
 FIXME: triage
-
-{% include links.md %}

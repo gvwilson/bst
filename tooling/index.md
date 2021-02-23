@@ -490,5 +490,3 @@ Pictures.
     uniquely theirs. I hang a few postcards on the wall wherever I work, along
     with a photograph of my wife and daughter taken a few months after she was
     born (my daughter, that is), just to remind me what's really important.
-
-{% include links.md %}

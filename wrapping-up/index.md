@@ -295,5 +295,3 @@ talk][carpentrycon-talk] for more detail.
 10. Do something fun before you go.
 :   There will never be a better time to try that wild idea that's been in the back
     of your mind for ages.
-
-{% include links.md %}
