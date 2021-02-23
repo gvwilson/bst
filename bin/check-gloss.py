@@ -15,9 +15,26 @@ CROSS_REF = re.compile(r'\[.+?\]\((#.+?)\)', re.DOTALL)
 def check_gloss(options):
     '''Main driver.'''
     glossary = utils.read_yaml(options.glossary)
+    check_order(glossary)
     defined = get_definitions(glossary)
     referenced = utils.get_all_matches(utils.GLOSS_REF, options.sources, no_duplicates=True) | get_internal(glossary)
     utils.report('glossary', referenced=referenced, defined=defined)
+
+
+def check_order(glossary):
+    '''Check that entries are in alphabetical order.'''
+    previous = None
+    unordered = []
+    for entry in glossary:
+        if previous is not None:
+            if entry['term'].lower() < previous['term'].lower():
+                unordered.append(entry['term'])
+        previous = entry
+    if unordered:
+        print('- glossary')
+        print('  - out of order')
+        for item in unordered:
+            print(f'    - {item}')
 
 
 def get_internal(glossary):

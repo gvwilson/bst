@@ -6,7 +6,7 @@ software.  Instead, the worst mistakes people make are related to the human side
 of things. Before we look at teamwork or tools, we need to talk about overwork,
 how to run a meeting, and how to resolve arguments.
 
-## Crunch mode
+## Crunch Mode
 
 I used to brag about the hours I was working.  Not in so many words, of
 course---I had *some* social skills.  Instead, I'd show up for work around noon,
@@ -105,7 +105,7 @@ The moral of this story is to think very hard about what's more important to
 you---how much good work you produce or how much of a martyr you appear to
 be---and pace yourself accordingly.
 
-## Time management
+## Time Management
 
 "But I have so many assignments to do!", you say.  "And they're all due at once!
 I *have* to work extra hours to get them all done!" Sadly, that is often true:
@@ -309,7 +309,7 @@ off course.
 
 </div>
 
-## Making decisions
+## Making Decisions
 
 The purpose of a meeting is to make decisions, so sooner or later, the members
 of a project must decide who has a say in what.  The first step is to

@@ -93,7 +93,7 @@ accessible to people whose file formats aren't stuck in the 1960s.
 
 </div>
 
-## A review of the basics
+## A Review of the Basics
 
 When I am working on a solo project or in a small team, seven commands account
 for roughly 85% of my Git activity. Adding two more commands to set things up
@@ -149,7 +149,7 @@ uses them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the
-project's URL to get a local copy called a <span g="git-clone">clone</span>. For
+project's URL to get a local copy called a <span g="clone-git">clone</span>. For
 example, if you want a clone of this book, you can do this:
 
 ```
@@ -302,7 +302,7 @@ Finally, I should make sure there's a second physical copy of my work so that if
 my drive fails or my laptop is stolen I don't lose everything I've done. If I
 created the repository by cloning something on GitHub, then Git will
 automatically have created a bookmark called a <span
-g="git-remote">remote</span> that points at the original repository. I can get a
+g="remote-git">remote</span> that points at the original repository. I can get a
 list of remotes like this:
 
 ```
@@ -331,7 +331,7 @@ and the word `main` identifies the branch I'm on.  We'll discuss branches in the
 next section, but for now, you can run `git branch` to see which ones you have
 and which one you're working in.
 
-The counterpart of `git push` is `git pull`. It <span g="git-pull">pulls</g>
+The counterpart of `git push` is `git pull`. It <span g="pull-git">pulls</g>
 changes from the remote repository and merges them into your local copy:
 
 ```
@@ -357,12 +357,12 @@ someone commits changes; we'll explore this in <span c="tooling"></span>.
 
 </div>
 
-## A branch-based workflow
+## A Branch-Based Workflow
 
 So far we have only used a sequential timeline with Git: each change builds on
 the one before, and *only* on the one before.  However, there are times when we
 want to try things out without disrupting our main work.  To do this, we can use
-<span g="git-branch">branches</span> to work on separate tasks in parallel.
+<span g="branch-git">branches</span> to work on separate tasks in parallel.
 Each branch is a parallel timeline; changes made on the branch only affect that
 branch unless and until we explicitly combine them with work done in another
 branch.
@@ -446,7 +446,7 @@ and classes allows us to ignore the details of *this* when we're working on
 *that*. For example, if we are close to finishing homework assignment 3 but want
 to get an early start on assignment 4, we can create a new branch from `main`
 called `homework4` and start setting things up in there.
-When we are done, we can <span g="git-merge">merge</span> the state of one
+When we are done, we can <span g="merge-git">merge</span> the state of one
 branch back into another. Merging doesn't change the source branch, but once
 it's done, all of the changes made there are in the destination branch.
 
@@ -487,7 +487,7 @@ Deleted branch homework3 (was 1577404).
 
 Merging `homework3` into `main` went smoothly because there were no conflicts
 between the two branches, but if we are going to use branches, we must learn how
-to merge <span g="git-conflict">conflicts</g>.  These occur when a line has been
+to merge <span g="conflict-git">conflicts</g>.  These occur when a line has been
 changed in different ways in two separate branches or when a file has been
 deleted in one branch but edited in the other.
 
@@ -600,7 +600,7 @@ be in its own branch so that it can be reviewed (which we discuss below).
 
 One way to make the history of a repository easier to read is to squash several
 consecutive commits into one.  This is called <span
-g="git-rebase">rebasing</span>, and can be done using:
+g="rebase-git">rebasing</span>, and can be done using:
 
 ```
 $ git rebase -i START

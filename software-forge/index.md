@@ -9,7 +9,7 @@ other tools for managing and reviewing shared information. This chapter will
 look at how to use them to prepare the ground for <chap key="process"></chap>'s
 discussion of software development processes.
 
-## Using Git together
+## Using Git Together
 
 People can share work through a Git repository in one of two ways:
 
@@ -17,7 +17,7 @@ People can share work through a Git repository in one of two ways:
 
 2.  Everyone can read from the project's main repository, but only a few people
     can commit changes to it.  The project's other contributors <span
-    g="git-fork">fork</span> the main repository to create one that they own, do
+    g="fork-git">fork</span> the main repository to create one that they own, do
     their work in that, and then submit their changes to the main repository.
 
 The first approach works well for teams of up to half a dozen people who are all
@@ -232,7 +232,7 @@ the same files, they should discuss who's supposed to be doing what, or
 rearrange the project's contents so that they aren't stepping on each other's
 toes.
 
-## Code reviews
+## Code Reviews
 
 There's no point creating pull requests if they are all merged as-is. The reason
 they exist is to allow <span g="code-review">code review</span>.  One study
@@ -326,7 +326,7 @@ content). The listing below shows the comments I left when reviewing it.
 | 57      | Add a docstring describing this function. |
 | 60      | Why `paths.pop()`? |
 
-## Tracking issues
+## Tracking Issues
 
 You probably have a to-do list somewhere. It might be scribbled in a calendar or
 lab notebook, kept in a text file on your laptop, or in your head; wherever and

@@ -19,7 +19,7 @@ c="important-stuff"><span> for running meetings, making decisions, and
 resolving conflicts are a good start; this chapter will look at what else
 you can do.
 
-## Picking teams
+## Picking Teams
 
 I once heard an anthropologist ask, "How big is a sports team?"  When people
 said it depends on the sport, she explained that in fact they all have about
@@ -116,7 +116,7 @@ about the project and when they're supposed to be doing design, writing code,
 testing, and so on. If the two are scheduled back-to-back, the meeting will drag
 on into working time or vice versa.
 
-## Who does what
+## Who Does What
 
 All right, you've formed a team: now what? How do you decide who does what? And
 just as importantly, how do you make sure that everyone actually does what
@@ -196,7 +196,7 @@ chaos under pressure, so it's important to establish rules early and stick to
 them when the going is easy so that the instinct to do the right thing will be
 there when you need it.
 
-## Team contracts
+## Team Contracts
 
 No matter what decomposition you use, your team should write, sign, and submit a
 <span g="team-contract">team contract</span> outlining what everyone has agreed
@@ -287,7 +287,7 @@ or, "Does the person attempt to solve problems before asking for help?" The
 performance review guidelines in <span a="performance-evaluation"></span> can
 serve as a useful starting point for such evaluations.
 
-## People to watch out for
+## People to Watch Out For
 
 > All happy families resemble one another,
 > but every unhappy family is unhappy in its own way.
@@ -362,7 +362,7 @@ different ways. Here are a few:
     challenges, the most compassionate thing to do is to give him some time to
     get back on his feet.
 
-## Irreconcilable differences
+## Irreconcilable Differences
 
 Sometimes, it isn't just one person on the team who's a problem.  Sometimes, the
 whole team is dysfunctional. In the mid-1990s, for example, I worked in a data
@@ -383,7 +383,7 @@ one takes time that could be invested in earning a higher grade.  In practice,
 therefore, teams will usually stick together if they see that troublemakers are
 actually being dealt with.
 
-## Ten simple rules for talking people into things
+## Ten Simple Rules for Talking People Into Things
 
 Persuading people to do things is almost as essential to teamwork as running a
 good meeting. These ten simple rules have served me well.

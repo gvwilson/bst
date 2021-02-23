@@ -8,16 +8,16 @@ getting-started:
   term: elevator pitch
 glossary: []
 important-stuff:
-- key: governance
-  term: governance
 - key: hitchhiker
   term: hitchiker
-- key: sense-vote
-  term: sense vote
-- key: active-listening
-  term: active listening
 - key: marthas-rules
   term: Martha's Rules
+- key: active-listening
+  term: active listening
+- key: governance
+  term: governance
+- key: sense-vote
+  term: sense vote
 - key: crunch-mode
   term: crunch mode
 introduction: []
@@ -26,72 +26,80 @@ legalities:
   term: open license
 - key: gpl
   term: GNU Public License
-- key: mit-license
-  term: MIT License
-- key: cc0
-  term: CC0
-- key: hippocratic-license
-  term: Hippocratic License
-- key: cc-by
-  term: CC-BY
 - key: bsd-license
   term: BSD license
+- key: cc-by
+  term: CC-BY
+- key: mit-license
+  term: MIT License
+- key: hippocratic-license
+  term: Hippocratic License
+- key: cc0
+  term: CC0
 license: []
 links: []
 performance-evaluation: []
 process:
+- key: development-process
+  term: development process
+- key: project-manager
+  term: project manager
+- key: product-manager
+  term: product manager
+- key: analysis-paralysis
+  term: analysis paralysis
+- key: schema
+  term: schema
 - key: ae
   term: analysis & estimation
+- key: time-boxing
+  term: time boxing
+- key: waterfall-model
+  term: waterfall model
 - key: feature-boxing
   term: feature boxing
 - key: tdd
   term: test-driven development (TDD)
-- key: project-manager
-  term: project manager
-- key: time-boxing
-  term: time boxing
-- key: product-manager
-  term: product manager
-- key: development-process
-  term: development process
+- key: business-rule
+  term: business rule
 software-forge:
-- key: reprex
-  term: reproducible example (reprex)
 - key: code-review
   term: code review
-- key: utc
-  term: Universal Time Coordinates (UTC)
-- key: ally
-  term: ally
 - key: magic-number
   term: magic number
-- key: issue-tracker
-  term: issue tracker
-- key: docstring
-  term: docstring
-- key: git-fork
+- key: ally
+  term: ally
+- key: fork-git
   term: fork (in Git)
+- key: reprex
+  term: reproducible example (reprex)
 - key: pull-request
   term: pull request
+- key: utc
+  term: Universal Time Coordinates (UTC)
+- key: docstring
+  term: docstring
+- key: issue-tracker
+  term: issue tracker
 teams:
-- key: 90-9-1-rule
-  term: 90-9-1 rule
-- key: modular-decomposition
-  term: modular decomposition
-- key: chaotic-decomposition
-  term: chaotic decomposition
+- key: feature-decomposition
+  term: feature decomposition
+- key: rotating-decomposition
+  term: rotating decomposition
 - key: functional-decomposition
   term: functional decomposition
 - key: alpha-geek
   term: alpha geek
-- key: feature-creep
-  term: feature creep
-- key: feature-decomposition
-  term: feature decomposition
 - key: team-contract
   term: team contract
-- key: rotating-decomposition
-  term: rotating decomposition
+- key: feature-creep
+  term: feature creep
+- key: chaotic-decomposition
+  term: chaotic decomposition
+- key: modular-decomposition
+  term: modular decomposition
+- key: 90-9-1-rule
+  term: 90-9-1 rule
 - key: big-bang
   term: big-bang integration
 test-debug: []
@@ -99,51 +107,51 @@ thinking-learning: []
 tooling:
 - key: doc-generator
   term: documentation generator
-- key: symbolic-debugger
-  term: symbolic debugger
 - key: pattern-rule
   term: pattern rule
+- key: symbolic-debugger
+  term: symbolic debugger
 version-control:
-- key: git-clone
+- key: shell-prompt
+  term: shell prompt
+- key: clone-git
   term: clone (in Git)
-- key: flag
-  term: flag
+- key: merge-git
+  term: merge (in Git)
+- key: pull-git
+  term: pull
 - key: mental-model
   term: mental model
-- key: git-branch
+- key: branch-git
   term: branch (in Git)
-- key: timestamp
-  term: timestamp
-- key: git-merge
-  term: merge (in Git)
-- key: centralized-system
-  term: centralized system
 - key: decentralized-system
   term: decentralized system
-- key: git-remote
+- key: remote-git
   term: remote (in Git)
+- key: rebase-git
+  term: rebase (in Git)
 - key: repository
   term: repository
 - key: push
   term: push
-- key: sub-command
-  term: sub-command
-- key: branch-per-feature-workflow
-  term: branch-per-feature workflow
-- key: git-pull
-  term: pull
-- key: shell-prompt
-  term: shell prompt
-- key: git-conflict
-  term: conflict (in Git)
-- key: commit
-  term: commit (in Git)
-- key: software-forge
-  term: software forge
-- key: git-rebase
-  term: rebase (in Git)
 - key: commit-message
   term: commit message
+- key: branch-per-feature-workflow
+  term: branch-per-feature workflow
+- key: conflict-git
+  term: conflict (in Git)
+- key: flag
+  term: flag
+- key: sub-command
+  term: sub-command
+- key: software-forge
+  term: software forge
 - key: cwd
   term: current working directory
+- key: centralized-system
+  term: centralized system
+- key: timestamp
+  term: timestamp
+- key: commit
+  term: commit (in Git)
 wrapping-up: []

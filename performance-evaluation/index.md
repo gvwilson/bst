@@ -5,7 +5,7 @@ The material below is adapted from the guidelines for annual performance reviews
 at a well-known software development company.  It's an accurate depiction of
 what companies care about.
 
-## Software engineering
+## Software Engineering
 
 Includes technical design; architecture; coding; debugging; testing; performance
 optimization; release; and maintenance.
@@ -67,7 +67,7 @@ Proactively expands network of personal contacts.
 :   Participates in relevant internal discussion groups; takes initiative to
     establish contacts with colleagues in upstream and downstream groups).
 
-## Domain expertise
+## Domain Expertise
 
 Includes sharing knowledge; innovating; continued development of personal
 skills.

@@ -8,11 +8,6 @@
   def: >
     FIXME
 
-- key: ae
-  term: "analysis & estimation"
-  def: >
-    FIXME
-
 - key: ally
   term: "ally"
   def: >
@@ -23,8 +18,23 @@
   def: >
     FIXME
 
+- key: ae
+  term: "analysis & estimation"
+  def: >
+    FIXME
+
+- key: analysis-paralysis
+  term: "analysis paralysis"
+  def: >
+    FIXME
+
 - key: big-bang
   term: "big-bang integration"
+  def: >
+    FIXME
+
+- key: branch-git
+  term: "branch (in Git)"
   def: >
     FIXME
 
@@ -33,13 +43,13 @@
   def: >
     FIXME
 
-- key: git-branch
-  term: "branch (in Git)"
+- key: bsd-license
+  term: "BSD license"
   def: >
     FIXME
 
-- key: bsd-license
-  term: "BSD license"
+- key: business-rule
+  term: "business rule"
   def: >
     FIXME
 
@@ -63,6 +73,11 @@
   def: >
     FIXME
 
+- key: clone-git
+  term: "clone (in Git)"
+  def: >
+    FIXME
+
 - key: code-review
   term: "code review"
   def: >
@@ -78,7 +93,7 @@
   def: >
     FIXME
 
-- key: git-conflict
+- key: conflict-git
   term: "conflict (in Git)"
   def: >
     FIXME
@@ -98,23 +113,23 @@
   def: >
     FIXME
 
-- key: development-process
-  term: "development process"
-  def: >
-    FIXME
-
 - key: design-by-contract
   term: "design by contract"
   def: >
     FIXME
 
-- key: doc-generator
-  term: "documentation generator"
+- key: development-process
+  term: "development process"
   def: >
     FIXME
 
 - key: docstring
   term: "docstring"
+  def: >
+    FIXME
+
+- key: doc-generator
+  term: "documentation generator"
   def: >
     FIXME
 
@@ -143,7 +158,7 @@
   def: >
     FIXME
 
-- key: git-fork
+- key: fork-git
   term: "fork (in Git)"
   def: >
     FIXME
@@ -153,28 +168,13 @@
   def: >
     FIXME
 
-- key: git-clone
-  term: "clone (in Git)"
-  def: >
-    FIXME
-
-- key: git-rebase
-  term: "rebase (in Git)"
-  def: >
-    FIXME
-
-- key: git-remote
-  term: "remote (in Git)"
+- key: gpl
+  term: "GNU Public License"
   def: >
     FIXME
 
 - key: governance
   term: "governance"
-  def: >
-    FIXME
-
-- key: gpl
-  term: "GNU Public License"
   def: >
     FIXME
 
@@ -208,7 +208,7 @@
   def: >
     FIXME
 
-- key: git-merge
+- key: merge-git
   term: "merge (in Git)"
   def: >
     FIXME
@@ -243,7 +243,7 @@
   def: >
     FIXME
 
-- key: git-pull
+- key: pull-git
   term: "pull"
   def: >
     FIXME
@@ -255,6 +255,16 @@
 
 - key: push
   term: "push"
+  def: >
+    FIXME
+
+- key: rebase-git
+  term: "rebase (in Git)"
+  def: >
+    FIXME
+
+- key: remote-git
+  term: "remote (in Git)"
   def: >
     FIXME
 
@@ -270,6 +280,11 @@
 
 - key: rotating-decomposition
   term: "rotating decomposition"
+  def: >
+    FIXME
+
+- key: schema
+  term: "schema"
   def: >
     FIXME
 
@@ -298,13 +313,13 @@
   def: >
     FIXME
 
-- key: tdd
-  term: "test-driven development (TDD)"
+- key: team-contract
+  term: "team contract"
   def: >
     FIXME
 
-- key: team-contract
-  term: "team contract"
+- key: tdd
+  term: "test-driven development (TDD)"
   def: >
     FIXME
 
@@ -320,5 +335,10 @@
 
 - key: utc
   term: "Universal Time Coordinates (UTC)"
+  def: >
+    FIXME
+
+- key: waterfall-model
+  term: "waterfall model"
   def: >
     FIXME

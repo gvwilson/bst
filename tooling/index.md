@@ -73,7 +73,7 @@ these store project data (including build instructions) in a proprietary format,
 your team will do much better if you all adopt the same IDE. This will also let
 you help one another solve problems and share plugins.
 
-## Programming language
+## Programming Language
 
 Programmers have fought religious wars over "what's the best programming
 language" for as long as there have *been* programming languages. In my
@@ -111,7 +111,7 @@ manage than unilingual ones, this ought to bias you in favor of the former. On
 the other hand, there are a lot more commercial-grade tools for the second group
 of languages, and even today, a lot more documentation.
 
-## Build manager
+## Build Manager
 
 No matter what language you use, you're going to need a build manager---a tool
 that will transform what you've typed into what you want to deliver. The
@@ -292,7 +292,7 @@ course, treat it like a job interview. Ask the people you think you might want
 to work with whether they use a debugger. If they say "no", ask yourself what
 impact that's going to have on your grade in the course...
 
-## Other ways to communicate
+## Other Ways to Communicate
 
 Tickets are the best way to keep track of where you are, but there are lots of
 other ways the team can and should communicate. The most popular is easily
@@ -344,7 +344,7 @@ as you would post meeting minutes. And if you want to figure out how to make IM
 a productivity enhancer, please send me email: I'm always looking for good
 graduate students.
 
-## The next level
+## The Next Level
 
 You and your teammates could use many other tools to make yourselves more
 productive. Some aren't part of the standard undergraduate curriculum yet, even
@@ -408,7 +408,7 @@ please, use a language like Python or Ruby rather than Java or C#: the "try it
 and see" nature of the former is a lot better suited to one-of-a-kind scripts
 than the latter's type checking and compilation.
 
-## You may also be interested in…
+## You May Also Be Enjoy…
 
 A complete working environment needs more than just software.
 Unfortunately, most university labs seemed designed to make everything

@@ -20,6 +20,12 @@ Isaiah Berlin:
 <em>The Proper Study of Mankind: An Anthology of Essays</em>.
 Farrar Straus and Giroux, 2000, 978-0374527174.
 </dd>
+<dt id="boehm1981" class="bibliography">Boehm1981</dt>
+<dd>
+Barry Boehm:
+<em>Software Engineering Economics</em>.
+Prentice-Hall, 1981, 978-0138221225.
+</dd>
 <dt id="borst2015" class="bibliography">Borst2015</dt>
 <dd>
 Jelmer P. Borst, Niels A. Taatgen, and Hedderik van Rijn:
@@ -52,6 +58,12 @@ Mihaly Csikszentmihalyi:
 <em>Flow: The Psychology of Optimal Experience</em>.
 Harper, 1991, 978-0060920432.
 </dd>
+<dt id="dawson2010" class="bibliography">Dawson2010</dt>
+<dd>
+Maurice Dawson, Darrell Burrell, Emad Rahim, and Stephen Brewster:
+"Integrating Software Assurance into the Software Development Life Cycle".
+<em>Information Systems Technology and Planning</em>, 3(6), 2010.
+</dd>
 <dt id="dobbin2019" class="bibliography">Dobbin2019</dt>
 <dd>
 Frank Dobbin and Alexandra Kalev:
@@ -62,6 +74,12 @@ Frank Dobbin and Alexandra Kalev:
 <dd>
 Frank Dobbin and Alexandra Kalev:
 "<a href="https://hbr.org/2020/05/why-sexual-harassment-programs-backfire">Why Sexual Harassment Programs Backfire</a>".
+</dd>
+<dt id="erdogmus2005" class="bibliography">Erdogmus2005</dt>
+<dd>
+Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
+"On the Effectiveness of Test-First Approach to Programming".
+<em>IEEE Trans. Software Engineering</em>, 31(3), 2005, <a href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
 </dd>
 <dt id="feathers2004" class="bibliography">Feathers2004</dt>
 <dd>
@@ -86,6 +104,18 @@ O'Reilly, 2005, 978-0596007591.
 Jo Freeman:
 "The Tyranny of Structurelessness".
 <em>The Second Wave</em>, 2(1), 1972, <a href="https://doi.org/10.1353/wsq.2013.0072">10.1353/wsq.2013.0072</a>.
+</dd>
+<dt id="fucci2016" class="bibliography">Fucci2016</dt>
+<dd>
+Davide Fucci, Giuseppe Scanniello, Simone Romano, Martin Shepperd, Boyce Sigweni, Fernando Uyaguari, Burak Turhan, Natalia Juristo, and Markku Oivo:
+"An External Replication on the Effects of Test-driven Development Using a Multi-site Blind Analysis Approach".
+<em>ESEM'16</em>, <a href="https://doi.org/10.1145/2961111.2962592">10.1145/2961111.2962592</a>.
+</dd>
+<dt id="fucci2017" class="bibliography">Fucci2017</dt>
+<dd>
+Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, and Natalia Juristo:
+"A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?".
+<em>IEEE Trans. Software Engineering</em>, 43(7), 2017, <a href="https://doi.org/10.1109/tse.2016.2616877">10.1109/tse.2016.2616877</a>.
 </dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>
@@ -135,6 +165,12 @@ Jane Margolis and Allan Fisher:
 <em>Unlocking the Clubhouse: Women in Computing</em>.
 MIT Press, 2002, 978-0262632690.
 </dd>
+<dt id="masood2018" class="bibliography">Masood2018</dt>
+<dd>
+Zainab Masood, Rashina Hoda, and Kelly Blincoe:
+"Adapting Agile Practices in University Contexts".
+<em>Systems and Software</em>, 144, 2018, <a href="https://doi.org/10.1016/j.jss.2018.07.011">10.1016/j.jss.2018.07.011</a>.
+</dd>
 <dt id="minahan1986" class="bibliography">Minahan1986</dt>
 <dd>
 Anne Minahan:
@@ -181,6 +217,12 @@ MIT Press, 2016, 978-0262035187.
 <dd>
 Evan Robinson:
 "<a href="http://www.igda.org/articles/erobinson_crunch.php">Why Crunch Mode Doesn't Work: 6 Lessons</a>".
+</dd>
+<dt id="royce1970" class="bibliography">Royce1970</dt>
+<dd>
+Winston Royce:
+"Managing the Development of Large Software Systems".
+<em>Proc. IEEE WESCON</em>.
 </dd>
 <dt id="spinellis2007" class="bibliography">Spinellis2007</dt>
 <dd>

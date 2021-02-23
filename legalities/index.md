@@ -165,7 +165,7 @@ usually referred two using the two-letter abbreviations listed below:
     without our explicit permission, which we can give under whatever terms we
     want.
 
-## Intellectual property
+## Intellectual Property
 
 FIXME: who owns what a student produces and why?
 
@@ -173,7 +173,7 @@ FIXME: who owns what a student produces and why?
 
 FIXME: what rights do you have (or what myths can we dispel)?
 
-## Ten simple rules for being fired
+## Ten Simple Rules for Being Fired
 
 These rules are based on [my experience with DataCamp][thirdbit-datacamp] and on
 the experiences of friends and colleagues there and at other companies.

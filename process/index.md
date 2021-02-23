@@ -20,7 +20,7 @@ to adapt that routine to the imposed chaos of student life. It then compares two
 processes widely used in industry that will give you an idea of what to do week
 by week.
 
-## Daily routine
+## Daily Routine
 
 Most guides to being productive tell you to establish a routine.  Research shows
 that you'll learn more from spacing things out than from cramming
@@ -85,21 +85,67 @@ single meeting to stay organized and you will be in great shape.
 
 ### Test-driven development
 
-<span g="tdd">test-driven development</span>
+Many developers are passionate about a technique called <span
+g="tdd">test-driven development</span>, where you write the tests for a new bit
+of software before you write the software itself. Its advocates claim that it
+makes developers more productive because:
+
+1.  writing the tests first helps you figure out what you're actually trying to
+    do,
+
+1.  you're less likely to polish things needlessly if you have set yourself a
+    goal, and
+
+1.  it ensures the tests actually get written.
+
+However, multiple studies over many years have failed to show that it actually
+makes developers more productive <cite>Erdogmus2005,Fucci2016</cite>.  What
+*might* be the case is that working in short, interleaved segments is more
+productive than doing a lot of coding followed by a lot of testing or vice versa
+<cite>Fucci2017</cite>. The work log above reflects this: the student wrote
+tests before fixing bugs, and wrote code for the new feature before writing
+tests, but in both cases switched between the two activites every 15-20 minutes.
 
 </div>
 
-## Agile vs. sturdy
+## The Waterfall Model
 
-Broadly speaking, modern software development processes can be divided into two
-camps.  In order to understand the differences between them it helps to look at
-the Boehm Curve, which shows the effort required to fix a bug based on when it
-is caught.
+Let's start by describing a model that nobody uses, but which appears in almost
+every textbook. It's called the <span g="waterfall-model">waterfall
+model</span>, and it divides development into a series of discrete phases,
+each of which is completed before the next begins:
 
-Boehm's original work in the 1970s showed that fixing bugs becomes exponentially
-more expensive as you move later and later in the development cycle.  Better
-tools and vastly more powerful computers have flattened this curve over the past
-thirty years, but it is still more expensive to fix things later than earlier.
+1.  Gather requirements.
+
+1.  Analyze them to produce <span g="schema">data schemas</span> and
+    <span g="business-rule">business rules</span>.
+
+1.  Design the software.
+
+1.  Write it.
+
+1.  Test it.
+
+1.  Deploy it (i.e., install it, configure it, etc.).
+
+This process was first described in <cite>Royce1970</cite> as an example of
+a flawed model that couldn't possibly work.  In real life, we always learn
+things in later stages that we couldn't reasonably have anticipated in earlier
+ones, which means we constantly have to go back and revise earlier decisons.
+If we *do* try to figure out every detail in advance, we quickly succumb to
+<span g="analysis-paralysis">analysis paralysis</span>.
+
+Every real software development processes attempts to resolve the tension
+between doing things once and spending so much time on planning that we never
+actually do anything.  In order to understand the differences between them it
+helps to look at the Boehm Curve, which shows the effort required to fix a bug
+based on when it is caught.
+
+In the 1970s and 1980s, Boehm and others showed that fixing bugs becomes more
+expensive as you move later and later in the development cycle
+<cite>Boehm1981</cite>.  Better tools and vastly more powerful computers have
+flattened this curve over the past thirty years, but it is still more expensive
+to fix things later than earlier <cite>Dawson2010</cite>.
 
 Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
@@ -111,58 +157,16 @@ The second strategy is to do a lot of planning and design to catch as many
 errors as possible during the early phases of the project.  This is the
 classical engineering mindset: when you're building a dam, fixing mistakes means
 moving several million tons of earth around, so it's the only one that makes
-sense.  Until recently, most academic software engineering research focused on
-this strategy as well, which meant it was what most courses and textbooks
-taught.  I call this approach *sturdy development*: it may feel a little slow at
-times, but it can carry a lot of weight.
+sense. At the opposite end of the spectrum, we can move in many short steps
+with frequent course corrections.  If we can get accurate feedback at each step
+(and that's a big "if") this approach lets us adapt to changing circumstances
+and new realizations more easily.
 
-The third strategy emerged in the late 1990s under the name *agile development*.
-It starts from three related premises:
+## Agile
 
-1.  You *can't* plan a software project very far in advance because requirements
-    and technology are constantly changing.
+FIXME: describe agile from a student point of view; <cite>Masood2018</cite>
 
-2.  You *shouldn't* plan very far in advance because your customers won't know
-    what they want until they see something working.
-
-3.  You can *afford* not to lock yourself into a long-term plan because software
-    is much more malleable than concrete or steel.
-
-According to agile advocates, the correct response to these three factors is to
-move in many small steps rather than a few large ones.  FIXME shows the
-difference: the traditional approach tries to flatten Boehm's Curve by taking
-better aim at the outset, while agile development re-aims more frequently so
-that the curve never climbs too high.
-
-That's the theory.  In practice, the differences between the two camps are a lot
-smaller than their rhetoric would lead you to believe.  Regardless of what
-process they're officially using, most developers do some long-range planning at
-the start of the project (if only because customers are usually not willing to
-sign a blank check) and then revise their plans and aims as they go along.
-
-Which process makes the most sense for an undergraduate course project?  The
-odds are that the question won't even come up: your instructor will probably
-tell you to follow the analyze-design-code-test-deploy cycle of the classical
-(sturdy) model or to work in two- or three-week agile iterations.  I usually use
-the former in courses, since (a) you're very likely to encounter it after you
-graduate, (b) it gives you more chance to hone your planning and scheduling
-skills, and (c) close interaction with customers is a central tenet of most
-agile processes, but isn't really possible in a classroom setting.
-
-Since your project has to fit in one or two terms, you'll probably be asked to
-go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called <span
-g="time-boxing">time boxing</span>: you specify how long a cycle will last, then
-see how much work you can fit into that interval.  The alternative is <span
-g="feature-boxing">feature boxing</span>: you decide what you want to do and
-then build a schedule that gives you enough time to do it.  Most people believe
-that time boxing works better, since it encourages developers to take smaller
-steps and allows them to give customers more frequent demos (which serve as
-course corrections).
-
-FIXME: explain that waterfall doesn't exist.
-
-## Planning and scheduling
+## Planning and Scheduling
 
 If you're going to spend three days driving across the country, it makes sense
 to spend half an hour figuring out a good route.  Equally, if you're going to
@@ -260,7 +264,7 @@ a persistence layer before?
 
 Remember: the more estimating you do the better you'll get.
 
-## Cutting corners
+## Cutting Corners
 
 A schedule's primary purpose is not to tell you what you're supposed to be doing
 on any given day, but to tell you when you should start cutting corners.
@@ -322,9 +326,30 @@ to do it once or twice during your project course, since you only really see the
 benefits with practice, but I hope that even once will be enough to convince you
 that it's worth doing.
 
-Which brings me to a pet peeve.  Engineering project management textbooks often
-say that there's a tradeoff between schedule, resources, and features: if you
-fix the number of people working on something and what features they're to
-produce, that determines the schedule, and so on.  Some people claim that it's
-actually a four-way tradeoff, with "quality" as the fourth attribute.  That's
-nonsense: if a feature only works half the time, it isn't done.
+## Which Process Should You Use?
+
+In practice, the differences between these processes are a lot smaller than
+their advocates would have you believe.  Regardless of what which one they're
+officially using, most developers do some long-range planning at the start of
+the project (if only because customers are usually not willing to sign a blank
+check) and then revise their plans and aims as they go along.
+
+Which process makes the most sense for an undergraduate course project?  The
+odds are that the question won't even come up: your instructor will probably
+tell you to follow the analyze-design-code-test-deploy cycle of the classical
+(sturdy) model or to work in two- or three-week agile iterations.  I usually use
+the former in courses, since (a) you're very likely to encounter it after you
+graduate, (b) it gives you more chance to hone your planning and scheduling
+skills, and (c) close interaction with customers is a central tenet of most
+agile processes, but isn't really possible in a classroom setting.
+
+Since your project has to fit in one or two terms, you'll probably be asked to
+go around the loop once or twice, which in turn determines how much you'll be
+expected to deliver in each iteration.  This is called <span
+g="time-boxing">time boxing</span>: you specify how long a cycle will last, then
+see how much work you can fit into that interval.  The alternative is <span
+g="feature-boxing">feature boxing</span>: you decide what you want to do and
+then build a schedule that gives you enough time to do it.  Most people believe
+that time boxing works better, since it encourages developers to take smaller
+steps and allows them to give customers more frequent demos (which serve as
+course corrections).

@@ -126,9 +126,8 @@ def article_info(entry):
         details = f'{details}({entry["number"]})'
     if details:
         details = f', {details}'
-    doi = ''
-    if 'doi' in entry:
-        doi = f', <a href="https://doi.org/{entry["doi"]}">{entry["doi"]}</a>'
+    doi = f', <a href="https://doi.org/{entry["doi"]}">{entry["doi"]}</a>' \
+        if 'doi' in entry else ''
     return f'<em>{entry["journal"]}</em>{details}, {entry["year"]}{doi}.'
 
 
@@ -143,22 +142,23 @@ def bookTitle(entry, quote):
     '''Generate book title (possibly linking).'''
     assert 'booktitle' in entry, \
         'Entry must have booktitle'
-    title = f'<a href="{entry["url"]}">{entry["booktitle"]}</a>' if ('url' in entry) else entry["booktitle"]
+    title = f'<a href="{entry["url"]}">{entry["booktitle"]}</a>' \
+        if ('url' in entry) else entry["booktitle"]
     return f'<em>{title}.</em>'
 
 
 def proceedingsInfo(entry):
     '''Generate proceedings entry information.'''
-    assert ('booktitle' in entry) and ('doi' in entry), \
-        'Entry requires booktitle and doi'
-    doi = f'<a href="https://doi.org/{entry["doi"]}">{entry["doi"]}</a>'
-    return f'<em>{entry["booktitle"]}</em>, {doi}.'
+    assert ('booktitle' in entry), \
+        f'Entry requires booktitle {entry}'
+    doi = f', <a href="https://doi.org/{entry["doi"]}">{entry["doi"]}</a>' \
+        if 'doi' in entry else ''
+    return f'<em>{entry["booktitle"]}</em>{doi}.'
 
 
 def credit(entry, which=None):
     '''Generate credit (author or editor if not specified).'''
     import sys
-    print('ENTRY', entry, 'which', which, file=sys.stderr)
     names = None
     suffix = ''
     if which is None:
@@ -173,7 +173,6 @@ def credit(entry, which=None):
     names = entry[which]
     assert names is not None, \
         'Entry must have author or editor'
-    print('...names is', names, 'and suffix', suffix, file=sys.stderr)
     if len(names) == 1:
         names = names[0]
     elif len(names) == 2:
@@ -195,7 +194,8 @@ def title(entry, quote):
     '''Generate title (possibly linking and/or quoting).'''
     assert 'title' in entry, \
         'Every entry must have title'
-    title = f'<a href="{entry["url"]}">{entry["title"]}</a>' if ('url' in entry) else entry["title"]
+    title = f'<a href="{entry["url"]}">{entry["title"]}</a>' \
+        if ('url' in entry) else entry["title"]
     if quote:
         title = f'"{title}"'
     else:
